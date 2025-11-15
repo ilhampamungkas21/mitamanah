@@ -2,7 +2,8 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { FileText, Images, LayoutDashboard, GraduationCap, Sparkles } from "lucide-react"
+import { FileText, Images, LayoutDashboard, Sparkles } from "lucide-react"
+import Image from "next/image"
 
 const navItems = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
@@ -21,9 +22,7 @@ export function DashboardNav() {
         href="/"
         className="flex items-center gap-3 font-bold text-lg mb-8 p-2 rounded-lg hover:bg-muted transition-colors"
       >
-        <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center text-primary-foreground text-sm">
-          <GraduationCap size={18} />
-        </div>
+        <Image src="/assets/img/logo/logo.webp" width={60} height={60} alt="Logo MIT Amanah"/>
         <span>MIT Amanah</span>
       </Link>
 

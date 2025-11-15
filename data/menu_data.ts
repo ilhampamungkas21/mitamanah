@@ -1,12 +1,5 @@
 import { StaticImageData } from "next/image";
 
-import demo_img_1 from "../../public/assets/img/header/home-1.jpg";
-import demo_img_2 from "../../public/assets/img/header/home-2.jpg";
-import demo_img_3 from "../../public/assets/img/header/home-3.jpg";
-import demo_img_4 from "../../public/assets/img/header/home-4.jpg";
-import demo_img_5 from "../../public/assets/img/header/home-5.jpg";
-import demo_img_6 from "../../public/assets/img/header/home-6.jpg";
-
 interface DataType {
   id: number;
   title?: string;
@@ -18,11 +11,11 @@ interface DataType {
   sub_menus?: {
     link?: string;
     title?: string;
-    title2?: string | any;
+    title2?: string;
     btn_title?: string;
-    one_page_link?: string | any;
+    one_page_link?: string;
     one_page_title?: string;
-    demo_img?: StaticImageData | any;
+    demo_img?: StaticImageData;
     inner_menu?: boolean;
     inner_menus?: {
       link?: string;
@@ -66,40 +59,40 @@ const menu_data: DataType[] = [
   },
   {
     id: 4,
-    title: "Artikel",
-    link: "#article",
+    title: "Articles",
+    link: "/articles",
     icon: "fas fa-newspaper",
     has_dropdown: false,
   },
-//   {
-//     id: 5,
-//     title: "Pages",
-//     link: "#",
-//     icon: "fas fa-file-alt",
-//     has_dropdown: true,
-//     has_dropdown_inner: true,
-//     sub_menus: [
-//       { link: "/about", title: "About" },
-//       { link: "/instructor", title: "Instructor" },
-//       { link: "/instructor-details", title: "Instructor Details" },
-//       { link: "/program", title: "Program" },
-//       { link: "/program-details", title: "Program Details" },
-//       {
-//         inner_menu: true,
-//         title: "Blog",
-//         inner_menus: [
-//           { link: "/news", title: "Blog" },
-//           { link: "/news-details", title: "Blog Details" },
-//         ],
-//       },
-//       { link: "/gallery", title: "Gallery" },
-//       { link: "/pricing", title: "Pricing Plan" },
-//       { link: "/faq", title: "Faqs" },
-//       { link: "/sign-in", title: "Sign In" },
-//       { link: "/register", title: "register" },
-//       { link: "/404", title: "404 Error" },
-//     ],
-//   },
+  //   {
+  //     id: 5,
+  //     title: "Pages",
+  //     link: "#",
+  //     icon: "fas fa-file-alt",
+  //     has_dropdown: true,
+  //     has_dropdown_inner: true,
+  //     sub_menus: [
+  //       { link: "/about", title: "About" },
+  //       { link: "/instructor", title: "Instructor" },
+  //       { link: "/instructor-details", title: "Instructor Details" },
+  //       { link: "/program", title: "Program" },
+  //       { link: "/program-details", title: "Program Details" },
+  //       {
+  //         inner_menu: true,
+  //         title: "Blog",
+  //         inner_menus: [
+  //           { link: "/news", title: "Blog" },
+  //           { link: "/news-details", title: "Blog Details" },
+  //         ],
+  //       },
+  //       { link: "/gallery", title: "Gallery" },
+  //       { link: "/pricing", title: "Pricing Plan" },
+  //       { link: "/faq", title: "Faqs" },
+  //       { link: "/sign-in", title: "Sign In" },
+  //       { link: "/register", title: "register" },
+  //       { link: "/404", title: "404 Error" },
+  //     ],
+  //   },
   {
     id: 6,
     title: "Contact",

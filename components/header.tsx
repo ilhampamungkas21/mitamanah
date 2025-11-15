@@ -30,7 +30,7 @@ export function Header() {
               Home
             </Link>
             <Link
-              href="#articles"
+              href="/articles"
               className="px-3 py-2 text-foreground hover:text-primary transition-colors font-medium rounded-md hover:bg-muted"
             >
               Articles
@@ -75,7 +75,7 @@ export function Header() {
               Home
             </Link>
             <Link
-              href="#articles"
+              href="/articles"
               className="px-3 py-2 text-foreground hover:text-primary transition-colors rounded-md hover:bg-muted block"
             >
               Articles

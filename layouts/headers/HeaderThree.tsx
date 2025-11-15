@@ -23,10 +23,10 @@ const HeaderThree = () => {
                 {/* Logo 1 */}
                 <Link href="/" className="header-logo">
                   <Image
-                    src="/assets/img/logo/white-logo-3.svg"
+                    src="/assets/img/logo/logo.webp"
                     alt="logo-img"
-                    width={160}
-                    height={50}
+                    width={100}
+                    height={100}
                     priority
                   />
                 </Link>
@@ -34,10 +34,10 @@ const HeaderThree = () => {
                 {/* Logo 2 */}
                 <Link href="/" className="header-logo-2">
                   <Image
-                    src="/assets/img/logo/black-logo-3.svg"
+                    src="/assets/img/logo/logo.webp"
                     alt="logo-img"
-                    width={160}
-                    height={50}
+                    width={100}
+                    height={100}
                     priority
                   />
                 </Link>

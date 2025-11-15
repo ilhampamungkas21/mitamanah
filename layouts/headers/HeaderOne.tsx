@@ -31,12 +31,12 @@ const HeaderOne = () => {
                         <div className="header-left">
                             <div className="logo">
                                 <Link href="/" className="header-logo">
-                                    <Image src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                                    <Image width={50} height={50} src="/assets/img/logo/black-logo.svg" alt="logo-img" />
                                 </Link>
                             </div>
                             <div className="category-oneadjust">
                                <div className="dot">
-                                    <Image src="/assets/img/logo/dot.png" alt="img" />
+                                    <Image width={50} height={50} src="/assets/img/logo/dot.png" alt="img" />
                                </div> 
 
                                 <NiceSelect

@@ -736,7 +736,7 @@
 					color:  $white;
 		
 					&:hover {
-						color: $theme-red !important;
+						color: $theme-green !important;
 					}
 		
 				}
@@ -747,10 +747,10 @@
 		
 						&:hover {
 							>a {
-								color: $theme-red !important;
+								color: $theme-green !important;
 	
 								&::after {
-									color: $theme-red;
+									color: $theme-green;
 								}
 							}
 						}
@@ -758,7 +758,7 @@
 					li.has-dropdown {
 						>a {
 							&::after {
-								color: $theme-red;
+								color: $theme-green;
 							}
 						}
 					}
@@ -766,9 +766,9 @@
 				
 				&:hover {
 					>a {
-						color:  $theme-red;
+						color:  $theme-green;
 						&::after {
-							color:  $theme-red;
+							color:  $theme-green;
 						}
 					}
 				  }
@@ -1004,7 +1004,7 @@
     &.sticky {
         .sidebar__toggle {
             .fa-bars {
-                color: $theme-red !important;
+                color: $theme-green !important;
             }
         }
     }
@@ -1061,7 +1061,7 @@
 							color:  $header-color;
 				
 							&:hover {
-								color: $theme-red !important;
+								color: $theme-green !important;
 							}
 				
 						}
@@ -1340,7 +1340,7 @@
 .breadcrumb-wrapper{
 	position: relative;
 	overflow: hidden;
-	background-color: #031F42;
+	background-color: #013220;
 
     &.shop-page-banner,
     &.courses-page-banner {

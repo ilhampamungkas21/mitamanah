@@ -25,7 +25,7 @@ const NavMenu = () => {
                               <div key={sub_i} className="col-lg-3 homemenu">
                               <div className="homemenu-thumb">
                                   <Link href={sub_item.link?? ""}>
-                                      <Image src={sub_item.demo_img} alt="img" />
+                                      <Image src={sub_item.demo_img??''} alt="img" />
                                   </Link>
                               </div>
                               <div className="homemenu-content text-center">
@@ -57,8 +57,7 @@ const NavMenu = () => {
                             <i className="fas fa-angle-right"></i>
                         </Link>
                         <ul className="submenu"> 
-                            <li><Link href="/news">Blog</Link></li>
-                            <li><Link href="/news-details">Blog Details</Link></li>
+                            <li><Link href="/articles">Blog</Link></li>
                         </ul>
                   </li>
  

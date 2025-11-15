@@ -55,7 +55,7 @@ const FooterTwo = () => {
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <Link href="/">
-                                        <Image src="/assets/img/logo/white-logo.svg" alt="img" />
+                                        <Image src="/assets/img/logo/logo.webp" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="footer-content">

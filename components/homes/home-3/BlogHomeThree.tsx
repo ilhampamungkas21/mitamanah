@@ -50,7 +50,7 @@ export default async function BlogHomeThree() {
                   width={200}
                   height={15}
                   src={
-                    mainArticle.thumbnail_url || "/assets/img/news/default.jpg"
+                    mainArticle.image_url || "/assets/img/news/default.jpg"
                   }
                   alt={mainArticle.title}
                 />
@@ -102,7 +102,7 @@ export default async function BlogHomeThree() {
                       width={200}
                       height={150}
                       src={
-                        article.thumbnail_url || "/assets/img/news/default.jpg"
+                        article.image_url || "/assets/img/news/default.jpg"
                       }
                       alt={article.title}
                     />

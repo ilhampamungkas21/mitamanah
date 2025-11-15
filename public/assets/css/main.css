@@ -22,10 +22,10 @@ Version: 1.1.0
   --theme-yellow-3:#FDC500;
   --theme-yellow-4:#FFD335;
   --theme-purple:#8F66FF;
-  --theme-red:#AD0119;
+  --theme-green:#AD0119;
   --theme-pink:#EE4A62;
   --theme-orange:#F47900;
-  --header:#031F42;
+  --header:#013220;
   --base:#5C30FD;
   --text:#5B6D84;
   --border:#E6EFFF;
@@ -128,7 +128,7 @@ Version: 1.1.0
 }
 
 .theme-btn.red-btn {
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
   color: var(--white);
 }
 
@@ -692,7 +692,7 @@ p {
 }
 
 .section-title.color-red h6 {
-  color: var(--theme-red);
+  color: var(--theme-green);
   position: relative;
 }
 
@@ -918,8 +918,8 @@ p {
   background-color: var(--theme-green);
 }
 
-.theme-red-bg {
-  background-color: var(--theme-red);
+.theme-green-bg {
+  background-color: var(--theme-green);
 }
 
 .section-padding {
@@ -2490,27 +2490,27 @@ p {
 }
 
 .header-3 .header-main .main-menu ul li a:hover {
-  color: var(--theme-red) !important;
+  color: var(--theme-green) !important;
 }
 
 .header-3 .header-main .main-menu ul li .submenu li:hover > a {
-  color: var(--theme-red) !important;
+  color: var(--theme-green) !important;
 }
 
 .header-3 .header-main .main-menu ul li .submenu li:hover > a::after {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .header-3 .header-main .main-menu ul li .submenu li.has-dropdown > a::after {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .header-3 .header-main .main-menu ul li:hover > a {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .header-3 .header-main .main-menu ul li:hover > a::after {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .header-3 .header-main .header-right {
@@ -2698,7 +2698,7 @@ p {
 }
 
 .header-3.sticky .sidebar__toggle .fa-bars {
-  color: var(--theme-red) !important;
+  color: var(--theme-green) !important;
 }
 
 .sticky {
@@ -2740,7 +2740,7 @@ p {
 }
 
 .sticky.header-3 .header-main .main-menu ul li a:hover {
-  color: var(--theme-red) !important;
+  color: var(--theme-green) !important;
 }
 
 .sticky.header-3 .header-button .theme-btn {
@@ -3010,7 +3010,7 @@ p {
 .breadcrumb-wrapper {
   position: relative;
   overflow: hidden;
-  background-color: #031F42;
+  background-color: #013220;
 }
 
 .breadcrumb-wrapper.shop-page-banner::before, .breadcrumb-wrapper.courses-page-banner::before {
@@ -3614,7 +3614,7 @@ p {
 }
 
 .hero-1 {
-  background-color: #031F42;
+  background-color: #013220;
   padding: 130px 0 0;
   position: relative;
 }
@@ -4289,7 +4289,7 @@ p {
 
 .hero-3 .hero-slider .array-button .array-prev:hover, .hero-3 .hero-slider .array-button .array-next:hover {
   background-color: var(--white);
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .hero-4 {
@@ -4995,7 +4995,7 @@ p {
 
 .mycustom-marque.style-3 .scrolling-wrap .cmn-textslide i {
   font-size: 55px;
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 @media (max-width: 575px) {
@@ -6776,7 +6776,7 @@ p {
 }
 
 .about-wrapper-2 .about-image .counter-box h2 {
-  color: var(--theme-red);
+  color: var(--theme-green);
   font-size: 50px;
 }
 
@@ -8930,7 +8930,7 @@ p {
 }
 
 .instagram-image .icon:hover {
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
   color: var(--white);
 }
 
@@ -9331,7 +9331,7 @@ p {
 
 .testimonial-card-items .icon {
   font-size: 55px;
-  color: var(--theme-red);
+  color: var(--theme-green);
   margin-top: 20px;
 }
 
@@ -9956,7 +9956,7 @@ p {
 }
 
 .event-wrapper .event-card-items .content .date-list li i {
-  color: var(--theme-red);
+  color: var(--theme-green);
   margin-left: 7px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -11052,8 +11052,8 @@ p {
   left: 0;
   width: 0;
   height: 0;
-  border-top: 1px solid var(--theme-red);
-  border-left: 1px solid var(--theme-red);
+  border-top: 1px solid var(--theme-green);
+  border-left: 1px solid var(--theme-green);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -11069,8 +11069,8 @@ p {
   right: 0;
   width: 0;
   height: 0;
-  border-bottom: 1px solid var(--theme-red);
-  border-right: 1px solid var(--theme-red);
+  border-bottom: 1px solid var(--theme-green);
+  border-right: 1px solid var(--theme-green);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   opacity: 0;
@@ -11087,7 +11087,7 @@ p {
 .news-left-items .news-thumb .post-box {
   font-size: 14px;
   font-weight: 600;
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
   padding: 3px 14px;
   border-radius: 7px;
   color: var(--white);
@@ -11132,8 +11132,8 @@ p {
 }
 
 .news-left-items .news-content h3 a {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--theme-red)), to(var(--theme-red)));
-  background-image: linear-gradient(var(--theme-red), var(--theme-red));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--theme-green)), to(var(--theme-green)));
+  background-image: linear-gradient(var(--theme-green), var(--theme-green));
   background-position: 0 95%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -11143,7 +11143,7 @@ p {
 
 .news-left-items .news-content h3 a:hover {
   background-size: 100% 2px;
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .news-left-items .news-content .link-btn {
@@ -11160,7 +11160,7 @@ p {
 }
 
 .news-left-items .news-content .link-btn:hover {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .news-left-items:hover {
@@ -11232,7 +11232,7 @@ p {
 .news-right-items .news-right-box .thumb .post-box {
   font-size: 14px;
   font-weight: 600;
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
   padding: 2px 14px;
   border-radius: 7px;
   color: var(--white);
@@ -11287,8 +11287,8 @@ p {
 }
 
 .news-right-items .news-right-box .content h5 a {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--theme-red)), to(var(--theme-red)));
-  background-image: linear-gradient(var(--theme-red), var(--theme-red));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--theme-green)), to(var(--theme-green)));
+  background-image: linear-gradient(var(--theme-green), var(--theme-green));
   background-position: 0 95%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -11298,7 +11298,7 @@ p {
 
 .news-right-items .news-right-box .content h5 a:hover {
   background-size: 100% 2px;
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .news-right-items .news-right-box .content .link-btn {
@@ -11315,7 +11315,7 @@ p {
 }
 
 .news-right-items .news-right-box .content .link-btn:hover {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .news-box-items-2 {
@@ -13091,8 +13091,8 @@ p {
 }
 
 .popular-courses-items .popular-thumb .post-box .post-cat:hover {
-  background-color: var(--theme-red);
-  border: 1px solid var(--theme-red);
+  background-color: var(--theme-green);
+  border: 1px solid var(--theme-green);
   color: var(--white);
 }
 
@@ -13123,7 +13123,7 @@ p {
 }
 
 .popular-courses-items .content h4 a:hover {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .popular-courses-items .content .star {
@@ -13155,7 +13155,7 @@ p {
 }
 
 .popular-courses-items .content .link-btn:hover {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .popular-courses-items.bg-2 {
@@ -13312,7 +13312,7 @@ p {
 }
 
 .popular-courses-section-33 .nav .nav-item .nav-link.active {
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
   color: var(--white);
 }
 
@@ -15811,7 +15811,7 @@ p {
   font-weight: 500;
   display: inline-block;
   margin-bottom: 5px;
-  color: #031F42;
+  color: #013220;
 }
 
 .sign-in-items .form-clt input, .sign-in-items .form-clt textarea {
@@ -15867,7 +15867,7 @@ p {
   position: absolute;
   right: 30px;
   top: 55px;
-  color: #031F42;
+  color: #013220;
 }
 
 .sign-in-items .from-cheak-items {
@@ -16066,9 +16066,9 @@ p {
 }
 
 .footer-widget-wrapper.style-2 .single-footer-widget .footer-content .social-icon a:hover {
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
   color: var(--white);
-  border: 1px solid var(--theme-red);
+  border: 1px solid var(--theme-green);
 }
 
 .footer-widget-wrapper.style-2 .single-footer-widget .footer-content .contact-info li {
@@ -16106,7 +16106,7 @@ p {
   padding: 15px 30px;
   display: inline-block;
   color: var(--white);
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
   line-height: 1;
   border-radius: 10px;
   position: absolute;
@@ -16129,11 +16129,11 @@ p {
 }
 
 .footer-widget-wrapper.style-2 .single-footer-widget .list-area li a:hover {
-  color: var(--theme-red);
+  color: var(--theme-green);
 }
 
 .footer-widget-wrapper.style-2 .single-footer-widget .list-area li a:hover::before {
-  background-color: var(--theme-red);
+  background-color: var(--theme-green);
 }
 
 @media (max-width: 991px) {

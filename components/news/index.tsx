@@ -1,15 +1,15 @@
 import BreadcrumbEvent from "@/common/breadcrumb/BreadcrumbEvent";
 import MarqueeOne from "@/common/MarqueeOne";
 import FooterOne from "@/layouts/footers/FooterOne";
-import HeaderOne from "@/layouts/headers/HeaderOne";
 import React from "react";
 import NewsArea from "./NewsArea";
+import HeaderThree from "@/layouts/headers/HeaderThree";
 
 const News = () => {
 	return (
 		<>
-			<HeaderOne />
-			<BreadcrumbEvent title="Blog" subtitle="Blog" />
+			<HeaderThree />
+			<BreadcrumbEvent title="Berita" subtitle="Berita" />
 			<NewsArea />       
 			<MarqueeOne style_2={true} />
 			<FooterOne />

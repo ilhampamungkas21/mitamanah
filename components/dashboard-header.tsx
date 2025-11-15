@@ -3,7 +3,7 @@
 import type { User } from "@supabase/supabase-js"
 import { createClient } from "@/lib/supabase/client"
 import { useRouter } from "next/navigation"
-import { LogOut, GraduationCap } from "lucide-react"
+import { LogOut, User2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
 
@@ -28,8 +28,8 @@ export function DashboardHeader({ user }: { user: User }) {
     <header className="bg-card border-b border-border sticky top-0 z-40">
       <div className="px-6 py-4 flex justify-between items-center">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center text-primary-foreground">
-            <GraduationCap size={20} />
+          <div className="w-10 h-10 bg-linear-to-br from-primary to-accent rounded-xl flex items-center justify-center text-primary-foreground">
+            <User2 size={20} />
           </div>
           <div>
             <p className="text-sm text-muted-foreground">Logged in as</p>

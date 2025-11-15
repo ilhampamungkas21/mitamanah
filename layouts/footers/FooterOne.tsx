@@ -12,13 +12,14 @@ const FooterOne = ({ style_2 }: { style_2?: boolean }) => {
                     <div className="row">
                         <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                             <div className="single-footer-widget">
-                                <div className="widget-head">
+                                <div className="widget-head flex flex-row">
                                     <Link href="/">
-                                        {style_2 ? <Image src="/assets/img/logo/black-logo-2.svg" alt="img" /> 
+                                        {style_2 ? <Image width={80} height={80} src="/assets/img/logo/logo.webp" alt="img" /> 
                                         :                                        
-                                        <Image src="/assets/img/logo/white-logo.svg" alt="img" />
+                                        <Image width={80} height={80} src="/assets/img/logo/logo.webp" alt="img" />
                                         }
                                     </Link>
+                                    <div className="text-white">MIT AMANAH</div>
                                 </div>
                                 <div className="footer-content">
                                     <p>
@@ -35,7 +36,7 @@ const FooterOne = ({ style_2 }: { style_2?: boolean }) => {
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                            <div className="single-footer-widget">
+                            {/* <div className="single-footer-widget">
                                 <div className="widget-head">
                                    <h3>Online Platform</h3>
                                 </div>
@@ -46,10 +47,10 @@ const FooterOne = ({ style_2 }: { style_2?: boolean }) => {
                                     <li><Link href="/courses">LinkedIn Learning</Link></li>
                                     <li><Link href="/courses">FutureLearn</Link></li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
-                            <div className="single-footer-widget">
+                            {/* <div className="single-footer-widget">
                                 <div className="widget-head">
                                    <h3>Quick Link</h3>
                                 </div>
@@ -60,7 +61,7 @@ const FooterOne = ({ style_2 }: { style_2?: boolean }) => {
                                     <li><Link href="/contact">Student Reviews</Link></li>
                                     <li><Link href="/faq">FAQs</Link></li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
                             <div className="single-footer-widget">
@@ -90,13 +91,8 @@ const FooterOne = ({ style_2 }: { style_2?: boolean }) => {
                     </div>
                 </div>
                 <div className={`footer-bottom wow fadeInUp ${style_2 ? "style-4" : ""}`} data-wow-delay=".3s">
-                    <p>Copyright © <Link href="/">Eduspace</Link>, all rights reserved.</p>
+                    <p>Copyright © <Link href="/">MIT Amanah</Link>, all rights reserved.</p>
                 </div>
-            </div>
-            <div className={`footer-name ${style_2 ? "style-2" : ""}`}>
-                <h2>
-                    Eduspace
-                </h2>
             </div>
         </footer>
     </>
