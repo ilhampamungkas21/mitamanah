@@ -197,8 +197,8 @@
         left: 0;
         width: 0;
         height: 0;
-        border-top: 1px solid $theme-red;
-        border-left: 1px solid $theme-red;
+        border-top: 1px solid $theme-green;
+        border-left: 1px solid $theme-green;
         transition: 0.5s;
         opacity: 0;
         visibility: hidden;
@@ -212,8 +212,8 @@
         right: 0;
         width: 0;
         height: 0;
-        border-bottom: 1px solid $theme-red;
-        border-right: 1px solid $theme-red;
+        border-bottom: 1px solid $theme-green;
+        border-right: 1px solid $theme-green;
         transition: 0.5s;
         opacity: 0;
         visibility: hidden;
@@ -228,7 +228,7 @@
         .post-box {
             font-size: 14px;
             font-weight: 600;
-            background-color: $theme-red;
+            background-color: $theme-green;
             padding: 3px 14px;
             border-radius: 7px;
             color: $white;
@@ -268,7 +268,7 @@
             line-height: 146%;
 
             a {
-                background-image: linear-gradient($theme-red,$theme-red);
+                background-image: linear-gradient($theme-green,$theme-green);
                 background-position: 0 95%;
                 background-repeat: no-repeat;
                 background-size: 0% 2px;
@@ -277,7 +277,7 @@
 
                 &:hover {
                     background-size: 100% 2px;
-                    color: $theme-red;
+                    color: $theme-green;
                 }
             }
         }
@@ -295,7 +295,7 @@
             }
 
             &:hover {
-                color: $theme-red;
+                color: $theme-green;
             }
         }
     }
@@ -353,7 +353,7 @@
             .post-box {
                 font-size: 14px;
                 font-weight: 600;
-                background-color: $theme-red;
+                background-color: $theme-green;
                 padding: 2px 14px;
                 border-radius: 7px;
                 color: $white;
@@ -399,7 +399,7 @@
                 line-height: 139%;
     
                 a {
-                    background-image: linear-gradient($theme-red,$theme-red);
+                    background-image: linear-gradient($theme-green,$theme-green);
                     background-position: 0 95%;
                     background-repeat: no-repeat;
                     background-size: 0% 2px;
@@ -408,7 +408,7 @@
     
                     &:hover {
                         background-size: 100% 2px;
-                        color: $theme-red;
+                        color: $theme-green;
                     }
                 }
             }
@@ -426,7 +426,7 @@
                 }
     
                 &:hover {
-                    color: $theme-red;
+                    color: $theme-green;
                 }
             }
         }
