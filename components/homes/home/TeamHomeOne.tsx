@@ -48,7 +48,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/01.jpg" alt="img" />
+                            <Image src="/assets/img/team/01.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -69,7 +69,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/02.jpg" alt="img" />
+                            <Image src="/assets/img/team/02.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -90,7 +90,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/03.jpg" alt="img" />
+                            <Image src="/assets/img/team/03.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -111,7 +111,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/04.jpg" alt="img" />
+                            <Image src="/assets/img/team/04.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -132,7 +132,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/05.jpg" alt="img" />
+                            <Image src="/assets/img/team/05.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -154,7 +154,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/01.jpg" alt="img" />
+                            <Image src="/assets/img/team/01.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -175,7 +175,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/02.jpg" alt="img" />
+                            <Image src="/assets/img/team/02.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -196,7 +196,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/03.jpg" alt="img" />
+                            <Image src="/assets/img/team/03.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -217,7 +217,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/04.jpg" alt="img" />
+                            <Image src="/assets/img/team/04.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>
@@ -238,7 +238,7 @@ const TeamHomeOne = () => {
                 <SwiperSlide className="swiper-slide">
                     <div className="team-box-items">
                         <div className="team-image">
-                            <Image src="assets/img/team/05.jpg" alt="img" />
+                            <Image src="/assets/img/team/05.jpg" alt="img" />
                             <div className="team-content">
                                 <h3>
                                     <Link href="/instructor-details">Rolando N. Gordon</Link>

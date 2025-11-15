@@ -16,7 +16,7 @@ const EventDetailsArea = () => {
                         <div className="col-lg-8">
                             <div className="event-details-items">
                                 <div className="details-image">
-                                    <Image src="assets/img/event/details-1.jpg" alt="img" />
+                                    <Image src="/assets/img/event/details-1.jpg" alt="img" />
                                 </div>
                                 <div className="event-details-content">
                                     <h3>Event Description</h3>
@@ -58,7 +58,7 @@ const EventDetailsArea = () => {
                                         <div className="col-md-4">
                                             <div className="event-image-items border-right-none">
                                                 <div className="event-image">
-                                                    <Image src="assets/img/event/details-2.png" alt="img" />
+                                                    <Image src="/assets/img/event/details-2.png" alt="img" />
                                                 </div>
                                                 <div className="event-content">
                                                     <h4>
@@ -77,7 +77,7 @@ const EventDetailsArea = () => {
                                         <div className="col-md-4">
                                             <div className="event-image-items border-right-none">
                                                 <div className="event-image">
-                                                    <Image src="assets/img/event/details-3.png" alt="img" />
+                                                    <Image src="/assets/img/event/details-3.png" alt="img" />
                                                 </div>
                                                 <div className="event-content">
                                                     <h4>
@@ -96,7 +96,7 @@ const EventDetailsArea = () => {
                                         <div className="col-md-4">
                                             <div className="event-image-items">
                                                 <div className="event-image">
-                                                    <Image src="assets/img/event/details-4.png" alt="img" />
+                                                    <Image src="/assets/img/event/details-4.png" alt="img" />
                                                 </div>
                                                 <div className="event-content">
                                                     <h4>

@@ -48,7 +48,7 @@ const ProgramRelatedArea = () => {
                     <SwiperSlide className="swiper-slide">
                         <div className="popular-program-box-items box-shadow mt-0">
                             <div className="thumb">
-                                <Image src="assets/img/program/01.jpg" alt="img" />
+                                <Image src="/assets/img/program/01.jpg" alt="img" />
                             </div>
                             <div className="content">
                                 <h2 className="price">$80</h2>
@@ -83,7 +83,7 @@ const ProgramRelatedArea = () => {
                     <SwiperSlide className="swiper-slide">
                         <div className="popular-program-box-items box-shadow mt-0">
                             <div className="thumb">
-                                <Image src="assets/img/program/02.jpg" alt="img" />
+                                <Image src="/assets/img/program/02.jpg" alt="img" />
                             </div>
                             <div className="content">
                                 <h2 className="price">$89</h2>
@@ -118,7 +118,7 @@ const ProgramRelatedArea = () => {
                     <SwiperSlide className="swiper-slide">
                         <div className="popular-program-box-items box-shadow mt-0">
                             <div className="thumb">
-                                <Image src="assets/img/program/03.jpg" alt="img" />
+                                <Image src="/assets/img/program/03.jpg" alt="img" />
                             </div>
                             <div className="content">
                                 <h2 className="price">$99</h2>
@@ -153,7 +153,7 @@ const ProgramRelatedArea = () => {
                     <SwiperSlide className="swiper-slide">
                         <div className="popular-program-box-items box-shadow mt-0">
                             <div className="thumb">
-                                <Image src="assets/img/program/02.jpg" alt="img" />
+                                <Image src="/assets/img/program/02.jpg" alt="img" />
                             </div>
                             <div className="content">
                                 <h2 className="price">$89</h2>

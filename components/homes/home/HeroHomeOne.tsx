@@ -8,16 +8,16 @@ const HeroHomeOne = () => {
     <>
         <section className="hero-section hero-1 fix">
             <div className="shape-left">
-                <Image src="assets/img/hero/shape-left.png" alt="img" />
+                <Image src="/assets/img/hero/shape-left.png" alt="img" />
             </div>
             <div className="shape-right">
-                <Image src="assets/img/hero/shape-right.png" alt="img" />
+                <Image src="/assets/img/hero/shape-right.png" alt="img" />
             </div>
             <div className="dot-shape float-bob-x">
-                <Image src="assets/img/hero/dot.png" alt="img" />
+                <Image src="/assets/img/hero/dot.png" alt="img" />
             </div>
             <div className="vector-shape float-bob-y">
-                <Image src="assets/img/hero/vectoe.png" alt="img" />
+                <Image src="/assets/img/hero/vectoe.png" alt="img" />
             </div>
             <div className="container">
                 <div className="row">
@@ -36,7 +36,7 @@ const HeroHomeOne = () => {
                         </div>
                     </div>
                     <div className="hero-image">
-                        <Image src="assets/img/hero/hero-1.jpg" alt="img" className="img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                        <Image src="/assets/img/hero/hero-1.jpg" alt="img" className="img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s" />
                         <div className="counter-box float-bob-x">
                             <p>More then</p>
                             <h2><span className="odometer" data-count="2800">
@@ -58,10 +58,10 @@ const HeroHomeOne = () => {
                                     <i className="fas fa-star"></i>
                                 </div>
                             </div>
-                            <Image src="assets/img/hero/trustpilot-logopng.png" alt="img" />
+                            <Image src="/assets/img/hero/trustpilot-logopng.png" alt="img" />
                         </div>
                         <div className="circle-img float-bob-y"> 
-                            <Image src="assets/img/hero/circle.png" alt="img" />
+                            <Image src="/assets/img/hero/circle.png" alt="img" />
                         </div>
                     </div>
                 </div>

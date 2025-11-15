@@ -47,7 +47,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/01.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/01.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -62,7 +62,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/02.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/02.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -77,7 +77,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/03.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/03.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -92,7 +92,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/04.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/04.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -107,7 +107,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/05.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/05.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -122,7 +122,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/06.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/06.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -137,7 +137,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/07.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/07.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -152,7 +152,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/08.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/08.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -167,7 +167,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/09.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/09.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -186,7 +186,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/01.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/01.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -201,7 +201,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/02.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/02.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -216,7 +216,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/03.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/03.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -231,7 +231,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/04.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/04.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -246,7 +246,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/05.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/05.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -261,7 +261,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/06.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/06.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -276,7 +276,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/07.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/07.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -291,7 +291,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/08.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/08.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -306,7 +306,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/09.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/09.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -325,7 +325,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/01.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/01.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -340,7 +340,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/02.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/02.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -355,7 +355,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/03.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/03.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -370,7 +370,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/04.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/04.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -385,7 +385,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/05.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/05.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -400,7 +400,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/06.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/06.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -415,7 +415,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/07.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/07.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -430,7 +430,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/08.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/08.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -445,7 +445,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/09.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/09.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -464,7 +464,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/01.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/01.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -479,7 +479,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/02.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/02.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -494,7 +494,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/03.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/03.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -509,7 +509,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/04.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/04.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -524,7 +524,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/05.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/05.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -539,7 +539,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/06.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/06.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -554,7 +554,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/07.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/07.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -569,7 +569,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/08.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/08.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -584,7 +584,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/09.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/09.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -603,7 +603,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/01.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/01.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -618,7 +618,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/02.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/02.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -633,7 +633,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/03.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/03.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -648,7 +648,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/04.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/04.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -663,7 +663,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/05.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/05.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -678,7 +678,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/06.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/06.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -693,7 +693,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/07.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/07.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -708,7 +708,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/08.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/08.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>
@@ -723,7 +723,7 @@ const GalleryArea = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="portfolio-item">
                                     <div className="portfoio-thumb">
-                                        <Image src="assets/img/gallery/09.jpg" alt="img" />
+                                        <Image src="/assets/img/gallery/09.jpg" alt="img" />
                                         <div className="portfolio-arrow">
                                             <Link href="/gallery"><i className="fas fa-long-arrow-alt-right"></i></Link>
                                         </div>

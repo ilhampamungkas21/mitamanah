@@ -279,7 +279,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/01.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/01.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -312,7 +312,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/02.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/02.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -345,7 +345,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/03.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/03.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -378,7 +378,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/04.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/04.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -411,7 +411,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/05.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/05.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -444,7 +444,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/06.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/06.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -477,7 +477,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/07.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/07.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -510,7 +510,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/08.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/08.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -543,7 +543,7 @@ const ShopLeftSidebarArea = () => {
                                 <div className="col-xl-4 col-lg-6 col-md-6">
                                     <div className="shop-box-items">
                                         <div className="book-thumb center">
-                                            <a href="shop-details"><Image src="assets/img/shop/09.jpg" alt="img" /></a>
+                                            <a href="shop-details"><Image src="/assets/img/shop/09.jpg" alt="img" /></a>
                                             <ul className="shop-icon d-grid justify-content-center align-items-center">
                                                 <li>
                                                     <Link href="/shop-cart"><i className="far fa-heart"></i></Link>

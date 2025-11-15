@@ -30,7 +30,7 @@ const BreadcrumbCoursesDetails = () => {
                     <h1>Advance UX/UI Design Using Figma</h1>
                     <div className="courses-breadcrumb-items">
                         <div className="client-image-items">
-                            <Image src="assets/img/courses/client-3.png" alt="img" />
+                            <Image src="/assets/img/courses/client-3.png" alt="img" />
                             <div className="client-content">
                                 <span>Instructor</span>
                                 <h5>Patrick C. Amore</h5>

@@ -13,7 +13,7 @@ const ShopDetailsArea = () => {
                         <div className="row g-4">
                             <div className="col-lg-5">
                                 <div className="details-image">
-                                    <Image src="assets/img/shop/03.jpg" alt="img" />
+                                    <Image src="/assets/img/shop/03.jpg" alt="img" />
                                 </div>
                                 <div className="book-list">
                                     <ul>
@@ -130,7 +130,7 @@ const ShopDetailsArea = () => {
                                     </ul>
                                     <div className="payment-metod">
                                         <p>Guarantee Safe & Secure Checkout</p>
-                                        <Image src="assets/img/footer/Guarantee-safe.png" alt="img" />
+                                        <Image src="/assets/img/footer/Guarantee-safe.png" alt="img" />
                                     </div>
                                 </div>
                             </div>
@@ -253,7 +253,7 @@ const ShopDetailsArea = () => {
                                 <div className="review-items">
                                     <div className="review-wrap-area d-flex gap-4">
                                         <div className="review-thumb">
-                                            <Image src="assets/img/shop/comment.jpg" alt="img" />
+                                            <Image src="/assets/img/shop/comment.jpg" alt="img" />
                                         </div>
                                         <div className="review-content">
                                             <div

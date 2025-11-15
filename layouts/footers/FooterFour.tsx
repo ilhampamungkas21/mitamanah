@@ -14,7 +14,7 @@ const FooterFour = () => {
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <Link href="/">
-                                        <Image src="assets/img/logo/black-logo-2.svg" alt="img" />
+                                        <Image src="/assets/img/logo/black-logo-2.svg" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="footer-content">

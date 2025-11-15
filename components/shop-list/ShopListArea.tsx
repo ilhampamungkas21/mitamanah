@@ -39,7 +39,7 @@ const ShopListArea = () => {
                         <div className="col-lg-12">
                             <div className="shop-list-items">
                                 <div className="book-thumb">
-                                    <a href="shop-details"><Image src="assets/img/shop/01.jpg" alt="img" /></a>
+                                    <a href="shop-details"><Image src="/assets/img/shop/01.jpg" alt="img" /></a>
                                 </div>
                                 <div className="shop-content">
                                     <h3><Link href="/shop-details">A Prayer for Owen Meany</Link></h3>
@@ -76,7 +76,7 @@ const ShopListArea = () => {
                         <div className="col-lg-12">
                             <div className="shop-list-items">
                                 <div className="book-thumb">
-                                    <a href="shop-details"><Image src="assets/img/shop/02.jpg" alt="img" /></a>
+                                    <a href="shop-details"><Image src="/assets/img/shop/02.jpg" alt="img" /></a>
                                 </div>
                                 <div className="shop-content">
                                     <h3><Link href="/shop-details">All the Light We Cannot See</Link></h3>
@@ -113,7 +113,7 @@ const ShopListArea = () => {
                         <div className="col-lg-12">
                             <div className="shop-list-items">
                                 <div className="book-thumb">
-                                    <a href="shop-details"><Image src="assets/img/shop/03.jpg" alt="img" /></a>
+                                    <a href="shop-details"><Image src="/assets/img/shop/03.jpg" alt="img" /></a>
                                 </div>
                                 <div className="shop-content">
                                     <h3><Link href="/shop-details">Don’t forget the girl</Link></h3>
@@ -150,7 +150,7 @@ const ShopListArea = () => {
                         <div className="col-lg-12">
                             <div className="shop-list-items">
                                 <div className="book-thumb">
-                                    <a href="shop-details"><Image src="assets/img/shop/04.jpg" alt="img" /></a>
+                                    <a href="shop-details"><Image src="/assets/img/shop/04.jpg" alt="img" /></a>
                                 </div>
                                 <div className="shop-content">
                                     <h3><Link href="/shop-details">Love in the Time of Cholera</Link></h3>
@@ -187,7 +187,7 @@ const ShopListArea = () => {
                         <div className="col-lg-12">
                             <div className="shop-list-items">
                                 <div className="book-thumb">
-                                    <a href="shop-details"><Image src="assets/img/shop/05.jpg" alt="img" /></a>
+                                    <a href="shop-details"><Image src="/assets/img/shop/05.jpg" alt="img" /></a>
                                 </div>
                                 <div className="shop-content">
                                     <h3><Link href="/shop-details">Memoirs of a Geisha</Link></h3>
@@ -224,7 +224,7 @@ const ShopListArea = () => {
                         <div className="col-lg-12">
                             <div className="shop-list-items">
                                 <div className="book-thumb">
-                                    <a href="shop-details"><Image src="assets/img/shop/06.jpg" alt="img" /></a>
+                                    <a href="shop-details"><Image src="/assets/img/shop/06.jpg" alt="img" /></a>
                                 </div>
                                 <div className="shop-content">
                                     <h3><Link href="/shop-details">The Catcher in the Rye</Link></h3>

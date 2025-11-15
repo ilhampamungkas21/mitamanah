@@ -1,7 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 
 export default async function BlogHomeThree() {
   const supabase = await createClient();
@@ -47,13 +47,14 @@ export default async function BlogHomeThree() {
             <div className="news-left-items">
               <div className="news-thumb">
                 <Image
-                  src={mainArticle.thumbnail_url || "/assets/img/news/default.jpg"}
+                  width={200}
+                  height={15}
+                  src={
+                    mainArticle.thumbnail_url || "/assets/img/news/default.jpg"
+                  }
                   alt={mainArticle.title}
                 />
-                <Link
-                  href={`/blog/${mainArticle.slug}`}
-                  className="post-box"
-                >
+                <Link href={`/blog/${mainArticle.slug}`} className="post-box">
                   {mainArticle.category || "General"}
                 </Link>
               </div>
@@ -65,11 +66,14 @@ export default async function BlogHomeThree() {
                   </li>
                   <li>
                     <i className="fal fa-calendar-alt"></i>
-                    {new Date(mainArticle.created_at).toLocaleDateString("en-GB", {
-                      day: "2-digit",
-                      month: "short",
-                      year: "numeric",
-                    })}
+                    {new Date(mainArticle.created_at).toLocaleDateString(
+                      "en-GB",
+                      {
+                        day: "2-digit",
+                        month: "short",
+                        year: "numeric",
+                      }
+                    )}
                   </li>
                 </ul>
                 <h3>
@@ -77,10 +81,7 @@ export default async function BlogHomeThree() {
                     {mainArticle.title}
                   </Link>
                 </h3>
-                <Link
-                  href={`/blog/${mainArticle.slug}`}
-                  className="link-btn"
-                >
+                <Link href={`/blog/${mainArticle.slug}`} className="link-btn">
                   Read More <i className="far fa-chevron-double-right"></i>
                 </Link>
               </div>
@@ -98,13 +99,14 @@ export default async function BlogHomeThree() {
                 >
                   <div className="thumb">
                     <Image
-                      src={article.thumbnail_url || "/assets/img/news/default.jpg"}
+                      width={200}
+                      height={150}
+                      src={
+                        article.thumbnail_url || "/assets/img/news/default.jpg"
+                      }
                       alt={article.title}
                     />
-                    <Link
-                      href={`/blog/${article.slug}`}
-                      className="post-box"
-                    >
+                    <Link href={`/blog/${article.slug}`} className="post-box">
                       {article.category || "General"}
                     </Link>
                   </div>
@@ -116,11 +118,14 @@ export default async function BlogHomeThree() {
                       </li>
                       <li>
                         <i className="fal fa-calendar-alt"></i>
-                        {new Date(article.created_at).toLocaleDateString("en-GB", {
-                          day: "2-digit",
-                          month: "short",
-                          year: "numeric",
-                        })}
+                        {new Date(article.created_at).toLocaleDateString(
+                          "en-GB",
+                          {
+                            day: "2-digit",
+                            month: "short",
+                            year: "numeric",
+                          }
+                        )}
                       </li>
                     </ul>
                     <h5>
@@ -128,10 +133,7 @@ export default async function BlogHomeThree() {
                         {article.title}
                       </Link>
                     </h5>
-                    <Link
-                      href={`/blog/${article.slug}`}
-                      className="link-btn"
-                    >
+                    <Link href={`/blog/${article.slug}`} className="link-btn">
                       Read More <i className="far fa-chevron-double-right"></i>
                     </Link>
                   </div>

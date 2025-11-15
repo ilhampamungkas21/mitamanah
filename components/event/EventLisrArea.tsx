@@ -71,7 +71,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/01.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/01.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">
@@ -97,7 +97,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/02.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/02.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">
@@ -123,7 +123,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/03.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/03.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">
@@ -149,7 +149,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/04.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/04.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">
@@ -175,7 +175,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/05.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/05.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">
@@ -201,7 +201,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/06.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/06.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">
@@ -227,7 +227,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/07.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/07.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">
@@ -253,7 +253,7 @@ const EventLisrArea = () => {
                             </div>
                         </div>
                         <div className="event-image">
-                            <Image src="assets/img/event/list/08.jpg" alt="img" />
+                            <Image src="/assets/img/event/list/08.jpg" alt="img" />
                         </div>
                         <div className="event-btn"> 
                             <Link href="/event-details" className="theme-btn">

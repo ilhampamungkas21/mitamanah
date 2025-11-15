@@ -24,7 +24,7 @@ const CoursesDetailsArea = () => {
                         <div className="col-lg-8">
                             <div className="courses-details-items">
                                 <div className="courses-image">
-                                    <Image src="assets/img/courses/details-1.jpg" alt="img" />
+                                    <Image src="/assets/img/courses/details-1.jpg" alt="img" />
                                     <a 
                                     onClick={() => setIsVideoOpen(true)}
                                     style={{ cursor: "pointer" }}
@@ -295,7 +295,7 @@ const CoursesDetailsArea = () => {
                                                 <h3>Instructors</h3>
                                                 <div className="instructors-box-items">
                                                     <div className="thumb">
-                                                        <Image src="assets/img/courses/instructors-1.png" alt="img" />
+                                                        <Image src="/assets/img/courses/instructors-1.png" alt="img" />
                                                     </div>
                                                     <div className="content">
                                                         <h4>Norman K. Zapata</h4>
@@ -314,7 +314,7 @@ const CoursesDetailsArea = () => {
                                                 </div>
                                                 <div className="instructors-box-items style-2">
                                                     <div className="thumb">
-                                                        <Image src="assets/img/courses/instructors-2.png" alt="img" />
+                                                        <Image src="/assets/img/courses/instructors-2.png" alt="img" />
                                                     </div>
                                                     <div className="content">
                                                         <h4>Ryan M. Carmichael</h4>
@@ -419,7 +419,7 @@ const CoursesDetailsArea = () => {
                                                     </div>
                                                     <div className="instructors-box-items">
                                                         <div className="thumb">
-                                                            <Image src="assets/img/courses/instructors-3.png" alt="img" />
+                                                            <Image src="/assets/img/courses/instructors-3.png" alt="img" />
                                                         </div>
                                                         <div className="content">
                                                             <h4>Maria L</h4>
@@ -447,27 +447,27 @@ const CoursesDetailsArea = () => {
                             <div className="courses-sidebar-area sticky-style">
                                 <div className="courses-items">
                                     <div className="courses-image">
-                                        <Image src="assets/img/courses/22.jpg" alt="img" />
+                                        <Image src="/assets/img/courses/22.jpg" alt="img" />
                                         <h3 className="courses-title">Development</h3>
                                         <h4 className="topic-title">Web Development</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
-                                                <Image src="assets/img/courses/a1.png" alt="img" />
+                                                <Image src="/assets/img/courses/a1.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay1">
-                                                <Image src="assets/img/courses/a2.png" alt="img" />
+                                                <Image src="/assets/img/courses/a2.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay2">
-                                                <Image src="assets/img/courses/a3.png" alt="img" />
+                                                <Image src="/assets/img/courses/a3.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay3">
-                                                <Image src="assets/img/courses/a4.png" alt="img" />
+                                                <Image src="/assets/img/courses/a4.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay4">
-                                                <Image src="assets/img/courses/a5.png" alt="img" />
+                                                <Image src="/assets/img/courses/a5.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay5">
-                                                <Image src="assets/img/courses/a6.png" alt="img" />
+                                                <Image src="/assets/img/courses/a6.png" alt="img" />
                                             </div>
                                         </div>
                                     </div>

@@ -17,10 +17,10 @@ const FooterFive = () => {
               </svg>
             </div>
             <div className="circle-shape-3">
-                <Image src="assets/img/footer/circle-3.png" alt="img" />
+                <Image src="/assets/img/footer/circle-3.png" alt="img" />
             </div>
             <div className="vector-shape-3">
-                <Image src="assets/img/footer/Vector-3.png" alt="img" />
+                <Image src="/assets/img/footer/Vector-3.png" alt="img" />
             </div>
             <div className="cta-section-5">
                 <div className="container">
@@ -45,7 +45,7 @@ const FooterFive = () => {
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <Link href="/">
-                                        <Image src="assets/img/logo/white-logo-2.svg" alt="img" />
+                                        <Image src="/assets/img/logo/white-logo-2.svg" alt="img" />
                                     </Link>
                                 </div>
                                 <div className="footer-content">

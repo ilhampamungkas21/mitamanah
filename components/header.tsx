@@ -13,10 +13,10 @@ export function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center text-primary-foreground font-bold shadow-md group-hover:shadow-lg transition-shadow">
+            <div className="w-10 h-10 bg-linear-to-br from-primary to-accent rounded-xl flex items-center justify-center text-primary-foreground font-bold shadow-md group-hover:shadow-lg transition-shadow">
               <GraduationCap size={20} />
             </div>
-            <span className="font-bold text-lg hidden sm:inline bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <span className="font-bold text-lg hidden sm:inline bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">
               MIT Amanah
             </span>
           </Link>

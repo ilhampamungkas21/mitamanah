@@ -11,7 +11,7 @@ const AboutHomeOne = () => {
                 <div className="row g-4">
                     <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="about-image wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                            <Image src="assets/img/about/01.jpg" alt="img" />
+                            <Image src="/assets/img/about/01.jpg" alt="img" />
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-6 col-md-6">
@@ -41,10 +41,10 @@ const AboutHomeOne = () => {
                     <div className="col-xl-3 col-lg-6 col-md-6">
                         <div className="about-image-items">
                             <div className="about-image-2 wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                                <Image src="assets/img/about/03.jpg" alt="img" />
+                                <Image src="/assets/img/about/03.jpg" alt="img" />
                             </div>
                             <div className="about-image-3 wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                                <Image src="assets/img/about/02.jpg" alt="img" />
+                                <Image src="/assets/img/about/02.jpg" alt="img" />
                             </div>
                         </div>
                     </div>

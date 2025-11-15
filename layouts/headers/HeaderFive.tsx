@@ -20,10 +20,10 @@ const HeaderFive = () => {
                     <div className="mega-menu-wrapper">
                         <div className="header-main">
                             <Link href="/" className="header-logo">
-                                <Image src="assets/img/logo/white-logo-2.svg" alt="logo-img" />
+                                <Image src="/assets/img/logo/white-logo-2.svg" alt="logo-img" />
                             </Link>
                             <Link href="/" className="header-logo-2">
-                                <Image src="assets/img/logo/black-logo-4.svg" alt="logo-img" />
+                                <Image src="/assets/img/logo/black-logo-4.svg" alt="logo-img" />
                             </Link>
                             <div className="header-left">
                                 <div className="mean__menu-wrapper">

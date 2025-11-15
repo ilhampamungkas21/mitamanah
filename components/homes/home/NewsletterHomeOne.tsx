@@ -7,13 +7,13 @@ const NewsletterHomeOne = () => {
     <>
       <section className="cta-newsletter-section fix blue-bg">
             <div className="girl-shape animation__arryLeftRight wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                <Image src="assets/img/cta/girl-img.png" alt="img" />
+                <Image src="/assets/img/cta/girl-img.png" alt="img" />
             </div>
             <div className="shape-1">
-                <Image src="assets/img/cta/shape-1.png" alt="img" />
+                <Image src="/assets/img/cta/shape-1.png" alt="img" />
             </div>
             <div className="shape-2">
-                <Image src="assets/img/cta/shape-2.png" alt="img" />
+                <Image src="/assets/img/cta/shape-2.png" alt="img" />
             </div>
             <div className="container">
                 <div className="cta-newsletter-wrapper">

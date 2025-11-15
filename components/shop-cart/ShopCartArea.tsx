@@ -47,7 +47,7 @@ const ShopCartArea = () => {
                                     <td>
                                         <div className="cart-item-thumb d-flex align-items-center gap-4">
                                             <i className="fas fa-times"></i>
-                                            <Image className="w-100" src="assets/img/shop/cart/01.jpg" alt="product" />
+                                            <Image className="w-100" src="/assets/img/shop/cart/01.jpg" alt="product" />
                                             <span className="head text-nowrap">A Prayer for Meany</span>
                                         </div>
                                     </td>
@@ -87,7 +87,7 @@ const ShopCartArea = () => {
                                     <td>
                                         <div className="cart-item-thumb d-flex align-items-center gap-4">
                                             <i className="fas fa-times"></i>
-                                            <Image className="w-100" src="assets/img/shop/cart/02.jpg" alt="product" />
+                                            <Image className="w-100" src="/assets/img/shop/cart/02.jpg" alt="product" />
                                             <span className="head text-nowrap">Don Quixote</span>
                                         </div>
                                     </td>

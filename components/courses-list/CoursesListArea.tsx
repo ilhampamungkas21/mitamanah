@@ -359,27 +359,27 @@ const CoursesListArea = () => {
                             <div className="col-lg-12">
                                 <div className="courses-list-items">
                                     <div className="thumb">
-                                        <Image src="assets/img/courses/list/01.jpg" alt="img" />
+                                        <Image src="/assets/img/courses/list/01.jpg" alt="img" />
                                         <h3 className="courses-title">Web Design</h3>
                                         <h4 className="topic-title">Advance Web Design</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
-                                                <Image src="assets/img/courses/a1.png" alt="img" />
+                                                <Image src="/assets/img/courses/a1.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay1">
-                                                <Image src="assets/img/courses/a2.png" alt="img" />
+                                                <Image src="/assets/img/courses/a2.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay2">
-                                                <Image src="assets/img/courses/a3.png" alt="img" />
+                                                <Image src="/assets/img/courses/a3.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay3">
-                                                <Image src="assets/img/courses/a4.png" alt="img" />
+                                                <Image src="/assets/img/courses/a4.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay4">
-                                                <Image src="assets/img/courses/a5.png" alt="img" />
+                                                <Image src="/assets/img/courses/a5.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay5">
-                                                <Image src="assets/img/courses/a6.png" alt="img" />
+                                                <Image src="/assets/img/courses/a6.png" alt="img" />
                                             </div>
                                         </div>
                                     </div>
@@ -426,27 +426,27 @@ const CoursesListArea = () => {
                                 </div>
                                 <div className="courses-list-items">
                                     <div className="thumb">
-                                        <Image src="assets/img/courses/list/02.jpg" alt="img" />
+                                        <Image src="/assets/img/courses/list/02.jpg" alt="img" />
                                         <h3 className="courses-title">Business Finance</h3>
                                         <h4 className="topic-title">Finance and Business</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
-                                                <Image src="assets/img/courses/a1.png" alt="img" />
+                                                <Image src="/assets/img/courses/a1.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay1">
-                                                <Image src="assets/img/courses/a2.png" alt="img" />
+                                                <Image src="/assets/img/courses/a2.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay2">
-                                                <Image src="assets/img/courses/a3.png" alt="img" />
+                                                <Image src="/assets/img/courses/a3.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay3">
-                                                <Image src="assets/img/courses/a4.png" alt="img" />
+                                                <Image src="/assets/img/courses/a4.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay4">
-                                                <Image src="assets/img/courses/a5.png" alt="img" />
+                                                <Image src="/assets/img/courses/a5.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay5">
-                                                <Image src="assets/img/courses/a6.png" alt="img" />
+                                                <Image src="/assets/img/courses/a6.png" alt="img" />
                                             </div>
                                         </div>
                                     </div>
@@ -493,27 +493,27 @@ const CoursesListArea = () => {
                                 </div>
                                 <div className="courses-list-items">
                                     <div className="thumb">
-                                        <Image src="assets/img/courses/list/03.jpg" alt="img" />
+                                        <Image src="/assets/img/courses/list/03.jpg" alt="img" />
                                         <h3 className="courses-title">Programming</h3>
                                         <h4 className="topic-title">Advance Machine Learning</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
-                                                <Image src="assets/img/courses/a1.png" alt="img" />
+                                                <Image src="/assets/img/courses/a1.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay1">
-                                                <Image src="assets/img/courses/a2.png" alt="img" />
+                                                <Image src="/assets/img/courses/a2.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay2">
-                                                <Image src="assets/img/courses/a3.png" alt="img" />
+                                                <Image src="/assets/img/courses/a3.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay3">
-                                                <Image src="assets/img/courses/a4.png" alt="img" />
+                                                <Image src="/assets/img/courses/a4.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay4">
-                                                <Image src="assets/img/courses/a5.png" alt="img" />
+                                                <Image src="/assets/img/courses/a5.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay5">
-                                                <Image src="assets/img/courses/a6.png" alt="img" />
+                                                <Image src="/assets/img/courses/a6.png" alt="img" />
                                             </div>
                                         </div>
                                     </div>
@@ -560,27 +560,27 @@ const CoursesListArea = () => {
                                 </div>
                                 <div className="courses-list-items">
                                     <div className="thumb">
-                                        <Image src="assets/img/courses/list/04.jpg" alt="img" />
+                                        <Image src="/assets/img/courses/list/04.jpg" alt="img" />
                                         <h3 className="courses-title">Graphic Design</h3>
                                         <h4 className="topic-title">Graphic Design Masterclass</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
-                                                <Image src="assets/img/courses/a1.png" alt="img" />
+                                                <Image src="/assets/img/courses/a1.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay1">
-                                                <Image src="assets/img/courses/a2.png" alt="img" />
+                                                <Image src="/assets/img/courses/a2.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay2">
-                                                <Image src="assets/img/courses/a3.png" alt="img" />
+                                                <Image src="/assets/img/courses/a3.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay3">
-                                                <Image src="assets/img/courses/a4.png" alt="img" />
+                                                <Image src="/assets/img/courses/a4.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay4">
-                                                <Image src="assets/img/courses/a5.png" alt="img" />
+                                                <Image src="/assets/img/courses/a5.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay5">
-                                                <Image src="assets/img/courses/a6.png" alt="img" />
+                                                <Image src="/assets/img/courses/a6.png" alt="img" />
                                             </div>
                                         </div>
                                     </div>
@@ -627,27 +627,27 @@ const CoursesListArea = () => {
                                 </div>
                                 <div className="courses-list-items">
                                     <div className="thumb">
-                                        <Image src="assets/img/courses/list/05.jpg" alt="img" />
+                                        <Image src="/assets/img/courses/list/05.jpg" alt="img" />
                                         <h3 className="courses-title">Foundations AI</h3>
                                         <h4 className="topic-title">Artificial Intelligence</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
-                                                <Image src="assets/img/courses/a1.png" alt="img" />
+                                                <Image src="/assets/img/courses/a1.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay1">
-                                                <Image src="assets/img/courses/a2.png" alt="img" />
+                                                <Image src="/assets/img/courses/a2.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay2">
-                                                <Image src="assets/img/courses/a3.png" alt="img" />
+                                                <Image src="/assets/img/courses/a3.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay3">
-                                                <Image src="assets/img/courses/a4.png" alt="img" />
+                                                <Image src="/assets/img/courses/a4.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay4">
-                                                <Image src="assets/img/courses/a5.png" alt="img" />
+                                                <Image src="/assets/img/courses/a5.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay5">
-                                                <Image src="assets/img/courses/a6.png" alt="img" />
+                                                <Image src="/assets/img/courses/a6.png" alt="img" />
                                             </div>
                                         </div>
                                     </div>
@@ -694,27 +694,27 @@ const CoursesListArea = () => {
                                 </div>
                                 <div className="courses-list-items">
                                     <div className="thumb">
-                                        <Image src="assets/img/courses/list/06.jpg" alt="img" />
+                                        <Image src="/assets/img/courses/list/06.jpg" alt="img" />
                                         <h3 className="courses-title">Leadership</h3>
                                         <h4 className="topic-title">Communication Skills</h4>
                                         <div className="arrow-items">
                                             <div className="GlidingArrow">
-                                                <Image src="assets/img/courses/a1.png" alt="img" />
+                                                <Image src="/assets/img/courses/a1.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay1">
-                                                <Image src="assets/img/courses/a2.png" alt="img" />
+                                                <Image src="/assets/img/courses/a2.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay2">
-                                                <Image src="assets/img/courses/a3.png" alt="img" />
+                                                <Image src="/assets/img/courses/a3.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay3">
-                                                <Image src="assets/img/courses/a4.png" alt="img" />
+                                                <Image src="/assets/img/courses/a4.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay4">
-                                                <Image src="assets/img/courses/a5.png" alt="img" />
+                                                <Image src="/assets/img/courses/a5.png" alt="img" />
                                             </div>
                                             <div className="GlidingArrow delay5">
-                                                <Image src="assets/img/courses/a6.png" alt="img" />
+                                                <Image src="/assets/img/courses/a6.png" alt="img" />
                                             </div>
                                         </div>
                                     </div>

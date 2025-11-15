@@ -10,7 +10,7 @@ const InstructorDetailsArea = () => {
                 <div className="team-details-wrapper">
                     <div className="team-details-items">
                         <div className="details-image">
-                            <Image src="assets/img/team/details-1.jpg" alt="img" />
+                            <Image src="/assets/img/team/details-1.jpg" alt="img" />
                         </div>
                         <div className="team-details-content">
                             <h2>

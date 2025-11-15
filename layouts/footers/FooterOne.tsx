@@ -14,9 +14,9 @@ const FooterOne = ({ style_2 }: { style_2?: boolean }) => {
                             <div className="single-footer-widget">
                                 <div className="widget-head">
                                     <Link href="/">
-                                        {style_2 ? <Image src="assets/img/logo/black-logo-2.svg" alt="img" /> 
+                                        {style_2 ? <Image src="/assets/img/logo/black-logo-2.svg" alt="img" /> 
                                         :                                        
-                                        <Image src="assets/img/logo/white-logo.svg" alt="img" />
+                                        <Image src="/assets/img/logo/white-logo.svg" alt="img" />
                                         }
                                     </Link>
                                 </div>

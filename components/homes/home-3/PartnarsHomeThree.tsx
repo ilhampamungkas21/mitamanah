@@ -24,60 +24,81 @@ export default function PartnarsHomeThree({ style_2 }: { style_2?: boolean }) {
                   </p>
                 </div>
               </div>
+
               <div className="col-lg-7">
                 <div className="global-partner-items">
                   <div className="row g-0">
-                    <div
-                      className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
-                      data-wow-delay=".3s"
-                    >
+
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".3s">
                       <div className="global-logo active">
-                        <Image src="assets/img/global/01.png" alt="img" />
+                        <Image
+                          src="/assets/img/global/01.png"
+                          alt="img"
+                          width={120}
+                          height={60}
+                        />
                       </div>
                     </div>
-                    <div
-                      className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
-                      data-wow-delay=".5s"
-                    >
+
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".5s">
                       <div className="global-logo">
-                        <Image src="assets/img/global/02.png" alt="img" />
+                        <Image
+                          src="/assets/img/global/02.png"
+                          alt="img"
+                          width={120}
+                          height={60}
+                        />
                       </div>
                     </div>
-                    <div
-                      className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
-                      data-wow-delay=".7s"
-                    >
+
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="global-logo border-right-none">
-                        <Image src="assets/img/global/03.png" alt="img" />
+                        <Image
+                          src="/assets/img/global/03.png"
+                          alt="img"
+                          width={120}
+                          height={60}
+                        />
                       </div>
                     </div>
-                    <div
-                      className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
-                      data-wow-delay=".3s"
-                    >
+
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".3s">
                       <div className="global-logo border-bottom-none">
-                        <Image src="assets/img/global/04.png" alt="img" />
+                        <Image
+                          src="/assets/img/global/04.png"
+                          alt="img"
+                          width={120}
+                          height={60}
+                        />
                       </div>
                     </div>
-                    <div
-                      className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
-                      data-wow-delay=".5s"
-                    >
+
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".5s">
                       <div className="global-logo border-bottom-none">
-                        <Image src="assets/img/global/05.png" alt="img" />
+                        <Image
+                          src="/assets/img/global/05.png"
+                          alt="img"
+                          width={120}
+                          height={60}
+                        />
                       </div>
                     </div>
-                    <div
-                      className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp"
-                      data-wow-delay=".7s"
-                    >
+
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".7s">
                       <div className="global-logo border-bottom-none border-right-none">
-                        <Image src="assets/img/global/06.png" alt="img" />
+                        <Image
+                          src="/assets/img/global/06.png"
+                          alt="img"
+                          width={120}
+                          height={60}
+                        />
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </div>

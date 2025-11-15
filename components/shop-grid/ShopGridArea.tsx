@@ -39,7 +39,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/01.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/01.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -72,7 +72,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/02.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/02.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -105,7 +105,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/03.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/03.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -138,7 +138,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/04.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/04.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -171,7 +171,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/05.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/05.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -204,7 +204,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/06.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/06.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -237,7 +237,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/07.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/07.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -270,7 +270,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/08.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/08.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -303,7 +303,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/09.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/09.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -336,7 +336,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/10.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/10.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -369,7 +369,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/11.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/11.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -402,7 +402,7 @@ const ShopGridArea = () => {
                         <div className="col-xl-3 col-lg-4 col-md-6">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/12.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/12.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>

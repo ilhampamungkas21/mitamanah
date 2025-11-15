@@ -10,7 +10,7 @@ const ChooseHomeOne = () => {
             <div className="container">
                 <div className="main-choose-us-wrapper">
                     <div className="line-shape">
-                        <Image src="assets/img/line-shape.png" alt="" />
+                        <Image src="/assets/img/line-shape.png" alt="" />
                     </div>
                     <div className="choose-us-top">
                         <div className="section-title mb-0">

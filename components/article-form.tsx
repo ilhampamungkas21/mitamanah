@@ -2,13 +2,13 @@
 
 import type React from "react"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import dynamic from "next/dynamic"
 import type { Article } from "@/lib/types"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import "react-quill/dist/quill.snow.css"
+import "react-quill-new/dist/quill.snow.css"
 
 interface ReactQuillProps {
   theme?: string
@@ -17,7 +17,10 @@ interface ReactQuillProps {
   placeholder?: string
 }
 
-const ReactQuill = dynamic(() => import("react-quill"), { ssr: false }) as unknown as React.ComponentType<ReactQuillProps>
+const ReactQuill = dynamic(
+  () => import("react-quill-new"),
+  { ssr: false }
+) as unknown as React.ComponentType<ReactQuillProps>
 
 export function ArticleForm({
   article,
@@ -28,6 +31,12 @@ export function ArticleForm({
   onSuccess: (article: Article) => void
   onCancel: () => void
 }) {
+  const [mounted, setMounted] = useState(false)
+
+useEffect(() => {
+  setMounted(true)
+}, [])
+
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [formData, setFormData] = useState({
@@ -112,12 +121,17 @@ export function ArticleForm({
         <div>
           <Label className="text-lg mb-2" htmlFor="content">Content *</Label>
           <div className="rounded-md overflow-hidden border border-border bg-background">
-            <ReactQuill
-              theme="snow"
-              value={formData.content}
-              onChange={(value: string) => setFormData({ ...formData, content: value })}
-              placeholder="Write your article content here..."
-            />
+            {mounted ? (
+      <ReactQuill
+        theme="snow"
+        value={formData.content}
+        onChange={(value: string) => setFormData({ ...formData, content: value })}
+        placeholder="Write your article content here..."
+      />
+    ) : (
+      // Skeleton placeholder, optional
+      <div className="h-40 bg-muted animate-pulse" />
+    )}
           </div>
         </div>
 

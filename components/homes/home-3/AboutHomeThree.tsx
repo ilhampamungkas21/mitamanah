@@ -1,7 +1,7 @@
-import Count from '@/common/Count';
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+import Count from "@/common/Count";
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
 const AboutHomeThree = () => {
   return (
@@ -16,31 +16,49 @@ const AboutHomeThree = () => {
                     <h6 className="text-white wow fadeInUp">
                       Tentang MIT Amanah
                     </h6>
-                    <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+                    <h2
+                      className="text-white wow fadeInUp"
+                      data-wow-delay=".3s"
+                    >
                       Madrasah Islam Terpadu <br /> yang Mendidik dengan Hati
                     </h2>
                   </div>
+
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    MIT Amanah hadir untuk menanamkan nilai iman, ilmu, dan akhlak mulia sejak dini.
-                    Dengan pendekatan pendidikan terpadu, kami berkomitmen melahirkan generasi yang cerdas,
+                    MIT Amanah hadir untuk menanamkan nilai iman, ilmu, dan
+                    akhlak mulia sejak dini. Dengan pendekatan pendidikan
+                    terpadu, kami berkomitmen melahirkan generasi yang cerdas,
                     berkarakter, dan berjiwa pemimpin berlandaskan Islam.
                   </p>
-                  <Link href="/tentang" className="theme-btn green-btn wow fadeInUp text-white" data-wow-delay=".3s">
+
+                  <Link
+                    href="/tentang"
+                    className="theme-btn green-btn wow fadeInUp text-white"
+                    data-wow-delay=".3s"
+                  >
                     Hubungi Kami
                   </Link>
+
                   <div className="about-counter-items">
-                    <div className="counter-content wow fadeInUp" data-wow-delay=".3s">
+                    <div
+                      className="counter-content wow fadeInUp"
+                      data-wow-delay=".3s"
+                    >
                       <h3>
                         <span className="odometer" data-count="10">
-                          <Count number={10} text='+' />
+                          <Count number={10} text="+" />
                         </span>
                       </h3>
                       <p>Tahun Pengalaman</p>
                     </div>
-                    <div className="counter-content wow fadeInUp" data-wow-delay=".5s">
+
+                    <div
+                      className="counter-content wow fadeInUp"
+                      data-wow-delay=".5s"
+                    >
                       <h3>
                         <span className="odometer" data-count="98">
-                          <Count number={98} text='%' />
+                          <Count number={98} text="%" />
                         </span>
                       </h3>
                       <p>Orang Tua Puas & Bahagia</p>
@@ -48,21 +66,34 @@ const AboutHomeThree = () => {
                   </div>
                 </div>
               </div>
+
+              {/* === Right Image Section === */}
               <div className="col-xl-5 col-lg-6">
                 <div className="about-image">
+                  {/* Main Image */}
                   <Image
-                    src="assets/img/about/01.png"
+                    src="/assets/img/about/01.png"
                     alt="Madrasah Islam Terpadu Amanah"
+                    width={454}
+                    height={577}
                     className="wow img-custom-anim-left"
                   />
+
+                  {/* Shape Background */}
                   <div className="bg-shape">
-                    <Image src="assets/img/about/bg-shape.png" alt="bg" />
+                    <Image
+                      src="/assets/img/about/bg-shape.png"
+                      alt="background shape"
+                      width={420}
+                      height={523}
+                    />
                   </div>
+
                   <div className="counter-box">
                     <p>Lebih dari</p>
                     <h2>
                       <span className="odometer" data-count="500">
-                        <Count number={500} text='+' />
+                        <Count number={500} text="+" />
                       </span>
                     </h2>
                     <p>Siswa Aktif & Berprestasi</p>

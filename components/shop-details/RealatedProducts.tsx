@@ -51,7 +51,7 @@ const RealatedProducts = () => {
                         <SwiperSlide className="swiper-slide">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/01.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/01.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -84,7 +84,7 @@ const RealatedProducts = () => {
                         <SwiperSlide className="swiper-slide">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/02.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/02.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -117,7 +117,7 @@ const RealatedProducts = () => {
                         <SwiperSlide className="swiper-slide">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/03.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/03.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -150,7 +150,7 @@ const RealatedProducts = () => {
                         <SwiperSlide className="swiper-slide">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/04.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/04.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -183,7 +183,7 @@ const RealatedProducts = () => {
                         <SwiperSlide className="swiper-slide">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/03.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/03.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>
@@ -216,7 +216,7 @@ const RealatedProducts = () => {
                         <SwiperSlide className="swiper-slide">
                             <div className="shop-box-items">
                                 <div className="book-thumb center">
-                                    <Link href="/shop-details"><Image src="assets/img/shop/04.jpg" alt="img" /></Link>
+                                    <Link href="/shop-details"><Image src="/assets/img/shop/04.jpg" alt="img" /></Link>
                                     <ul className="shop-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <Link href="/shop-cart"><i className="far fa-heart"></i></Link>

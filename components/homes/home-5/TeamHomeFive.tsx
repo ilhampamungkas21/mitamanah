@@ -20,7 +20,7 @@ const TeamHomeFive = ({ style_2 }: { style_2?: boolean }) => {
                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                         <div className="team-card-items">
                             <div className="thumb">
-                                <Image src="assets/img/team/11.jpg" alt="img" />
+                                <Image src="/assets/img/team/11.jpg" alt="img" />
                                 <div className="social-icon">
                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#"><i className="fab fa-instagram"></i></a>
@@ -37,7 +37,7 @@ const TeamHomeFive = ({ style_2 }: { style_2?: boolean }) => {
                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                         <div className="team-card-items">
                             <div className="thumb">
-                                <Image src="assets/img/team/12.jpg" alt="img" />
+                                <Image src="/assets/img/team/12.jpg" alt="img" />
                                 <div className="social-icon">
                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#"><i className="fab fa-instagram"></i></a>
@@ -54,7 +54,7 @@ const TeamHomeFive = ({ style_2 }: { style_2?: boolean }) => {
                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                         <div className="team-card-items">
                             <div className="thumb">
-                                <Image src="assets/img/team/13.jpg" alt="img" />
+                                <Image src="/assets/img/team/13.jpg" alt="img" />
                                 <div className="social-icon">
                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#"><i className="fab fa-instagram"></i></a>
@@ -71,7 +71,7 @@ const TeamHomeFive = ({ style_2 }: { style_2?: boolean }) => {
                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                         <div className="team-card-items">
                             <div className="thumb">
-                                <Image src="assets/img/team/14.jpg" alt="img" />
+                                <Image src="/assets/img/team/14.jpg" alt="img" />
                                 <div className="social-icon">
                                     <a href="#"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#"><i className="fab fa-instagram"></i></a>

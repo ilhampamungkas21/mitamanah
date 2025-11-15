@@ -24,8 +24,8 @@ const BlogHomeOne = () => {
                     <div className="col-xl-4 col-lg-6 col-md-6 wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div className="news-box-items">
                             <div className="news-image">
-                                <Image src="assets/img/news/01.jpg" alt="img" />
-                                <Image src="assets/img/news/01.jpg" alt="img" />
+                                <Image src="/assets/img/news/01.jpg" alt="img" />
+                                <Image src="/assets/img/news/01.jpg" alt="img" />
                             </div>
                             <div className="news-content">
                                 <span>September 20, 2024</span>
@@ -42,8 +42,8 @@ const BlogHomeOne = () => {
                     <div className="col-xl-4 col-lg-6 col-md-6 wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.5s">
                         <div className="news-box-items">
                             <div className="news-image">
-                                <Image src="assets/img/news/02.jpg" alt="img" />
-                                <Image src="assets/img/news/02.jpg" alt="img" />
+                                <Image src="/assets/img/news/02.jpg" alt="img" />
+                                <Image src="/assets/img/news/02.jpg" alt="img" />
                             </div>
                             <div className="news-content">
                                 <span>September 20, 2024</span>
@@ -60,8 +60,8 @@ const BlogHomeOne = () => {
                     <div className="col-xl-4 col-lg-6 col-md-6 wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.7s">
                         <div className="news-box-items">
                             <div className="news-image">
-                                <Image src="assets/img/news/03.jpg" alt="img" />
-                                <Image src="assets/img/news/03.jpg" alt="img" />
+                                <Image src="/assets/img/news/03.jpg" alt="img" />
+                                <Image src="/assets/img/news/03.jpg" alt="img" />
                             </div>
                             <div className="news-content">
                                 <span>September 20, 2024</span>
