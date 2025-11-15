@@ -7,7 +7,7 @@ import Wrapper from "@/layouts/Wrapper"
 export async function generateMetadata(
   props: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
-  const { slug } = await props.params // ← gunakan await di sini
+  const { slug } = await props.params
   const supabase = await createClient()
 
   const { data: article } = await supabase
@@ -58,7 +58,7 @@ export default async function ArticlePage({
 }: {
   params: Promise<{ slug: string }>
 }) {
-  const { slug } = await params // ← ini juga perlu di-await
+  const { slug } = await params
   const supabase = await createClient()
 
   const { data: article } = await supabase

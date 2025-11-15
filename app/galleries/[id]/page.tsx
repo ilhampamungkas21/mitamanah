@@ -6,8 +6,8 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
-  const { id } = params
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
   const supabase = await createClient()
 
   const { data: gallery } = await supabase.from("galleries").select("*").eq("id", id).single()
@@ -22,8 +22,8 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   }
 }
 
-export default async function GalleryPage({ params }: { params: { id: string } }) {
-  const { id } = params
+export default async function GalleryPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
   const supabase = await createClient()
 
   const { data: gallery } = await supabase.from("galleries").select("*").eq("id", id).single()
