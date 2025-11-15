@@ -40,7 +40,7 @@ export default async function NewsArea() {
                         width={900}
                         height={400}
                         alt={item.title}
-                        className="w-full object-cover rounded-lg"
+                        className="w-full h-[400px] object-scale-down object-center rounded-lg"
                       />
                       <div className="post-content">
                         <div className="post-meta">

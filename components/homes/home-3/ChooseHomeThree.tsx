@@ -15,7 +15,7 @@ const ChooseHomeThree = () => {
             {/* LEFT IMAGE */}
             <div className="col-xxl-7 col-xl-6 col-lg-6">
               <div className="video-image wow img-custom-anim-left">
-                <img className='w-100 h-100 object-fit-cover'
+                <Image className='w-100 h-100 object-fit-cover'
                   src="/assets/img/kenapa-amanah.webp"
                   alt="Madrasah Islam Terpadu Amanah"
                   width={1200}

@@ -15,10 +15,10 @@ type UpdateArticlePayload = {
 
 export async function PUT(
   req: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const supabase = await createClient();
-  const id = params.id;
+  const id = await params;
 
   const {
     data: { user },
@@ -53,10 +53,10 @@ export async function PUT(
 
 export async function DELETE(
   req: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const supabase = await createClient();
-  const id = params.id;
+  const id = await params;
 
   const {
     data: { user },
