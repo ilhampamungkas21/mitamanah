@@ -15,8 +15,8 @@ const ChooseHomeThree = () => {
             {/* LEFT IMAGE */}
             <div className="col-xxl-7 col-xl-6 col-lg-6">
               <div className="video-image wow img-custom-anim-left">
-                <Image
-                  src="https://scontent.fjog3-1.fna.fbcdn.net/v/t39.30808-6/490805319_2409985449374657_7012709747181745347_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=bmhZVGCLu2YQ7kNvwEIeq9G&_nc_oc=AdlZoAoWGOpP-UusfRfpDdjAC9dPN51lithf_F9Sv1OJhykK0odeeXj-CnwaW-fOUx7Ty_b18POJEkdN4dvrZNKe&_nc_zt=23&_nc_ht=scontent.fjog3-1.fna&_nc_gid=KNdy9NvGreLYjgSvqFFTaw&oh=00_AfjZg2xOTV-dAp2f9T-4KalME2pu0BY-occV_N0rSdq11w&oe=6914BA87"
+                <img className='w-100 h-100 object-fit-cover'
+                  src="/assets/img/kenapa-amanah.webp"
                   alt="Madrasah Islam Terpadu Amanah"
                   width={1200}
                   height={800}

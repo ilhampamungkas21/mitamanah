@@ -14,7 +14,7 @@ const TestimonialHomeThree = () => {
         {/* Counter Section */}
         <div className="counter-section-2 section-padding pt-0">
           <div className="container custom-container">
-            <div className="counter-wrapper-2 bg-cover bg-success" style={{ background: `url(/assets/img/counter-bg.jpg)` }}>
+            <div className="counter-wrapper-2 bg-cover bg-lime-800" >
               
               <div className="counter-items wow fadeInUp" data-wow-delay=".2s">
                 <div className="icon"><i className="flaticon-success"></i></div>
@@ -43,7 +43,7 @@ const TestimonialHomeThree = () => {
               <div className="counter-items wow fadeInUp" data-wow-delay=".8s">
                 <div className="icon"><i className="flaticon-instructor"></i></div>
                 <div className="content">
-                  <h2><Count number={35} text='+' /></h2>
+                  <h2><Count number={25} text='+' /></h2>
                   <p>Tenaga Pendidik</p>
                 </div>
               </div>

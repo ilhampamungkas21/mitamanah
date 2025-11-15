@@ -56,7 +56,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/ipa.png"
                           alt="IPA MIT Amanah"
                           width={600}
                           height={400}
@@ -65,7 +65,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Mengenal Ciptaan Allah Melalui Sains</h4>
+                      <h4 className='h-20'>Mengenal Ciptaan Allah Melalui Sains</h4>
                       <p>
                         Pembelajaran IPA berbasis eksperimen untuk menumbuhkan
                         rasa ingin tahu dan pemahaman tentang kebesaran Allah.
@@ -83,7 +83,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/mtk.png"
                           alt="Matematika MIT Amanah"
                           width={600}
                           height={400}
@@ -92,7 +92,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Matematika Ceria & Logis</h4>
+                      <h4 className='h-20'>Matematika Ceria & Logis</h4>
                       <p>
                         Melatih kemampuan berhitung, logika, dan berpikir kritis
                         melalui metode pembelajaran yang menyenangkan.
@@ -110,7 +110,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/membaca.png"
                           alt="Bahasa Indonesia MIT Amanah"
                           width={600}
                           height={400}
@@ -119,7 +119,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Melek Literasi Sejak Dini</h4>
+                      <h4 className='h-20'>Cerdas Literasi Sejak Dini</h4>
                       <p>
                         Melatih keterampilan membaca, menulis, bercerita, dan
                         komunikasi yang baik dengan pendekatan aktif.
@@ -144,7 +144,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/ngaji.png"
                           alt="Tahfidz MIT Amanah"
                           width={600}
                           height={400}
@@ -153,7 +153,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Target Minimal 2 Juz</h4>
+                      <h4 className='h-20'>Target Minimal 2 Juz</h4>
                       <p>
                         Program unggulan hafalan Al-Qur’an dengan metode talaqqi &
                         tikrar yang terbimbing oleh ustadz/ustadzah berpengalaman.
@@ -171,7 +171,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/sholat.png"
                           alt="Pembiasaan ibadah MIT Amanah"
                           width={600}
                           height={400}
@@ -180,7 +180,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Sholat Dhuha, Dzikir Pagi & Dhuhur Berjamaah</h4>
+                      <h4 className='h-20'>Sholat Dhuha, Dzikir Pagi & Dhuhur Berjamaah</h4>
                       <p>
                         Pembiasaan ibadah harian untuk membentuk karakter islami
                         dan kedisiplinan anak sejak dini.
@@ -198,7 +198,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/mentoring.png"
                           alt="Akhlak MIT Amanah"
                           width={600}
                           height={400}
@@ -207,7 +207,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Mentoring Adab & Hadits</h4>
+                      <h4 className='h-20'>Mentoring Adab & Hadits</h4>
                       <p>
                         Pembelajaran hafalan hadits, doa harian, serta praktik adab
                         Islami melalui checklist pembiasaan harian.
@@ -232,7 +232,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/setoran hafalan.png"
                           alt="Ekstra tahfidz MIT Amanah"
                           width={600}
                           height={400}
@@ -241,7 +241,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Pendalaman Hafalan Qur’an</h4>
+                      <h4 className='h-20'>Pendalaman Hafalan Qur’an</h4>
                       <p>
                         Ekstrakurikuler untuk menambah dan memperkuat hafalan juz 30,
                         29, dan seterusnya.
@@ -259,7 +259,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/taekwondo.png"
                           alt="Taekwondo MIT Amanah"
                           width={600}
                           height={400}
@@ -268,7 +268,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Mental Tangguh & Disiplin</h4>
+                      <h4 className='h-20'>Mental Tangguh & Disiplin</h4>
                       <p>
                         Melatih fisik, fokus, dan kedisiplinan dengan latihan bela diri
                         bersama pelatih bersertifikat.
@@ -286,7 +286,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/pramuka.png"
                           alt="Pramuka MIT Amanah"
                           width={600}
                           height={400}
@@ -295,7 +295,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Kemandirian & Kepemimpinan</h4>
+                      <h4 className='h-20'>Kemandirian & Kepemimpinan</h4>
                       <p>
                         Membangun jiwa kepemimpinan, keberanian, dan kecintaan terhadap alam.
                       </p>
@@ -312,7 +312,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/20.jpg"
+                          src="/assets/img/courses/public speaking.png"
                           alt="Jurnalistik MIT Amanah"
                           width={600}
                           height={400}
@@ -321,7 +321,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4>Melatih Public Speaking</h4>
+                      <h4 className='h-20'>Melatih Public Speaking</h4>
                       <p>
                         Ekstra untuk melatih menulis berita, membaca puisi, MC, serta
                         ceramah dai cilik.
