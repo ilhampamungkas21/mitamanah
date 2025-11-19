@@ -1,101 +1,107 @@
+import Link from "next/link";
+import Image from "next/image";
 
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
-
-const FooterOne = ({ style_2 }: { style_2?: boolean }) => {
+const FooterOne = () => {
   return (
-    <>
-       <footer className={`footer-section fix ${style_2 ? "" : "footer-bg"}`}>
-            <div className="container">
-                <div className={`footer-widget-wrapper ${style_2 ? "style-4" : ""}`}>
-                    <div className="row">
-                        <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                            <div className="single-footer-widget">
-                                <div className="widget-head flex flex-row">
-                                    <Link href="/">
-                                        {style_2 ? <Image width={80} height={80} src="/assets/img/logo/logo.webp" alt="img" /> 
-                                        :                                        
-                                        <Image width={80} height={80} src="/assets/img/logo/logo.webp" alt="img" />
-                                        }
-                                    </Link>
-                                    <div className="text-white">MIT AMANAH</div>
-                                </div>
-                                <div className="footer-content">
-                                    <p>
-                                        Education the foundation personal and societal growth, empowering individuals with knowledge.
-                                    </p>
-                                    <div className="social-icon">
-                                        <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i className="fab fa-instagram"></i></a>
-                                        <a href="#"><i className="fab fa-dribbble"></i></a>
-                                        <a href="#"><i className="fab fa-behance"></i></a>
-                                        <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                            {/* <div className="single-footer-widget">
-                                <div className="widget-head">
-                                   <h3>Online Platform</h3>
-                                </div>
-                                <ul className="list-area">
-                                    <li><Link href="/courses">Coursera</Link></li>
-                                    <li><Link href="/courses">MasterClass</Link></li>
-                                    <li><Link href="/courses">Skillshare</Link></li>
-                                    <li><Link href="/courses">LinkedIn Learning</Link></li>
-                                    <li><Link href="/courses">FutureLearn</Link></li>
-                                </ul>
-                            </div> */}
-                        </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".6s">
-                            {/* <div className="single-footer-widget">
-                                <div className="widget-head">
-                                   <h3>Quick Link</h3>
-                                </div>
-                                <ul className="list-area">
-                                    <li><Link href="/about">About Eduspace</Link></li>
-                                    <li><Link href="/instructor">Instructors</Link></li>
-                                    <li><Link href="/courses">Best Courses</Link></li>
-                                    <li><Link href="/contact">Student Reviews</Link></li>
-                                    <li><Link href="/faq">FAQs</Link></li>
-                                </ul>
-                            </div> */}
-                        </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
-                            <div className="single-footer-widget">
-                                <div className="widget-head">
-                                   <h3>Contact Us</h3>
-                                </div>
-                                <div className="footer-content">
-                                    <ul className="contact-info">
-                                        <li>
-                                            55 Main Street, 2nd block
-                                            Malborne, Australia
-                                        </li>
-                                        <li>
-                                            55 Main Street, 2nd block
-                                            Malborne, Australia
-                                        </li>
-                                        <li>
-                                            <a href="mailto:info@example.com" className="link">info@example.com</a>
-                                        </li>
-                                        <li>
-                                            <a href="tel:+0001238899">+000 (123) 88 99</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className={`footer-bottom wow fadeInUp ${style_2 ? "style-4" : ""}`} data-wow-delay=".3s">
-                    <p>Copyright © <Link href="/">MIT Amanah</Link>, all rights reserved.</p>
-                </div>
+    <footer className="bg-gray-900 text-gray-300 pt-12 pb-6">
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+
+          {/* LOGO & DESKRIPSI */}
+          <div>
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="/assets/img/logo/logo.webp"
+                width={70}
+                height={70}
+                alt="MIT Amanah"
+                className="rounded"
+              />
+              <h3 className="text-xl font-bold text-white">MIT AMANAH</h3>
             </div>
-        </footer>
-    </>
+
+            <p className="text-gray-400 leading-relaxed">
+              MIT Amanah berkomitmen memberikan pendidikan terbaik untuk
+              membentuk generasi yang berakhlak, cerdas, dan berprestasi.
+            </p>
+
+            <div className="flex gap-4 mt-4">
+              <a href="#" className="hover:text-white text-lg">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" className="hover:text-white text-lg">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a href="#" className="hover:text-white text-lg">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          {/* HALAMAN */}
+          <div>
+            <h3 className="text-lg font-semibold text-white mb-4">Halaman</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/artikel" className="hover:text-white">
+                  Artikel
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="hover:text-white">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="hover:text-white">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* INFORMASI SEKOLAH */}
+          <div>
+            <h3 className="text-lg font-semibold text-white mb-4">Informasi</h3>
+            <ul className="space-y-2 text-gray-400">
+              <li>Program Unggulan</li>
+              <li>Kegiatan Siswa</li>
+              <li>Ekstrakurikuler</li>
+              <li>Fasilitas Sekolah</li>
+            </ul>
+          </div>
+
+          {/* KONTAK */}
+          <div>
+            <h3 className="text-lg font-semibold text-white mb-4">Kontak</h3>
+            <ul className="space-y-3 text-gray-400">
+              <li>
+                Jl. Contoh Alamat No. 123 <br />
+                Kecamatan, Kabupaten
+              </li>
+              <li>
+                <a
+                  href="mailto:admin@mitamanah.sch.id"
+                  className="hover:text-white"
+                >
+                  admin@mitamanah.sch.id
+                </a>
+              </li>
+              <li>
+                <a href="tel:+6281234567890" className="hover:text-white">
+                  +62 812-3456-7890
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* COPYRIGHT */}
+        <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
+          © {new Date().getFullYear()} MIT Amanah — All Rights Reserved.
+        </div>
+      </div>
+    </footer>
   );
 };
 

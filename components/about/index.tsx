@@ -10,6 +10,7 @@ import FeatureArea from "./FeatureArea";
 import TeamHomeFive from "../homes/home-5/TeamHomeFive";
 import AboutCounter from "./AboutCounter";
 import HeaderThree from "@/layouts/headers/HeaderThree";
+import SejarahArea from "./SejarahArea";
 
 const About = () => {
   return (
@@ -18,12 +19,13 @@ const About = () => {
       <BreadcrumbEvent title="About" subtitle="About" />
       <AboutArea />
       <FeatureArea />
+      <SejarahArea />
       <TeamHomeFive style_2={true} />
       <AboutCounter />
       <TestimonialHomeOne />
       <BrandsHomeOne />
       <NewsletterHomeOne />
-      <MarqueeOne style_2={true} />
+    {/* <MarqueeOne style_2={true} /> */}
       <FooterOne />
     </>
   );
