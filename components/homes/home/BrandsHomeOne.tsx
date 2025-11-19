@@ -57,63 +57,63 @@ const BrandsHomeOne = () => {
 							 
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/01.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/01.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/02.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/02.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/03.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/03.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/04.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/04.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/05.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/05.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/06.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/06.png" alt="img" />
 									</div>
 								</SwiperSlide>
             {/* swiper slider repite */}
                 <SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/01.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/01.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/02.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/02.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/03.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/03.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/04.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/04.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/05.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/05.png" alt="img" />
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className="swiper-slide">
 									<div className="brand-img text-center">
-										<Image src="/assets/img/brand/06.png" alt="img" />
+										<Image width={100} height={100} src="/assets/img/brand/06.png" alt="img" />
 									</div>
 								</SwiperSlide>
 						 

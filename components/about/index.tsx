@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderOne from "@/layouts/headers/HeaderOne";
 import BreadcrumbEvent from "@/common/breadcrumb/BreadcrumbEvent";
 import FooterOne from "@/layouts/footers/FooterOne";
 import MarqueeOne from "@/common/MarqueeOne";
@@ -10,11 +9,12 @@ import AboutArea from "./AboutArea";
 import FeatureArea from "./FeatureArea";
 import TeamHomeFive from "../homes/home-5/TeamHomeFive";
 import AboutCounter from "./AboutCounter";
+import HeaderThree from "@/layouts/headers/HeaderThree";
 
 const About = () => {
   return (
     <>
-      <HeaderOne />
+      <HeaderThree />
       <BreadcrumbEvent title="About" subtitle="About" />
       <AboutArea />
       <FeatureArea />
