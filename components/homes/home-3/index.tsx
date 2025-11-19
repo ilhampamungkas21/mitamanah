@@ -3,7 +3,7 @@ import HeaderThree from '@/layouts/headers/HeaderThree';
 import React from 'react';
 import HeroHomeThree from './HeroHomeThree';
 import AboutHomeThree from './AboutHomeThree';
-import MarqueeTwo from '@/common/MarqueeTwo';
+import MarqueeOne from '@/common/MarqueeOne';
 import CoursesHomeThree from './CoursesHomeThree';
 import ChooseHomeThree from './ChooseHomeThree';
 import EventHomeThree from './EventHomeThree';
@@ -21,13 +21,12 @@ const HomeThree = () => {
       <HeaderThree />
       <HeroHomeThree />
       <AboutHomeThree />
-      <MarqueeTwo />
+      <MarqueeOne style_2={false}/>
       <CoursesHomeThree />
       <ChooseHomeThree />
-      <EventHomeThree />
+      <BlogHomeThree />
       <TestimonialHomeThree />
       <PartnarsHomeThree style_2={false}/>
-      <BlogHomeThree />
       <FaqHomeThree />
       <InstagramHomeThree />
       <CtaHomeThree />

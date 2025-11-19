@@ -84,8 +84,8 @@ const AboutHomeThree = () => {
                     <Image
                       src="/assets/img/about/bg-shape.png"
                       alt="background shape"
-                      width={420}
-                      height={523}
+                      width={600}
+                      height={600}
                     />
                   </div>
 

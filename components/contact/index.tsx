@@ -14,7 +14,7 @@ const Contact = () => {
       <BreadcrumbEvent title="Contact" subtitle="Contact" />
       <ContactArea />
       <MapArea />
-      <ContactForm />
+    {/*  <ContactForm /> */}
       <MarqueeOne style_2={true} />
       <FooterThree />
     </>

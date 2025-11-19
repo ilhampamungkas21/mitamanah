@@ -1,56 +1,105 @@
-"use client"
-import React from 'react';
+"use client";
+import React from "react";
 
 const ContactForm = () => {
   return (
     <>
-       <section className="contact-section-2 section-padding pt-0">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-xl-10">
-                        <div className="contact-form-items">
-                            <div className="title text-center">
-                                <h2 className="wow fadeInUp">Send Us Message</h2>
-                            </div>
-                            <form id="contact-form" onSubmit={e => e.preventDefault()}>
-                                <div className="row g-4">
-                                    <div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-                                        <div className="form-clt">
-                                            <input type="text" name="name" id="name" placeholder="Full Name" />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="form-clt">
-                                            <input type="text" name="number" id="number" placeholder="Phone Number" />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
-                                        <div className="form-clt">
-                                            <input type="text" name="email" id="email3" placeholder="Email Address" />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="form-clt">
-                                            <input type="text" name="subject" id="subject" placeholder="subject" />
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
-                                        <div className="form-clt">
-                                            <textarea name="message" id="message" placeholder="Write message"></textarea>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-12 wow fadeInUp" data-wow-delay=".4s">
-                                        <button type="submit" className="theme-btn">
-                                            Send Us Message
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+      <section className="contact-section-2 section-padding pt-0">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-8">
+
+              <div className="contact-form-items text-center p-5 bg-white rounded-4 shadow-sm">
+
+                {/* TITLE */}
+                <div className="mb-4">
+                  <h2 className="wow fadeInUp fw-bold">Hubungi Kami</h2>
+                  <p
+                    className="wow fadeInUp text-muted mt-3"
+                    data-wow-delay=".2s"
+                  >
+                    Untuk informasi mengenai PPDB, kegiatan sekolah, 
+                    atau pertanyaan lainnya, silakan gunakan kontak berikut.
+                  </p>
                 </div>
+
+                {/* CONTACT INFO */}
+                <div className="row text-center mt-4">
+
+                  {/* Lokasi */}
+                  <div
+                    className="col-md-4 mb-4 wow fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    <div className="text-success fs-2 mb-2">
+                      <i className="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h5 className="fw-semibold">Alamat</h5>
+                    <p className="text-muted small">
+                      MIT Amanah Sragen <br />
+                      (Isi alamat lengkap)
+                    </p>
+                  </div>
+
+                  {/* Email */}
+                  <div
+                    className="col-md-4 mb-4 wow fadeInUp"
+                    data-wow-delay=".4s"
+                  >
+                    <div className="text-success fs-2 mb-2">
+                      <i className="fas fa-envelope"></i>
+                    </div>
+                    <h5 className="fw-semibold">Email</h5>
+                    <a
+                      href="mailto:mit.amanahsragen@gmail.com"
+                      className="text-primary small"
+                    >
+                      mit.amanahsragen@gmail.com
+                    </a>
+                  </div>
+
+                  {/* WhatsApp */}
+                  <div
+                    className="col-md-4 mb-4 wow fadeInUp"
+                    data-wow-delay=".5s"
+                  >
+                    <div className="text-success fs-2 mb-2">
+                      <i className="fab fa-whatsapp"></i>
+                    </div>
+                    <h5 className="fw-semibold">WhatsApp</h5>
+                    <a
+                      href="https://wa.me/6285601715496"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-success small"
+                    >
+                      0856-0171-5496
+                    </a>
+                  </div>
+
+                </div>
+
+                {/* CTA BUTTON */}
+                <div
+                  className="mt-4 wow fadeInUp"
+                  data-wow-delay=".6s"
+                >
+                  <a
+                    href="https://wa.me/6285601715496"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-success px-4 py-2 rounded-pill"
+                  >
+                    Hubungi via WhatsApp
+                  </a>
+                </div>
+
+              </div>
+
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

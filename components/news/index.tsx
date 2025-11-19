@@ -1,6 +1,6 @@
 import BreadcrumbEvent from "@/common/breadcrumb/BreadcrumbEvent";
 import MarqueeOne from "@/common/MarqueeOne";
-import FooterThree from "@/layouts/footers/FooterOne";
+import FooterThree from "@/layouts/footers/FooterThree";
 import React from "react";
 import NewsArea from "./NewsArea";
 import HeaderThree from "@/layouts/headers/HeaderThree";

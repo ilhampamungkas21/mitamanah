@@ -5,7 +5,7 @@ import React from "react";
 const CtaHomeThree = () => {
   return (
     <>
-      <section className="quality-coureses-section section-padding fix theme-red-bg">
+      <section className="quality-coureses-section section-padding fix theme-green-bg">
         <div className="container-fluid">
           <div className="row g-4">
             <div className="col-xl-2 col-lg-6">
@@ -21,10 +21,10 @@ const CtaHomeThree = () => {
                 />
                 <div className="bg-shape">
                   <Image
-                    src="/assets/img/courses/bg-shape.png"
+                    src="/assets/img/about/bg-shape.png"
                     alt="img"
-                    width={297}
-                    height={330}
+                     width={500}
+                    height={500}
                   />
                 </div>
               </div>
@@ -66,10 +66,10 @@ const CtaHomeThree = () => {
                 />
                 <div className="bg-shape">
                   <Image
-                    src="/assets/img/courses/bg-shape-2.png"
+                    src="/assets/img/about/bg-shape.png"
                     alt="img"
-                    width={297}
-                    height={331}
+                    width={500}
+                    height={500}
                   />
                 </div>
               </div>

@@ -37,7 +37,7 @@ export default async function BlogHomeThree() {
         <div className="section-title color-red text-center">
           <h6 className="wow fadeInUp">News & Blog</h6>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Latest News & Blog
+            Berita Terbaru
           </h2>
         </div>
 

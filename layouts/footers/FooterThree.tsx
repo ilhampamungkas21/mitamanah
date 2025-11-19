@@ -1,11 +1,12 @@
-import Link from 'next/link';
-import React from 'react';
-import Image from 'next/image';
+import Link from "next/link";
+import React from "react";
+import Image from "next/image";
 
 const FooterThree = () => {
   return (
     <>
       <footer className="footer-section-3 fix">
+        {/* Background Shapes */}
         <div className="circle-shape">
           <Image
             src="/assets/img/footer/circle.png"
@@ -28,88 +29,103 @@ const FooterThree = () => {
           <div className="footer-widget-wrapper style-2">
             <div className="row">
 
-              {/* Logo */}
-              <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+              {/* LOGO + DESKRIPSI */}
+              <div
+                className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay=".2s"
+              >
                 <div className="single-footer-widget">
                   <div className="widget-head">
                     <Link href="/">
                       <Image
-                        src="/assets/img/logo/black-logo-3.svg"
-                        alt="img"
-                        width={200}
-                        height={60}
+                        src="/assets/img/logo/logo.webp"
+                        alt="MIT AMANAH"
+                        width={100}
+                        height={100}
                       />
                     </Link>
                   </div>
 
                   <div className="footer-content">
                     <p>
-                      Education the foundation personal and societal growth, empowering individuals with knowledge.
+                      MIT Amanah berkomitmen menghadirkan pendidikan berkualitas
+                      untuk membentuk generasi yang berakhlak, cerdas, dan berprestasi.
                     </p>
+
                     <div className="social-icon">
                       <a href="#"><i className="fab fa-facebook-f"></i></a>
                       <a href="#"><i className="fab fa-instagram"></i></a>
-                      <a href="#"><i className="fab fa-dribbble"></i></a>
-                      <a href="#"><i className="fab fa-behance"></i></a>
                       <a href="#"><i className="fab fa-linkedin-in"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Other Columns */}
-              <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
+              {/* HALAMAN */}
+              <div
+                className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp"
+                data-wow-delay=".4s"
+              >
                 <div className="single-footer-widget">
                   <div className="widget-head">
-                    <h3>Online Platform</h3>
+                    <h3>Halaman</h3>
                   </div>
                   <ul className="list-area">
-                    <li><Link href="/courses">Coursera</Link></li>
-                    <li><Link href="/courses">MasterClass</Link></li>
-                    <li><Link href="/courses">Skillshare</Link></li>
-                    <li><Link href="/courses">LinkedIn Learning</Link></li>
-                    <li><Link href="/courses">FutureLearn</Link></li>
+                    <li><Link href="/articles">Artikel</Link></li>
+                    <li><Link href="/about">About Us</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
                   </ul>
                 </div>
               </div>
 
-              <div className="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+              {/* INFORMASI SEKOLAH */}
+              <div
+                className="col-xl-2 col-lg-4 col-md-6 wow fadeInUp"
+                data-wow-delay=".6s"
+              >
                 <div className="single-footer-widget style-left">
                   <div className="widget-head">
-                    <h3>Contact Us</h3>
+                    <h3>Informasi</h3>
                   </div>
-                  <div className="footer-content">
-                    <ul className="contact-info">
-                      <li>55 Main Street, 2nd block Malborne, Australia</li>
-                      <li>
-                        <a href="mailto:info@example.com" className="link">
-                          info@example.com
-                        </a>
-                      </li>
-                      <li>
-                        <a href="tel:+0001238899">+000 (123) 88 99</a>
-                      </li>
-                    </ul>
-                  </div>
+
+                  <ul className="list-area">
+                    <li>Program Unggulan</li>
+                    <li>Kegiatan Siswa</li>
+                    <li>Ekstrakurikuler</li>
+                    <li>Fasilitas Sekolah</li>
+                  </ul>
                 </div>
               </div>
 
-              <div className="col-xl-4 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".8s">
+              {/* CTA WHATSAPP */}
+              <div
+                className="col-xl-4 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp"
+                data-wow-delay=".8s"
+              >
                 <div className="single-footer-widget">
                   <div className="widget-head">
-                    <h3>Newsletter</h3>
+                    <h3>Hubungi Kami</h3>
                   </div>
+
                   <div className="footer-content">
-                    <p>Get the latest news delivered to your inbox</p>
-                    <div className="footer-input">
-                      <div className="icon">
-                        <i className="far fa-envelope"></i>
-                      </div>
-                      <input type="email" id="email2" placeholder="Email Address" />
-                      <button className="newsletter-btn" type="submit">
-                        Subscribe
-                      </button>
-                    </div>
+                    <p>Jika membutuhkan informasi lebih lanjut, hubungi admin kami.</p>
+
+                    <a
+                      href="https://wa.me/6281234567890?text=Halo%20MIT%20Amanah%2C%20saya%20ingin%20bertanya."
+                      target="_blank"
+                      className="newsletter-btn flex items-center justify-center gap-2"
+                      style={{
+                        backgroundColor: "#25D366",
+                        color: "#fff",
+                        padding: "12px 20px",
+                        borderRadius: "8px",
+                        fontWeight: 600,
+                        fontSize: "16px",
+                        marginTop: "10px",
+                      }}
+                    >
+                      <i className="fab fa-whatsapp"></i> Chat via WhatsApp
+                    </a>
                   </div>
                 </div>
               </div>
@@ -118,18 +134,21 @@ const FooterThree = () => {
           </div>
         </div>
 
+        {/* FOOTER BOTTOM */}
         <div className="footer-bottom style-3">
           <div className="container">
             <div className="footer-bottom-wrapper">
               <p>
-                Copyright © <Link href="/">Eduspace</Link>, all rights reserved.
+                © {new Date().getFullYear()} MIT Amanah — All Rights Reserved.
               </p>
 
-              <ul className="footer-menu wow fadeInUp" data-wow-delay=".5s">
-                <li><Link href="/courses">University</Link></li>
-                <li><Link href="/faq">FAQs</Link></li>
-                <li><Link href="/contact">Privacy Policy</Link></li>
-                <li><Link href="/event">Events</Link></li>
+              <ul
+                className="footer-menu wow fadeInUp"
+                data-wow-delay=".5s"
+              >
+                <li><Link href="/articles">Artikel</Link></li>
+                <li><Link href="/about">Tentang Kami</Link></li>
+                <li><Link href="/contact">Kontak</Link></li>
               </ul>
 
             </div>
