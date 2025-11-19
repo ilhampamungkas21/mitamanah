@@ -6,7 +6,6 @@ import AboutHomeThree from './AboutHomeThree';
 import MarqueeOne from '@/common/MarqueeOne';
 import CoursesHomeThree from './CoursesHomeThree';
 import ChooseHomeThree from './ChooseHomeThree';
-import EventHomeThree from './EventHomeThree';
 import TestimonialHomeThree from './TestimonialHomeThree';
 import PartnarsHomeThree from './PartnarsHomeThree';
 import BlogHomeThree from './BlogHomeThree';
