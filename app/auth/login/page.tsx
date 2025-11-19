@@ -10,6 +10,7 @@ import { Label } from "@/components/ui/label"
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 import { AlertCircle } from "lucide-react"
+import Image from "next/image"
 
 export default function LoginPage() {
   const [email, setEmail] = useState("")
@@ -60,9 +61,7 @@ export default function LoginPage() {
       <div className="w-full max-w-sm">
         <div className="flex flex-col gap-6">
           <div className="flex justify-center mb-4">
-            <div className="w-16 h-16 bg-primary rounded-lg flex items-center justify-center text-primary-foreground font-bold text-2xl">
-              MA
-            </div>
+            <Image width={100} height={100} src="/assets/img/logo/logo.webp" alt="Logo MIT Amanah"/>
           </div>
           <Card>
             <CardHeader>
