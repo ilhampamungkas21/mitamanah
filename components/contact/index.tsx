@@ -1,11 +1,11 @@
 import BreadcrumbEvent from "@/common/breadcrumb/BreadcrumbEvent";
 import MarqueeOne from "@/common/MarqueeOne";
-import FooterOne from "@/layouts/footers/FooterOne";
 import React from "react";
 import ContactArea from "./ContactArea";
 import MapArea from "./MapArea";
 import ContactForm from "./ContactForm";
 import HeaderThree from "@/layouts/headers/HeaderThree";
+import FooterThree from "@/layouts/footers/FooterThree";
 
 const Contact = () => {
   return (
@@ -16,7 +16,7 @@ const Contact = () => {
       <MapArea />
       <ContactForm />
       <MarqueeOne style_2={true} />
-      <FooterOne />
+      <FooterThree />
     </>
   );
 };

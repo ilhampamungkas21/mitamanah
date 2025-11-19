@@ -1,7 +1,5 @@
 import React from "react";
 import BreadcrumbEvent from "@/common/breadcrumb/BreadcrumbEvent";
-import FooterOne from "@/layouts/footers/FooterOne";
-import MarqueeOne from "@/common/MarqueeOne";
 import NewsletterHomeOne from "../homes/home/NewsletterHomeOne";
 import TestimonialHomeOne from "../homes/home/TestimonialHomeOne";
 import BrandsHomeOne from "../homes/home/BrandsHomeOne";
@@ -11,6 +9,7 @@ import TeamHomeFive from "../homes/home-5/TeamHomeFive";
 import AboutCounter from "./AboutCounter";
 import HeaderThree from "@/layouts/headers/HeaderThree";
 import SejarahArea from "./SejarahArea";
+import FooterThree from "@/layouts/footers/FooterThree";
 
 const About = () => {
   return (
@@ -25,8 +24,7 @@ const About = () => {
       <TestimonialHomeOne />
       <BrandsHomeOne />
       <NewsletterHomeOne />
-    {/* <MarqueeOne style_2={true} /> */}
-      <FooterOne />
+      <FooterThree />
     </>
   );
 };
