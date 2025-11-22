@@ -529,7 +529,7 @@
                 
                 .circle-bar .rotate {
                     clip: rect(0 50px 100px 0);
-                    background-color: $theme-blue-2 !important;
+                    background-color: $theme-green-2 !important;
                 }
                 
                 .circle-bar .left {
@@ -543,7 +543,7 @@
                     -webkit-transform: rotate(180deg);
                     transform: rotate(180deg);
                     opacity: 0;
-                    background-color: $theme-blue-2 !important;
+                    background-color: $theme-green-2 !important;
                 }
             }
         }
@@ -561,7 +561,7 @@
 
                 i {
                     font-size: 26px;
-                    color: $theme-blue-2;
+                    color: $theme-green-2;
                 }
             }
         }
@@ -579,11 +579,11 @@
             .about-button {
                 .theme-btn {
                     background-color: transparent;
-                    border: 1px solid $theme-blue-2;
-                    color: $theme-blue-2;
+                    border: 1px solid $theme-green-2;
+                    color: $theme-green-2;
 
                     &::before,&::after {
-                        background-color: $theme-blue-2;
+                        background-color: $theme-green-2;
                     }
 
                     &:hover {

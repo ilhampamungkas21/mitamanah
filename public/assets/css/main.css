@@ -810,7 +810,7 @@ p {
   height: 6px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../../assets/img/bar/blue-bar.png);
+  background-image: url(../../assets/img/bar/black-bar.png);
   -webkit-animation: width 1.5s linear !important;
           animation: width 1.5s linear !important;
   -webkit-animation-fill-mode: both;

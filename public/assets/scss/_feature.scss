@@ -24,7 +24,7 @@
         line-height: 105px;
         text-align: center;
         font-size: 45px;
-        color: $theme-blue;
+        color: $theme-green;
         border-radius: 7px;
         border: 1px solid $border-color;
 		@include transition;
@@ -200,7 +200,7 @@
 	}
 
 	&.theme-blue-bg-2 {
-		background-color: $theme-blue-2;
+		background-color: $theme-green-2;
 		position: static;
 	}
 
@@ -452,7 +452,7 @@
 				border-radius: 50%;
 				font-size: 60px;
 				color: $white;
-				background-color: $theme-blue;
+				background-color: $theme-green;
 
 				@include breakpoint (max-md){
 					margin: 0 auto;
@@ -548,7 +548,7 @@
 			border-right: 1px solid $border-color;
 
 			.icon {
-				color: $theme-blue;
+				color: $theme-green;
 			}
 		}
 	}
@@ -885,7 +885,7 @@
 
 			&.bg-2 {
 				box-shadow: 10px 4px 60px rgba(0, 122, 255, 0.50);
-				background-color: $theme-blue;
+				background-color: $theme-green;
 				margin-left: 30px;
 
 				@include breakpoint (max-xl){
@@ -1039,7 +1039,7 @@
         margin-bottom: 30px;
 
         h5 {
-            color: $theme-blue;
+            color: $theme-green;
             margin-bottom: 10px;
         }
     }
@@ -1064,7 +1064,7 @@
             }
 
             i {
-                color: $theme-blue;
+                color: $theme-green;
                 margin-right: 10px;
             }
         }
@@ -1089,7 +1089,7 @@
         .pricing-btn {
 
             .theme-btn {
-                background-color: $theme-blue;
+                background-color: $theme-green;
                 color: $white;
             }
         }
@@ -1272,11 +1272,11 @@
 				right: 0px;
 				top: 50%;
 				transform: translateY(-50%) translateX(50%);
-				background: $theme-blue;
+				background: $theme-green;
 				width: 75px;
 				height: 32px;
 				border-radius: 20px;
-				border: 1px solid $theme-blue;
+				border: 1px solid $theme-green;
 			}
 			&::after {
 				position: absolute;

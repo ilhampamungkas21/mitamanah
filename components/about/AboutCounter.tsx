@@ -7,7 +7,7 @@ const AboutCounter = () => {
     <>
       <div className="counter-section-23 section-padding pt-0">
         <div className="container custom-container">
-          <div className="counter-wrapper-2 bg-cover" style={{background: `url(/assets/img/counter-bg-3.jpg)`}}>
+          <div className="counter-wrapper-2 bg-cover bg-[#003220]">
             
             {/* Jumlah Siswa */}
             <div className="counter-items">

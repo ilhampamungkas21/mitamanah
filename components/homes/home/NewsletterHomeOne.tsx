@@ -5,7 +5,7 @@ import React from "react";
 const NewsletterHomeOne = () => {
   return (
     <>
-      <section className="cta-newsletter-section fix blue-bg">
+      <section className="cta-newsletter-section fix bg-[#003220]">
         {/* Dekorasi */}
         <div
           className="girl-shape animation__arryLeftRight wow img-custom-anim-left"
@@ -58,7 +58,7 @@ const NewsletterHomeOne = () => {
               <a
                 href="https://wa.me/6285601715496?text=Halo%20saya%20ingin%20bertanya%20lebih%20lanjut"
                 target="_blank"
-                className="theme-btn yellow-btn text-center"
+                className="px-4 py-2 text-center bg-amber-500 hover:bg-amber-600 rounded-lg font-bold text-white"
               >
                 Chat via WhatsApp
               </a>
