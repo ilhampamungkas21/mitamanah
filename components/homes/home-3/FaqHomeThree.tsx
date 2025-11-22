@@ -108,8 +108,8 @@ const FaqHomeThree = () => {
                     <Image
                       src="/assets/img/faq.webp"
                       alt="img"
-                      width={150}
-                      height={150}
+                      width={400}
+                      height={400}
                     />
                   </div> */}
                 </div>

@@ -20,24 +20,9 @@ export interface Gallery {
   id: string
   title: string
   description: string | null
+  image_url: string | null
   created_at: string
   updated_at: string
-}
-
-export interface GalleryImage {
-  id: string
-  gallery_id: string
-  image_url: string
-  alt_text: string | null
-  order_index: number
-  created_at: string
-}
-
-export interface AdminUser {
-  id: string
-  email: string
-  full_name: string | null
-  created_at: string
 }
 
 export interface HeroSettings {
@@ -47,5 +32,6 @@ export interface HeroSettings {
   subtitle: string
   cta_primary_text: string
   cta_secondary_text: string
+  image_url: string | null
   updated_at: string
 }

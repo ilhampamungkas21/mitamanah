@@ -5,6 +5,7 @@ import type { Gallery } from "@/lib/types"
 import { Button } from "@/components/ui/button"
 import { Trash2, Edit2, Plus } from "lucide-react"
 import { GalleryForm } from "./gallery-form"
+import Image from "next/image"
 
 export function GalleriesManager({ galleries: initialGalleries }: { galleries: Gallery[] }) {
   const [galleries, setGalleries] = useState<Gallery[]>(initialGalleries)
@@ -50,15 +51,19 @@ export function GalleriesManager({ galleries: initialGalleries }: { galleries: G
             <table className="w-full">
               <thead className="border-b border-border bg-secondary/50">
                 <tr>
-                  <th className="px-6 py-3 text-left font-semibold">Title</th>
-                  <th className="px-6 py-3 text-left font-semibold">Description</th>
-                  <th className="px-6 py-3 text-left font-semibold">Created</th>
+                  <th className="px-6 py-3 text-left font-semibold">Gambar</th>
+                  <th className="px-6 py-3 text-left font-semibold">Judul</th>
+                  <th className="px-6 py-3 text-left font-semibold">Deskripsi</th>
+                  <th className="px-6 py-3 text-left font-semibold">Dibuat</th>
                   <th className="px-6 py-3 text-right font-semibold">Actions</th>
                 </tr>
               </thead>
               <tbody>
                 {galleries.map((gallery) => (
                   <tr key={gallery.id} className="border-b border-border hover:bg-secondary/30 transition-colors">
+                    <td>
+                        <Image width={100} height={100} alt={gallery.title} src={gallery.image_url??''} className="w-20 h-20 object-cover m-2" />
+                      </td>
                     <td className="px-6 py-4 font-medium">{gallery.title}</td>
                     <td className="px-6 py-4 text-muted-foreground text-sm line-clamp-1">
                       {gallery.description || "-"}

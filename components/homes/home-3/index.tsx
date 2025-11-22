@@ -24,14 +24,14 @@ const HomeThree = () => {
       <MarqueeOne style_2={false}/>
       <CoursesHomeThree />
       <ChooseHomeThree />
-      <BlogHomeThree />
+      <GalleriesSection/>
       <TestimonialHomeThree />
      
       {/* <PartnarsHomeThree style_2={false}/>  */}
       <FaqHomeThree />
       <TestimonialHomeOne />
-
-      <GalleriesSection/>
+      
+      <BlogHomeThree />
       {/* <InstagramHomeThree /> */}
       <CtaHomeThree />
       <FooterThree />

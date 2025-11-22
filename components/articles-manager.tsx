@@ -5,6 +5,7 @@ import type { Article } from "@/lib/types";
 import { Button } from "@/components/ui/button";
 import { Trash2, Edit2 } from "lucide-react";
 import Link from "next/link"
+import Image from "next/image"
 
 export function ArticlesManager({
   articles: initialArticles,
@@ -67,9 +68,11 @@ export function ArticlesManager({
             <table className="w-full">
               <thead className="border-b border-border bg-secondary/50">
                 <tr>
+                  <th className="px-6 py-3 text-left font-semibold">Gambar</th>
                   <th className="px-6 py-3 text-left font-semibold">Title</th>
-                  <th className="px-6 py-3 text-left font-semibold">Slug</th>
-                  <th className="px-6 py-3 text-left font-semibold">Created</th>
+                  <th className="px-6 py-3 text-left font-semibold">Deskripsi</th>
+                  <th className="px-6 py-3 text-left font-semibold">Dibuat</th>
+                  <th className="px-6 py-3 text-left font-semibold">Diupdate</th>
                   <th className="px-6 py-3 text-right font-semibold">
                     Actions
                   </th>
@@ -81,12 +84,18 @@ export function ArticlesManager({
                     key={article.id}
                     className="border-b border-border hover:bg-secondary/30 transition-colors"
                   >
+                      <td>
+                        <Image width={100} height={100} alt={article.title} src={article.image_url??''} className="w-20 h-20 object-cover m-2" />
+                      </td>
                     <td className="px-6 py-4 font-medium">{article.title}</td>
                     <td className="px-6 py-4 text-muted-foreground text-sm">
-                      {article.slug}
+                      {article.excerpt}
                     </td>
                     <td className="px-6 py-4 text-muted-foreground text-sm">
                       {new Date(article.created_at).toLocaleDateString("id-ID")}
+                    </td>
+                    <td className="px-6 py-4 text-muted-foreground text-sm">
+                      {new Date(article.updated_at).toLocaleDateString("id-ID")}
                     </td>
                     <td className="px-6 py-4 text-right flex justify-end gap-2">
                       <Link href={`/dashboard/articles/${article?.id}`}>

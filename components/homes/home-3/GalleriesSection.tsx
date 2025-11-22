@@ -1,17 +1,38 @@
+import { createClient } from "@/lib/supabase/server";
 import Image from "next/image";
 
-const GalleriesSection = () => {
+export default async function GalleriesSection() {
+  const supabase = await createClient();
+
+  // Ambil artikel dari Supabase
+  const { data: galleries, error } = await supabase
+    .from("galleries")
+    .select("*")
+    .order("created_at", { ascending: false })
+    .limit(5);
+
+  if (error) {
+    console.error("Error fetching galleries:", error.message);
+  }
+
+  // Jika belum ada data
+  if (!galleries || galleries.length === 0) {
+    return (
+      <section className="galleries-section fix section-padding pt-0">
+        
+      </section>
+    );
+  }
+
   return (
     <section className="flex flex-col px-4 py-12 sm:py-16">
-      <div className="section-title">
-                  <h6 className="text-green wow fadeInUp">
-                    Kegi
-                  </h6>
+      <div className="section-title flex flex-col w-full items-center">
+        <h6 className="text-green wow fadeInUp">Kegiatan Terbaru</h6>
 
-                  <h2 className="text-green wow fadeInUp" data-wow-delay=".3s">
-                    Membangun Generasi Cerdas, Berakhlak, dan Qur’ani
-                  </h2>
-                </div>
+        <h2 className="text-green wow fadeInUp" data-wow-delay=".3s">
+          Potret Kegiatan MIT Amanah
+        </h2>
+      </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
         {/* BIG BOX */}
@@ -19,13 +40,13 @@ const GalleriesSection = () => {
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
-            alt="Vibrant graphic design poster with abstract shapes and bold typography"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrVOujVfcc7RfXO892WLhJuGtwibd9wMlNLjSZdFQ8P7xc3KEX1BFbEdMTrtssIrfuENpliwNj0_sqpjVVaZnB_1xx7TbvQ9hjhEpNZwd3xdP6scEo9IKa2pvMb9VYkiylZj_-puelJ82F203X3qV_1CRdEkzqsZ_GMatJFlBJA8qv2yb10y7jTiyVHBHdCFL7FheZXXKBwaY-SYgFCrmEGPcVk4RihbRl2trBWOflDukK_vACW9e43shbjDkVMWjxt7EVtNY0iFQ"
+            alt={galleries[0].description}
+            src={galleries[0].image_url}
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-6 text-white">
-            <h3 className="text-lg font-bold">Project Chroma</h3>
-            <p className="text-sm">Graphic Design</p>
+            <h3 className="text-white text-lg font-bold">{galleries[0].title}</h3>
+            <p className="text-sm font-light">{galleries[0].description}</p>
           </div>
         </div>
 
@@ -35,12 +56,12 @@ const GalleriesSection = () => {
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             alt="A sleek, modern user interface for a mobile application"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBs5SF8BAEkX2ilUNiJlTxaDD8hyztn__A__HtTznqZCE3n1BCT2U-FaF5BMMBTFeVH0nf6nrrmFKq2K67tbw3k8yJ-5Jpn5VW9ktayjVWFAC8KWJwb6ojIzrYZi_Q_mYWwfJZDBcpQHWDc-p5NMOnpSjXGT76CTHXxmPpFDwMy1UtBZXLC2U4j-jTp58Eal4KJydZqGcD4PiNnSMQPJh9YCaTrbA43Pb2WTJbnbWPZQ57JJyZVP_aR7qWtV1OYEMdm0MvLyCOIPAA"
+            src={galleries[1].image_url}
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
-            <h3 className="text-base font-bold">Connect App</h3>
-            <p className="text-xs">UX/UI Design</p>
+            <h3 className="text-white text-lg font-bold">{galleries[1].title}</h3>
+            <p className="text-sm font-light">{galleries[1].description}</p>
           </div>
         </div>
 
@@ -50,12 +71,12 @@ const GalleriesSection = () => {
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             alt="An ergonomic and stylishly designed chair"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIIHVwS0-vMN4M01KCZX6W1Dcnb_uSWDQhDPNhRalMOj4xzO5cDaSjNi7IH9wL2lhRdL-peXbu4q-cKneoL8fjpwLLv3PdPiwSY4uKygDDO9OIaQrYlJl8k4blhgLoQnsvWlqf7QcSaS2Cd10j3O7ZfAWAWIDFovliHiv9VOj8UEAt-GIU0eR2MXmxzKeOzgfni1btTBTkD5BRwHvEGcjxVucNDpCC8LfWZoMNpjGgQ3IhLjI8Wj9otINRCwXShiOi2gVCONsV4VI"
+            src={galleries[2].image_url}
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
-            <h3 className="text-base font-bold">The Arc Chair</h3>
-            <p className="text-xs">Industrial Design</p>
+            <h3 className="text-white text-lg font-bold">{galleries[2].title}</h3>
+            <p className="text-sm font-light">{galleries[2].description}</p>
           </div>
         </div>
 
@@ -65,17 +86,15 @@ const GalleriesSection = () => {
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             alt="A 3D render of an architectural concept"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeK_3Zt_r1r1NRvKl_kJ-Hzi6YBgfKtr1SwLtsKAIT6o2OaZaD7qCYh42D34s9O2OYadpQmATJKLkwBYGLY7D5lwCqe_2ekEy9bbZxb5TEgOxT-hSe1TFFy-AXPGJOtNOP6g39swJSCuAhcqnp0gpjdrHqaFynEFZiUbbCmQ40sdkQhxPllRtvSu2P-orbr29Kvjkg_mcymoCF-bSfmXLKaW9nxIkou7zEZyN6EisdEF_uql8o-PpAp6UQ0Ir1zcl571wTIOfxe8o"
+            src={galleries[3].image_url}  
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
-            <h3 className="text-base font-bold">Urban Oasis</h3>
-            <p className="text-xs">Architectural Design</p>
+            <h3 className="text-white text-lg font-bold">{galleries[3].title}</h3>
+            <p className="text-sm font-light">{galleries[3].description}</p>
           </div>
         </div>
       </div>
     </section>
   );
-};
-
-export default GalleriesSection;
+}

@@ -49,9 +49,7 @@ export default async function BlogHomeThree() {
                 <Image
                   width={200}
                   height={15}
-                  src={
-                    mainArticle.image_url || "/assets/img/news/default.jpg"
-                  }
+                  src={mainArticle.image_url || "/assets/img/news/default.jpg"}
                   alt={mainArticle.title}
                 />
                 <Link href={`/blog/${mainArticle.slug}`} className="post-box">
@@ -67,7 +65,7 @@ export default async function BlogHomeThree() {
                   <li>
                     <i className="fal fa-calendar-alt"></i>
                     {new Date(mainArticle.created_at).toLocaleDateString(
-                      "en-GB",
+                      "id-ID",
                       {
                         day: "2-digit",
                         month: "short",
@@ -99,12 +97,10 @@ export default async function BlogHomeThree() {
                 >
                   <div className="thumb">
                     <Image
-                      width={200}
-                      height={150}
-                      src={
-                        article.image_url || "/assets/img/news/default.jpg"
-                      }
+                      src={article.image_url || "/assets/img/news/default.jpg"}
                       alt={article.title}
+                      fill
+                      className="object-cover"
                     />
                     <Link href={`/blog/${article.slug}`} className="post-box">
                       {article.category || "General"}
@@ -119,7 +115,7 @@ export default async function BlogHomeThree() {
                       <li>
                         <i className="fal fa-calendar-alt"></i>
                         {new Date(article.created_at).toLocaleDateString(
-                          "en-GB",
+                          "id-ID",
                           {
                             day: "2-digit",
                             month: "short",
