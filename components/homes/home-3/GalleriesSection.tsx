@@ -46,12 +46,11 @@ export default async function GalleriesSection() {
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-6 text-white">
             <h3 className="text-white text-lg font-bold">{galleries[0].title}</h3>
-            <p className="text-sm font-light">{galleries[0].description}</p>
           </div>
         </div>
 
         {/* SMALL BOX */}
-        <div className="group relative overflow-hidden rounded-xl min-h-[200px]">
+        <div className="group relative overflow-hidden rounded-xl min-h-[300px]">
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -61,12 +60,11 @@ export default async function GalleriesSection() {
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
             <h3 className="text-white text-lg font-bold">{galleries[1].title}</h3>
-            <p className="text-sm font-light">{galleries[1].description}</p>
           </div>
         </div>
 
         {/* SMALL BOX */}
-        <div className="group relative overflow-hidden rounded-xl min-h-[200px]">
+        <div className="group relative overflow-hidden rounded-xl min-h-[300px]">
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -76,12 +74,11 @@ export default async function GalleriesSection() {
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
             <h3 className="text-white text-lg font-bold">{galleries[2].title}</h3>
-            <p className="text-sm font-light">{galleries[2].description}</p>
           </div>
         </div>
 
         {/* WIDE BOX */}
-        <div className="group col-span-2 relative overflow-hidden rounded-xl min-h-[250px] md:min-h-[300px]">
+        <div className="group col-span-2 relative overflow-hidden rounded-xl min-h-[250px] md:min-h-[400px]">
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -91,7 +88,6 @@ export default async function GalleriesSection() {
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
             <h3 className="text-white text-lg font-bold">{galleries[3].title}</h3>
-            <p className="text-sm font-light">{galleries[3].description}</p>
           </div>
         </div>
       </div>

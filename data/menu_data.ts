@@ -30,7 +30,7 @@ const menu_data: DataType[] = [
     id: 1,
     title: "Home",
     link: "/",
-    icon: "fas fa-home-lg",
+    icon: "",
     img_dropdown: false,
     // sub_menus: [
     // 	{ link: "/", demo_img: demo_img_1, title: "Education", title2: "Education" },
@@ -46,22 +46,22 @@ const menu_data: DataType[] = [
   {
     id: 2,
     title: "Tentang Kami",
-    link: "#about",
-    icon: "fas fa-school",
+    link: "/about",
+    icon: "",
     has_dropdown: false,
   },
   {
     id: 3,
     title: "Kegiatan",
-    link: "#event",
-    icon: "fas fa-gift",
+    link: "/galleries",
+    icon: "",
     has_dropdown: false,
   },
   {
     id: 4,
     title: "Articles",
     link: "/articles",
-    icon: "fas fa-newspaper",
+    icon: "",
     has_dropdown: false,
   },
   //   {
@@ -97,7 +97,7 @@ const menu_data: DataType[] = [
     id: 6,
     title: "Contact",
     link: "/contact",
-    icon: "fas fa-phone-rotary",
+    icon: "",
     has_dropdown: false,
   },
 ];
