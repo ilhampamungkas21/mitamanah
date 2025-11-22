@@ -13,6 +13,8 @@ import FaqHomeThree from './FaqHomeThree';
 import InstagramHomeThree from './InstagramHomeThree';
 import CtaHomeThree from './CtaHomeThree';
 import FooterThree from '@/layouts/footers/FooterThree';
+import TestimonialHomeOne from '../home/TestimonialHomeOne';
+
 
 const HomeThree = () => {
   return (
@@ -25,8 +27,12 @@ const HomeThree = () => {
       <ChooseHomeThree />
       <BlogHomeThree />
       <TestimonialHomeThree />
-      <PartnarsHomeThree style_2={false}/>
+     
+      <PartnarsHomeThree style_2={false}/> 
       <FaqHomeThree />
+      <TestimonialHomeOne />
+
+  
       <InstagramHomeThree />
       <CtaHomeThree />
       <FooterThree />

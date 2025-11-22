@@ -9,7 +9,7 @@ const TestimonialHomeThree = () => {
     <>
       <section 
         className="testimonial-section-3 fix pt-0 section-padding bg-cover" 
-        style={{ background: `url(https://eduspace-nextjs.vercel.app/assets/img/testimonial/bg.jpg)`, backgroundAttachment: "fixed" }}
+        style={{background: `url(/assets/img/sholat.webp)`, backgroundAttachment: "fixed" }}
       >
         {/* Counter Section */}
         <div className="counter-section-2 section-padding pt-0">

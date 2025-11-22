@@ -6,30 +6,30 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    name: "Ibu Siti Rahma",
-    role: "Wali Murid",
-    text: "Alhamdulillah, anak saya mengalami banyak perubahan positif. Ia jadi lebih disiplin, sopan, dan semangat belajar.",
+    name: "Aisyah",
+    role: "Siswi Kelas 6",
+    text: "Belajar di MIT Amanah membuat saya lebih percaya diri, terutama saat membaca Al-Qur’an. Guru-gurunya baik dan penyabar.",
     img: "/assets/img/testimonial/01.png",
     bg: "",
   },
   {
-    name: "Bapak Andi Prasetyo",
-    role: "Wali Murid",
-    text: "Lingkungan sekolah sangat kondusif dan para guru membimbing dengan penuh kesabaran. Kami merasa sangat terbantu.",
+    name: "Rafa",
+    role: "Siswa Kelas 6",
+    text: "Saya suka suasana belajar di kelas. Teman-temannya saling mendukung dan kegiatan sekolahnya seru.",
     img: "/assets/img/testimonial/02.png",
     bg: "bg-2",
   },
   {
-    name: "Ibu Nur Aisyah",
-    role: "Wali Murid",
-    text: "Anak kami menjadi lebih percaya diri dan rajin mengaji. Program-programnya sangat bermanfaat.",
+    name: "Nabila",
+    role: "Siswi Kelas 6",
+    text: "Di MIT Amanah saya jadi lebih disiplin dan bertanggung jawab. Banyak kegiatan yang membuat saya berkembang.",
     img: "/assets/img/testimonial/01.png",
     bg: "",
   },
   {
-    name: "Bapak Rudi Handoko",
-    role: "Wali Murid",
-    text: "Kami melihat perkembangan akhlak dan akademik anak jauh lebih baik. Terima kasih atas bimbingan guru-guru.",
+    name: "Fajar",
+    role: "Siswa Kelas 6",
+    text: "Saya merasa kemampuan akademik dan ibadah saya meningkat. Saya bangga menjadi bagian dari MIT Amanah.",
     img: "/assets/img/testimonial/02.png",
     bg: "bg-2",
   },
@@ -40,9 +40,9 @@ const TestimonialHomeOne = () => {
     <section className="testimonial-section fix section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <h6 className="wow fadeInUp">Testimoni Wali Murid</h6>
+          <h6 className="wow fadeInUp">Testimoni Siswa & Siswi</h6>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Apa Kata Wali Murid Tentang<br />Perkembangan Anak Mereka
+            Cerita Dari Siswa dan Siswi<br />Kelas 6 MIT Amanah
           </h2>
         </div>
 

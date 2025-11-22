@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const FaqHomeThree = () => {
   return (
@@ -9,84 +9,134 @@ const FaqHomeThree = () => {
           <div className="faq-wrapper style-2">
             <div className="row g-4 align-items-center">
 
+              {/* LEFT — FAQ CONTENT */}
               <div className="col-lg-6">
                 <div className="faq-content">
                   <div className="section-title color-red">
-                    <h6 className="wow fadeInUp">Sering di Tanyakan</h6>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Frequently Asked Questions
+                    <h6 className="wow fadeInUp">Sering Ditanyakan</h6>
+                    <h2
+                      className="wow fadeInUp"
+                      data-wow-delay=".3s"
+                      style={{ color: "#333" }}
+                    >
+                      FAQ MIT Amanah
                     </h2>
                   </div>
 
                   <div className="faq-items mt-4 mt-md-0 mb-0">
                     <div className="accordion" id="accordionExample">
 
+                      {/* ITEM 1 */}
                       <div className="accordion-item wow fadeInUp" data-wow-delay=".2s">
-                        <h2 className="accordion-header" id="headingOne">
-                          <button className="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What programs does the university ?
+                        <h2 className="accordion-header" id="faq1">
+                          <button
+                            className="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse1"
+                            aria-expanded="true"
+                            aria-controls="collapse1"
+                          >
+                            Apa itu MIT Amanah?
                           </button>
                         </h2>
-                        <div id="collapseOne" className="accordion-collapse collapse show"
-                          aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div
+                          id="collapse1"
+                          className="accordion-collapse collapse show"
+                          aria-labelledby="faq1"
+                          data-bs-parent="#accordionExample"
+                        >
                           <div className="accordion-body">
-                            <p>
-                              We offer a wide range of undergraduate, graduate, and professional programs...
-                            </p>
+                            MIT Amanah adalah sekolah berbasis Islam yang
+                            berfokus pada pembentukan karakter, akhlak, serta
+                            kemampuan akademik melalui kurikulum terpadu dan
+                            pembiasaan ibadah harian.
                           </div>
                         </div>
                       </div>
 
+                      {/* ITEM 2 */}
                       <div className="accordion-item wow fadeInUp" data-wow-delay=".4s">
-                        <h2 className="accordion-header" id="headingTwo">
-                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            How do I apply for admission?
+                        <h2 className="accordion-header" id="faq2">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse2"
+                            aria-expanded="false"
+                            aria-controls="collapse2"
+                          >
+                            Apa saja program unggulan MIT Amanah?
                           </button>
                         </h2>
-                        <div id="collapseTwo" className="accordion-collapse collapse"
-                          aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div
+                          id="collapse2"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="faq2"
+                          data-bs-parent="#accordionExample"
+                        >
                           <div className="accordion-body">
-                            <p>
-                              We offer a wide range of undergraduate, graduate, and professional programs...
-                            </p>
+                            Program unggulan mencakup Tahfidz, pembiasaan adab,
+                            pembelajaran berbasis proyek, praktik ibadah,
+                            pembelajaran outdoor, serta kelas kreatif yang
+                            mendorong kecerdasan dan karakter peserta didik.
                           </div>
                         </div>
                       </div>
 
+                      {/* ITEM 3 */}
                       <div className="accordion-item wow fadeInUp" data-wow-delay=".6s">
-                        <h2 className="accordion-header" id="headingthree">
-                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsethree" aria-expanded="false"
-                            aria-controls="collapsethree">
-                            What is the student-to-faculty ratio?
+                        <h2 className="accordion-header" id="faq3">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse3"
+                            aria-expanded="false"
+                            aria-controls="collapse3"
+                          >
+                            Bagaimana sistem pembelajaran di MIT Amanah?
                           </button>
                         </h2>
-                        <div id="collapsethree" className="accordion-collapse collapse"
-                          aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                        <div
+                          id="collapse3"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="faq3"
+                          data-bs-parent="#accordionExample"
+                        >
                           <div className="accordion-body">
-                            <p>
-                              We offer a wide range of undergraduate, graduate, and professional programs...
-                            </p>
+                            Sistem pembelajaran menggunakan metode aktif,
+                            menyenangkan, dan aplikatif. Anak dibimbing melalui
+                            pengalaman nyata, pembiasaan ibadah, dan proyek
+                            pembelajaran yang mengasah karakter serta kreativitas.
                           </div>
                         </div>
                       </div>
 
+                      {/* ITEM 4 */}
                       <div className="accordion-item mb-0 wow fadeInUp" data-wow-delay=".8s">
-                        <h2 className="accordion-header" id="headingfour">
-                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsefour" aria-expanded="false"
-                            aria-controls="collapsefour">
-                            What is the student-to-faculty ratio?
+                        <h2 className="accordion-header" id="faq4">
+                          <button
+                            className="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapse4"
+                            aria-expanded="false"
+                            aria-controls="collapse4"
+                          >
+                            Apakah MIT Amanah memiliki kegiatan ekstrakurikuler?
                           </button>
                         </h2>
-                        <div id="collapsefour" className="accordion-collapse collapse"
-                          aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                        <div
+                          id="collapse4"
+                          className="accordion-collapse collapse"
+                          aria-labelledby="faq4"
+                          data-bs-parent="#accordionExample"
+                        >
                           <div className="accordion-body">
-                            <p>
-                              We offer a wide range of undergraduate, graduate, and professional programs...
-                            </p>
+                            Ya, tersedia berbagai kegiatan seperti Pramuka, seni,
+                            olahraga, memanah, serta kelas tahfidz pendalaman
+                            untuk mengembangkan bakat dan minat siswa.
                           </div>
                         </div>
                       </div>
@@ -97,7 +147,7 @@ const FaqHomeThree = () => {
                 </div>
               </div>
 
-              {/* RIGHT SIDE IMAGES */}
+              {/* RIGHT SIDE — IMAGES */}
               <div className="col-lg-6">
                 <div className="faq-image-2">
 
