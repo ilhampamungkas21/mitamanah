@@ -12,27 +12,28 @@ const faqData = [
     id: "1",
     question: "Apa itu MIT Amanah?",
     answer:
-      "MIT Amanah adalah sekolah berbasis Islam yang berfokus pada pembentukan karakter, akhlak...",
+      "MIT Amanah adalah lembaga pendidikan Islam tingkat sekolah dasar yang berfokus pada pembentukan karakter, akhlak, dan kecerdasan agama sejak usia dini. MIT Amanah menerapkan kurikulum terpadu antara kurikulum nasional dan kurikulum khas sekolah Islam berbasis pembiasaan ibadah, akhlakul karimah, serta penguatan kemampuan literasi, numerasi, dan ilmu keislaman. Lingkungan belajar dibangun agar siswa merasa aman, nyaman, dan termotivasi untuk berkembang secara optimal.",
   },
   {
     id: "2",
     question: "Apa saja program unggulan MIT Amanah?",
     answer:
-      "Program unggulan mencakup Tahfidz, pembiasaan adab, pembelajaran berbasis proyek...",
+      "MIT Amanah memiliki berbagai program unggulan yang dirancang untuk membentuk siswa yang berakhlak, cerdas, dan mandiri. Beberapa program tersebut antara lain: \n\n• **Program Tahfidz & Tahsin**: Pembiasaan membaca Al-Qur’an setiap hari, target hafalan bertahap, serta bimbingan langsung dari guru bersanad. \n• **Pembiasaan Adab Harian**: Meliputi salam, doa harian, kedisiplinan, kerapian, serta adab kepada guru dan teman. \n• **Kelas Tematik Islami**: Menggabungkan pelajaran umum dengan nilai-nilai Islam agar siswa memahami konsep dengan lebih aplikatif. \n• **Program Sholat Dhuha & Dzuhur Berjamaah**: Membentuk kedisiplinan ibadah sejak kecil. \n• **Project Based Learning**: Siswa belajar melalui praktik langsung, eksperimen, dan proyek sederhana yang melatih kreativitas dan pemecahan masalah.",
   },
   {
     id: "3",
     question: "Bagaimana sistem pembelajaran di MIT Amanah?",
     answer:
-      "Sistem pembelajaran menggunakan metode aktif, menyenangkan, dan aplikatif...",
+      "Sistem pembelajaran di MIT Amanah menggunakan pendekatan aktif, menyenangkan, dan aplikatif (Active Learning). Guru berperan sebagai fasilitator yang membimbing siswa untuk memahami konsep melalui diskusi, percobaan, permainan edukatif, dan praktik langsung. Setiap pembelajaran juga disisipkan nilai-nilai Islam agar siswa tidak hanya cerdas secara akademik, tetapi juga memiliki akhlak dan adab yang baik. Selain itu, pembelajaran disesuaikan dengan gaya belajar tiap anak melalui metode visual, auditori, dan kinestetik.",
   },
   {
     id: "4",
     question: "Apakah MIT Amanah memiliki kegiatan ekstrakurikuler?",
     answer:
-      "Ya, tersedia kegiatan seperti Pramuka, seni, olahraga, memanah, serta kelas tahfidz...",
+      "Ya, MIT Amanah menyediakan berbagai kegiatan ekstrakurikuler yang bertujuan mengembangkan potensi siswa sesuai minat dan bakat. Beberapa kegiatan tersebut antara lain: \n\n• **Pramuka**: Melatih kedisiplinan, kemandirian, dan kerja sama. \n• **Seni dan Kreativitas**: Gambar, mewarnai, tari, serta keterampilan tangan. \n• **Olahraga**: Futsal, senam anak, dan kegiatan fisik sehat lainnya. \n• **Memanah**: Melatih fokus, kesabaran, dan ketangkasan sesuai sunnah. \n• **Tahfidz Plus**: Untuk siswa yang ingin memperdalam hafalan Al-Qur’an. \n\nKegiatan ekstrakurikuler ini mendukung perkembangan fisik, sosial, emosional, dan spiritual anak.",
   },
 ];
+
 
 const FaqHomeThree = () => {
   return (
@@ -87,7 +88,7 @@ const FaqHomeThree = () => {
               <div className="col-lg-6">
                 <div className="faq-image-2">
                   <Image
-                    src="https://eduspace-nextjs.vercel.app/assets/img/faq/01.png"
+                    src="/assets/img/Faq2.webp"
                     alt="img"
                     className="wow img-custom-anim-left"
                     width={500}
@@ -96,21 +97,21 @@ const FaqHomeThree = () => {
 
                   <div className="bg-shape">
                     <Image
-                      src="https://eduspace-nextjs.vercel.app/assets/img/faq/bg-shape.png"
+                      src="/assets/img/faq.webp"
                       alt="img"
                       width={300}
                       height={300}
                     />
                   </div>
 
-                  <div className="quote-shape float-bob-x">
+                  {/* <div className="quote-shape float-bob-x">
                     <Image
-                      src="https://eduspace-nextjs.vercel.app/assets/img/faq/quote-shape.png"
+                      src="/assets/img/faq.webp"
                       alt="img"
-                      width={120}
-                      height={120}
+                      width={150}
+                      height={150}
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -13,10 +13,10 @@ const CtaHomeThree = () => {
             <div className="col-xl-2 col-lg-6">
               <div className="coureses-image float-bob-x">
                 <Image
-                  src="https://eduspace-nextjs.vercel.app/assets/img/courses/girl.png"
+                  src="/assets/img/jempol1.webp"
                   alt="murid"
-                  width={247}
-                  height={384}
+                  width={800}
+                  height={600}
                   className="wow img-custom-anim-left"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.2s"
@@ -25,8 +25,8 @@ const CtaHomeThree = () => {
                   <Image
                     src="/assets/img/about/bg-shape.png"
                     alt="bg"
-                    width={500}
-                    height={500}
+                    width={600}
+                    height={600}
                   />
                 </div>
               </div>
@@ -69,10 +69,10 @@ const CtaHomeThree = () => {
             <div className="col-xl-3 col-lg-6">
               <div className="coureses-image style-2 float-bob-y">
                 <Image
-                  src="https://eduspace-nextjs.vercel.app/assets/img/courses/boy.png"
+                  src="/assets/img/jempol2.webp"
                   alt="murid"
-                  width={307}
-                  height={382}
+                  width={800}
+                  height={600}
                   className="wow img-custom-anim-right"
                   data-wow-duration="1.5s"
                   data-wow-delay="0.4s"
