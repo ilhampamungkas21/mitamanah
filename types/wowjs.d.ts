@@ -1,4 +1,6 @@
-declare module 'wowjs' {
-  const WOW: any;
-  export default WOW;
+declare module "wowjs" {
+  export class WOW {
+    constructor(options?: Record<string, unknown>);
+    init(): void;
+  }
 }

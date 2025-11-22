@@ -95,14 +95,14 @@ export default async function BlogHomeThree() {
                   className="news-right-box wow fadeInUp"
                   data-wow-delay={`${0.3 + index * 0.2}s`}
                 >
-                  <div className="thumb">
+                  <div className="thumb w-full relative aspect-video overflow-hidden rounded-lg">
                     <Image
                       src={article.image_url || "/assets/img/news/default.jpg"}
                       alt={article.title}
                       fill
-                      className="object-cover"
+                      className="object-scale-down"
                     />
-                    <Link href={`/blog/${article.slug}`} className="post-box">
+                    <Link href={`/articles/${article.slug}`} className="bg-green-700 text-white">
                       {article.category || "General"}
                     </Link>
                   </div>

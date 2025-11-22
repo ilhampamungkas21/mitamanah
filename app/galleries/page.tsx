@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Wrapper from "@/layouts/Wrapper"
-import News from "@/components/news"
 import "../../styles/index.scss";
+import Gallery from "@/components/gallery";
 
 export const metadata: Metadata = {
   title: "Kegiatan - MIT Amanah",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default async function ArticlesPage() {
   return (
     <Wrapper>
-      <News />
+      <Gallery />
     </Wrapper>
   )
 }

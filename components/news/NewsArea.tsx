@@ -1,7 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import React from "react";
-import SearchWidget from "./NewsSearch";
+// import SearchWidget from "./NewsSearch";
 import Image from "next/image";
 
 export default async function NewsArea() {
@@ -33,40 +33,45 @@ export default async function NewsArea() {
                   {/* ======================= */}
                   {/*    DYNAMIC ARTICLE LIST  */}
                   {/* ======================= */}
-                  {articles?.map((item) => (
-                    <div key={item.id} className="single-blog-post">
-                      <Image
-                        src={item.image_url}
-                        width={900}
-                        height={400}
-                        alt={item.title}
-                        className="w-full h-[400px] object-scale-down object-center rounded-lg"
-                      />
-                      <div className="post-content">
-                        <div className="post-meta">
-                          <span>
-                            <i className="fal fa-calendar-alt"></i>
-                            {formatDate(item.created_at)}
-                          </span>
-                        </div>
+                  {articles?.map((item, index) => (
+  <div
+    key={item.id}
+    className={`single-blog-post pb-10 ${
+      index !== articles.length - 1 ? "mb-10 border-b border-gray-200" : ""
+    }`}
+  >
+    <Image
+      src={item.image_url}
+      width={900}
+      height={400}
+      alt={item.title}
+      className="w-full h-[400px] object-scale-down object-center rounded-lg"
+    />
 
-                        <h2 className="title-anim">
-                          <Link href={`/articles/${item.slug}`}>
-                            {item.title}
-                          </Link>
-                        </h2>
+    <div className="post-content mt-4">
+      <div className="post-meta">
+        <span>
+          <i className="fal fa-calendar-alt"></i>
+          {formatDate(item.created_at)}
+        </span>
+      </div>
 
-                        <p>{item.excerpt}</p>
+      <h2 className="title-anim">
+        <Link href={`/articles/${item.slug}`}>{item.title}</Link>
+      </h2>
 
-                        <Link
-                          href={`/articles/${item.slug}`}
-                          className="theme-btn mt-4 line-height text-white"
-                        >
-                          Lihat Detail
-                        </Link>
-                      </div>
-                    </div>
-                  ))}
+      <p>{item.excerpt}</p>
+
+      <Link
+        href={`/articles/${item.slug}`}
+        className="theme-btn mt-4 line-height text-white"
+      >
+        Lihat Detail
+      </Link>
+    </div>
+  </div>
+))}
+
 
                   {/* Pagination (optional – belum dynamic) */}
                   <div className="page-nav-wrap pt-5">
@@ -100,14 +105,14 @@ export default async function NewsArea() {
               <div className="col-12 col-lg-4">
                 <div className="main-sidebar sticky-style">
                   {/* Search */}
-                  <div className="single-sidebar-widget">
+                  {/* <div className="single-sidebar-widget">
                     <div className="wid-title">
                       <h3>Search</h3>
                     </div>
                     <div className="search_widget">
                       <SearchWidget />
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* ======================= */}
                   {/*      LATEST POSTS       */}
@@ -144,7 +149,7 @@ export default async function NewsArea() {
                   </div>
 
                   {/* Other widgets (unchanged) */}
-                  <div className="single-sidebar-widget">
+                  {/* <div className="single-sidebar-widget">
                     <div className="wid-title">
                       <h3>Categories</h3>
                     </div>
@@ -167,7 +172,7 @@ export default async function NewsArea() {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="single-sidebar-widget">
                     <div className="wid-title">
@@ -192,7 +197,7 @@ export default async function NewsArea() {
                     </div>
                   </div>
 
-                  <div className="single-sidebar-widget">
+                  {/* <div className="single-sidebar-widget">
                     <div className="wid-title">
                       <h3>Popular Tags</h3>
                     </div>
@@ -201,7 +206,7 @@ export default async function NewsArea() {
                       <Link href="/news-details">Berita</Link>
                       <Link href="/news-details">Prestasi</Link>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

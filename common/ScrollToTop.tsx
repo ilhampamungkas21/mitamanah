@@ -1,39 +1,23 @@
 "use client";
-import UseSticky from "@/hooks/UseSticky";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-type style_type = {
-	style?: boolean;
-};
-const ScrollToTop = ({ style }: style_type) => {
-	const { sticky }: { sticky: boolean } = UseSticky();
+const ScrollToTop = () => {
+  return (
+    <>
+      <div className="fixed bottom-6 right-6 flex flex-col items-end gap-3 z-50">
+        {/* WhatsApp Button */}
 
-	const [showScroll, setShowScroll] = useState(false);
-
-	const checkScrollTop = () => {
-		if (!showScroll && window.pageYOffset > 400) {
-			setShowScroll(true);
-		} else if (showScroll && window.pageYOffset <= 400) {
-			setShowScroll(false);
-		}
-	};
-
-	const scrollTop = () => {
-		window.scrollTo({ top: 0, behavior: "smooth" });
-	};
-
-	useEffect(() => {
-		window.addEventListener("scroll", checkScrollTop);
-		return () => window.removeEventListener("scroll", checkScrollTop);
-	}, []);
-
-	return (
-		<> 
-			<button id="back-top" className={`back-to-top ${sticky && "show"}`} onClick={scrollTop}>
-				<i className="fas fa-long-arrow-up"></i>
-			</button>
-		</>
-	);
+        <a
+          href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20bertanya."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-white w-15 h-15 rounded-full flex items-center justify-center shadow-lg transition"
+        >
+          <i className="fab fa-whatsapp text-4xl"></i>
+        </a>
+      </div>
+    </>
+  );
 };
 
 export default ScrollToTop;

@@ -52,14 +52,14 @@ const menu_data: DataType[] = [
   },
   {
     id: 3,
-    title: "Kegiatan",
+    title: "Gallery",
     link: "/galleries",
     icon: "",
     has_dropdown: false,
   },
   {
     id: 4,
-    title: "Articles",
+    title: "Artikel",
     link: "/articles",
     icon: "",
     has_dropdown: false,
@@ -95,7 +95,7 @@ const menu_data: DataType[] = [
   //   },
   {
     id: 6,
-    title: "Contact",
+    title: "Kontak",
     link: "/contact",
     icon: "",
     has_dropdown: false,

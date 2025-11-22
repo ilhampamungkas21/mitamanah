@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const CoursesHomeThree = () => {
   return (
@@ -24,9 +25,9 @@ const CoursesHomeThree = () => {
           {/* TAB MENU */}
           <ul className="nav mt-3 mt-md-0">
             <li className="nav-item wow fadeInUp" data-wow-delay=".2s">
-              <a href="#Akademik" data-bs-toggle="tab" className="nav-link active">
+              <Link href="#Akademik" data-bs-toggle="tab" className="nav-link active">
                 Program Akademik
-              </a>
+              </Link>
             </li>
             <li className="nav-item wow fadeInUp" data-wow-delay=".4s">
               <a href="#Keislaman" data-bs-toggle="tab" className="nav-link">

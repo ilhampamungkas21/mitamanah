@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
@@ -7,7 +6,7 @@ interface BreadcrumbProps {
   subtitle: string;
 }
 
-const BreadcrumbEvent = ({ title, subtitle }: BreadcrumbProps) => {
+const BreadcrumbEvent = ({ title }: BreadcrumbProps) => {
   return (
     <>
       <section className="breadcrumb-wrapper">
@@ -55,12 +54,12 @@ const BreadcrumbEvent = ({ title, subtitle }: BreadcrumbProps) => {
           <div className="row">
             <div className="page-heading">
               <h1>{title}</h1>
-              <ul className="breadcrumb-items">
+              {/* <ul className="breadcrumb-items">
                 <li>
                   <Link href="/">Home</Link>
                 </li>
                 <li className="style-2">{subtitle}</li>
-              </ul>
+              </ul> */}
               <div className="breadcrumb-image px-2 md:px-0 md:w-3/4 h-[250px] md:h-[500px] md:mx-auto">
                 <Image
                   width={1320}
