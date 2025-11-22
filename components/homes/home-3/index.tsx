@@ -7,13 +7,12 @@ import MarqueeOne from '@/common/MarqueeOne';
 import CoursesHomeThree from './CoursesHomeThree';
 import ChooseHomeThree from './ChooseHomeThree';
 import TestimonialHomeThree from './TestimonialHomeThree';
-import PartnarsHomeThree from './PartnarsHomeThree';
 import BlogHomeThree from './BlogHomeThree';
 import FaqHomeThree from './FaqHomeThree';
-import InstagramHomeThree from './InstagramHomeThree';
 import CtaHomeThree from './CtaHomeThree';
 import FooterThree from '@/layouts/footers/FooterThree';
 import TestimonialHomeOne from '../home/TestimonialHomeOne';
+import GalleriesSection from './GalleriesSection';
 
 
 const HomeThree = () => {
@@ -28,12 +27,12 @@ const HomeThree = () => {
       <BlogHomeThree />
       <TestimonialHomeThree />
      
-      <PartnarsHomeThree style_2={false}/> 
+      {/* <PartnarsHomeThree style_2={false}/>  */}
       <FaqHomeThree />
       <TestimonialHomeOne />
 
-  
-      <InstagramHomeThree />
+      <GalleriesSection/>
+      {/* <InstagramHomeThree /> */}
       <CtaHomeThree />
       <FooterThree />
     </>
