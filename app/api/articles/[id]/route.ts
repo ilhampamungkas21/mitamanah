@@ -18,7 +18,8 @@ export async function PUT(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const supabase = await createClient();
-  const id = await params;
+  const param = await params;
+  const id = param.id;
 
   const {
     data: { user },
