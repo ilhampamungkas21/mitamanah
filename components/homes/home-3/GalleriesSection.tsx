@@ -54,7 +54,7 @@ export default async function GalleriesSection() {
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
-            alt="A sleek, modern user interface for a mobile application"
+            alt={galleries[1].title}
             src={galleries[1].image_url}
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
@@ -68,7 +68,7 @@ export default async function GalleriesSection() {
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
-            alt="An ergonomic and stylishly designed chair"
+            alt={galleries[2].title}
             src={galleries[2].image_url}
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
@@ -82,7 +82,7 @@ export default async function GalleriesSection() {
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
-            alt="A 3D render of an architectural concept"
+            alt={galleries[3].title}  
             src={galleries[3].image_url}  
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>

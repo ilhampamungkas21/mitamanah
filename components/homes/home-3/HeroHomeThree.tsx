@@ -70,7 +70,7 @@ const features = [
 
 const HeroHomeThree = () => {
   return (
-    <section className="hero-section-3 hero-3">
+    <section className="hero-section-3 hero-3" role="banner" aria-label="Bagian Hero" itemScope itemType="https://schema.org/WPHeader">
 
       {/* ================= SLIDER ================= */}
       <Swiper
@@ -140,10 +140,10 @@ const HeroHomeThree = () => {
 
         {/* Navigation */}
         <div className="array-button">
-          <button className="array-prev">
+          <button className="array-prev" aria-label="Slide sebelumnya">
             <i className="far fa-chevron-left"></i>
           </button>
-          <button className="array-next">
+          <button className="array-next" aria-label="Slide berikutnya">
             <i className="far fa-chevron-right"></i>
           </button>
         </div>

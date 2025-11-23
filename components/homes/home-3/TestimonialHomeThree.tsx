@@ -10,6 +10,8 @@ const TestimonialHomeThree = () => {
       <section 
         className="testimonial-section-3 fix pt-0 section-padding bg-cover" 
         style={{background: `url(/assets/img/sholat.webp)`, backgroundAttachment: "fixed" }}
+        itemScope itemType="https://schema.org/ItemList"
+        aria-label="Testimoni Wali Murid"
       >
         {/* Counter Section */}
         <div className="counter-section-2 section-padding pt-0">
@@ -79,13 +81,16 @@ const TestimonialHomeThree = () => {
           >
             {/* Slide 1 */}
             <SwiperSlide>
-              <div className="testimonial-card-items">
-                <div className="client-info">
-                  <h3>Sri Wahyuni</h3>
+              <div className="testimonial-card-items" itemScope itemType="https://schema.org/Review">
+                <div className="client-info" itemProp="author" itemScope itemType="https://schema.org/Person">
+                  <h3 itemProp="name">Sri Wahyuni</h3>
                   <span>Wali Murid Kelas 3</span>
                 </div>
+                <div itemProp="itemReviewed" itemScope itemType="https://schema.org/EducationalOrganization">
+                  <meta itemProp="name" content="MIT Amanah" />
+                </div>
                 <div className="client-img bg-cover" style={{ background: `url(/assets/img/testimonial/client-1.png)` }}></div>
-                <p>
+                <p itemProp="reviewBody">
                   “Saya bersyukur anak saya belajar di MI Amanah Sragen. Guru-gurunya sabar, lingkungan madrasahnya juga penuh nilai Islami.”
                 </p>
                 <div className="icon"><i className="flaticon-double-quotes"></i></div>
@@ -94,13 +99,16 @@ const TestimonialHomeThree = () => {
 
             {/* Slide 2 */}
             <SwiperSlide>
-              <div className="testimonial-card-items">
-                <div className="client-info">
-                  <h3>Ahmad Ridho</h3>
+              <div className="testimonial-card-items" itemScope itemType="https://schema.org/Review">
+                <div className="client-info" itemProp="author" itemScope itemType="https://schema.org/Person">
+                  <h3 itemProp="name">Ahmad Ridho</h3>
                   <span>Wali Murid Kelas 5</span>
                 </div>
+                <div itemProp="itemReviewed" itemScope itemType="https://schema.org/EducationalOrganization">
+                  <meta itemProp="name" content="MIT Amanah" />
+                </div>
                 <div className="client-img bg-cover" style={{ background: `url(/assets/img/testimonial/client-2.png)` }}></div>
-                <p>
+                <p itemProp="reviewBody">
                   “Anak saya jadi lebih disiplin, rajin sholat, dan semangat belajar. Terima kasih untuk semua ustadz dan ustadzah.”
                 </p>
                 <div className="icon"><i className="flaticon-double-quotes"></i></div>
@@ -109,13 +117,16 @@ const TestimonialHomeThree = () => {
 
             {/* Slide 3 */}
             <SwiperSlide>
-              <div className="testimonial-card-items">
-                <div className="client-info">
-                  <h3>Dewi Lestari</h3>
+              <div className="testimonial-card-items" itemScope itemType="https://schema.org/Review">
+                <div className="client-info" itemProp="author" itemScope itemType="https://schema.org/Person">
+                  <h3 itemProp="name">Dewi Lestari</h3>
                   <span>Wali Murid Kelas 1</span>
                 </div>
+                <div itemProp="itemReviewed" itemScope itemType="https://schema.org/EducationalOrganization">
+                  <meta itemProp="name" content="MIT Amanah" />
+                </div>
                 <div className="client-img bg-cover" style={{ background: `url(/assets/img/testimonial/client-3.png)` }}></div>
-                <p>
+                <p itemProp="reviewBody">
                   “Kesan pertama sangat positif. Anak-anak diajarkan tidak hanya ilmu umum, tapi juga akhlak dan hafalan Al-Qur’an.”
                 </p>
                 <div className="icon"><i className="flaticon-double-quotes"></i></div>
@@ -123,7 +134,7 @@ const TestimonialHomeThree = () => {
             </SwiperSlide>
 
             {/* Pagination Dots */}
-            <div className="swiper-dot white-color text-center mt-5">
+            <div className="swiper-dot white-color text-center mt-5" aria-label="Navigasi slider testimoni">
               <div className="dot"></div>
             </div>
           </Swiper>

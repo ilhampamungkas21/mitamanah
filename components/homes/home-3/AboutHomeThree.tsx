@@ -6,7 +6,7 @@ import Image from "next/image";
 const AboutHomeThree = () => {
   return (
     <>
-      <div id="about" className="about-section-3 section-padding">
+      <div id="about" className="about-section-3 section-padding" itemScope itemType="https://schema.org/EducationalOrganization">
         <div className="container">
           <div className="about-wrapper-2">
             <div className="row g-4 justify-content-between">
@@ -19,12 +19,13 @@ const AboutHomeThree = () => {
                     <h2
                       className="text-white wow fadeInUp"
                       data-wow-delay=".3s"
+                      itemProp="name"
                     >
                       Madrasah Islam Terpadu <br /> yang Mendidik dengan Hati
                     </h2>
                   </div>
 
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s" itemProp="description">
                     MIT Amanah hadir untuk menanamkan nilai iman, ilmu, dan
                     akhlak mulia sejak dini. Dengan pendekatan pendidikan
                     terpadu, kami berkomitmen melahirkan generasi yang cerdas,
@@ -77,6 +78,7 @@ const AboutHomeThree = () => {
                     width={454}
                     height={577}
                     className="wow img-custom-anim-left"
+                    itemProp="image"
                   />
 
                   {/* Shape Background */}

@@ -25,6 +25,8 @@ const ChooseHomeThree = () => {
                   onClick={() => setIsVideoOpen(true)}
                   style={{ cursor: "pointer" }}
                   className="video-btn ripple video-popup"
+                  aria-label="Putar video profil MIT Amanah"
+                  role="button"
                 >
                   <i className="fas fa-play"></i>
                 </a>

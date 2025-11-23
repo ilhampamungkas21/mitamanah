@@ -5,7 +5,7 @@ import Link from 'next/link';
 const CoursesHomeThree = () => {
   return (
     <>
-      <section className="popular-courses-section-33 fix section-padding">
+      <section className="popular-courses-section-33 fix section-padding" itemScope itemType="https://schema.org/ItemList" aria-label="Daftar Program Unggulan">
         <div className="container">
 
           {/* JUDUL SECTION */}
@@ -49,7 +49,7 @@ const CoursesHomeThree = () => {
 
                 {/* IPA */}
                 <div className="col-xl-4 col-lg-6 col-md-6">
-                  <div className="popular-courses-items">
+                  <div className="popular-courses-items" role="article" itemScope itemType="https://schema.org/Course">
                     <div className="popular-thumb">
                       <div className="post-box">
                         <span className="post-cat">Ilmu Pengetahuan Alam</span>
@@ -65,8 +65,8 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Mengenal Ciptaan Allah Melalui Sains</h4>
-                      <p>
+                      <h4 className='h-20' itemProp="name">Mengenal Ciptaan Allah Melalui Sains</h4>
+                      <p itemProp="description">
                         Pembelajaran IPA berbasis eksperimen untuk menumbuhkan
                         rasa ingin tahu dan pemahaman tentang kebesaran Allah.
                       </p>
@@ -76,7 +76,7 @@ const CoursesHomeThree = () => {
 
                 {/* MATEMATIKA */}
                 <div className="col-xl-4 col-lg-6 col-md-6">
-                  <div className="popular-courses-items bg-2">
+                  <div className="popular-courses-items bg-2" role="article" itemScope itemType="https://schema.org/Course">
                     <div className="popular-thumb">
                       <div className="post-box">
                         <span className="post-cat">Matematika</span>
@@ -92,8 +92,8 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Matematika Ceria & Logis</h4>
-                      <p>
+                      <h4 className='h-20' itemProp="name">Matematika Ceria & Logis</h4>
+                      <p itemProp="description">
                         Melatih kemampuan berhitung, logika, dan berpikir kritis
                         melalui metode pembelajaran yang menyenangkan.
                       </p>
@@ -103,7 +103,7 @@ const CoursesHomeThree = () => {
 
                 {/* BAHASA INDONESIA */}
                 <div className="col-xl-4 col-lg-6 col-md-6">
-                  <div className="popular-courses-items bg-3">
+                  <div className="popular-courses-items bg-3" role="article" itemScope itemType="https://schema.org/Course">
                     <div className="popular-thumb">
                       <div className="post-box">
                         <span className="post-cat">Bahasa Indonesia</span>
@@ -119,8 +119,8 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Cerdas Literasi Sejak Dini</h4>
-                      <p>
+                      <h4 className='h-20' itemProp="name">Cerdas Literasi Sejak Dini</h4>
+                      <p itemProp="description">
                         Melatih keterampilan membaca, menulis, bercerita, dan
                         komunikasi yang baik dengan pendekatan aktif.
                       </p>
@@ -153,8 +153,8 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Target Minimal 2 Juz</h4>
-                      <p>
+                      <h4 className='h-20' itemProp="name">Target Minimal 2 Juz</h4>
+                      <p itemProp="description">
                         Program unggulan hafalan Al-Qur’an dengan metode talaqqi &
                         tikrar yang terbimbing oleh ustadz/ustadzah berpengalaman.
                       </p>
@@ -164,7 +164,7 @@ const CoursesHomeThree = () => {
 
                 {/* PEMBIASAAN IBADAH */}
                 <div className="col-xl-4 col-lg-6 col-md-6">
-                  <div className="popular-courses-items bg-2">
+                  <div className="popular-courses-items bg-2" role="article" itemScope itemType="https://schema.org/Course">
                     <div className="popular-thumb">
                       <div className="post-box">
                         <span className="post-cat">Pembiasaan Ibadah</span>
@@ -180,8 +180,8 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Sholat Dhuha, Dzikir Pagi & Dhuhur Berjamaah</h4>
-                      <p>
+                      <h4 className='h-20' itemProp="name">Sholat Dhuha, Dzikir Pagi & Dhuhur Berjamaah</h4>
+                      <p itemProp="description">
                         Pembiasaan ibadah harian untuk membentuk karakter islami
                         dan kedisiplinan anak sejak dini.
                       </p>
@@ -191,7 +191,7 @@ const CoursesHomeThree = () => {
 
                 {/* MENTORING ADAB & HADITS */}
                 <div className="col-xl-4 col-lg-6 col-md-6">
-                  <div className="popular-courses-items bg-3">
+                  <div className="popular-courses-items bg-3" role="article" itemScope itemType="https://schema.org/Course">
                     <div className="popular-thumb">
                       <div className="post-box">
                         <span className="post-cat">Akhlak & Hadits</span>
@@ -207,8 +207,8 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Mentoring Adab & Hadits</h4>
-                      <p>
+                      <h4 className='h-20' itemProp="name">Mentoring Adab & Hadits</h4>
+                      <p itemProp="description">
                         Pembelajaran hafalan hadits, doa harian, serta praktik adab
                         Islami melalui checklist pembiasaan harian.
                       </p>
@@ -241,8 +241,8 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Pendalaman Hafalan Qur’an</h4>
-                      <p>
+                      <h4 className='h-20' itemProp="name">Pendalaman Hafalan Qur’an</h4>
+                      <p itemProp="description">
                         Ekstrakurikuler untuk menambah dan memperkuat hafalan juz 30,
                         29, dan seterusnya.
                       </p>
@@ -268,7 +268,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Mental Tangguh & Disiplin</h4>
+                      <h4 className='h-20' itemProp="name">Mental Tangguh & Disiplin</h4>
                       <p>
                         Melatih fisik, fokus, dan kedisiplinan dengan latihan bela diri
                         bersama pelatih bersertifikat.
@@ -295,7 +295,7 @@ const CoursesHomeThree = () => {
                     </div>
 
                     <div className="content">
-                      <h4 className='h-20'>Kemandirian & Kepemimpinan</h4>
+                      <h4 className='h-20' itemProp="name">Kemandirian & Kepemimpinan</h4>
                       <p>
                         Membangun jiwa kepemimpinan, keberanian, dan kecintaan terhadap alam.
                       </p>

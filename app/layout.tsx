@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     title: "MIT Amanah | Madrasah Ibtidaiyah Terpadu – Islami Cerdas Mandiri",
     description:
       "MIT Amanah Sragen – Madrasah Ibtidaiyah Terpadu dengan visi Islami, Cerdas, Mandiri. Program unggulan: Tahfidz Qur'an, Life Skill, Mentoring Hadits, Pembiasaan Ibadah, dan Ekstrakurikuler.",
+    images: [{ url: "/favicon.svg" }],
   },
 
   twitter: {
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     title: "MIT Amanah – Madrasah Ibtidaiyah Terpadu",
     description:
       "Sekolah Islam terpadu di Sragen dengan visi Islami, Cerdas, Mandiri. Program pendidikan, fasilitas lengkap, dan kegiatan islami.",
+    images: ["/favicon.svg"],
   },
 
   icons: {
@@ -54,10 +56,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <head>
-        <link rel="icon" href="/favicon.svg" />
-        {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" /> */}
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="author" content="MIT Amanah" />
+        <meta name="theme-color" content="#0ea5e9" />
       </head>
       <body>{children}</body>
       <Toaster richColors position="top-right" />

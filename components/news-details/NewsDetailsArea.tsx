@@ -12,42 +12,48 @@ interface NewsDetailsAreaProps {
 const NewsDetailsArea = ({ article }: NewsDetailsAreaProps) => {
   return (
     <>
-      <section className="blog-wrapper news-wrapper section-padding pt-0">
+      <section className="blog-wrapper news-wrapper section-padding pt-0" aria-labelledby="article-title">
         <div className="container">
           <div className="news-area">
             <div className="row">
               <div className="col-12 col-lg-8">
-                <div className="blog-post-details border-wrap mt-0">
+                <article className="blog-post-details border-wrap mt-0" itemScope itemType="https://schema.org/Article">
                   <div className="single-blog-post post-details mt-0">
                     <div className="post-content pt-0">
                       {/* TITLE */}
-                      <h2 className="mt-0">{article.title}</h2>
+                      <h1 id="article-title" className="mt-0" itemProp="headline">{article.title}</h1>
 
                       {/* META */}
                       <div className="post-meta mt-3">
-                        <span>
+                        <span itemProp="author" itemScope itemType="https://schema.org/Person">
                           <i className="fal fa-user"></i>
-                          {article.author ?? "Admin"}
+                          <span itemProp="name">{article.author ?? "Admin"}</span>
                         </span>
 
                         {article.created_at && (
                           <span>
                             <i className="fal fa-calendar-alt"></i>
-                            {new Date(article.created_at).toLocaleDateString(
-                              "id-ID",
-                              {
-                                day: "numeric",
-                                month: "long",
-                                year: "numeric",
-                              }
-                            )}
+                            <time dateTime={article.created_at} itemProp="datePublished">
+                              {new Date(article.created_at).toLocaleDateString(
+                                "id-ID",
+                                {
+                                  day: "numeric",
+                                  month: "long",
+                                  year: "numeric",
+                                }
+                              )}
+                            </time>
                           </span>
+                        )}
+
+                        {article.updated_at && (
+                          <meta itemProp="dateModified" content={article.updated_at} />
                         )}
                       </div>
 
                       {/* EXCERPT */}
                       {article.excerpt && (
-                        <p className="mt-4">{article.excerpt}</p>
+                        <p className="mt-4" itemProp="description">{article.excerpt}</p>
                       )}
 
                       {/* IMAGE */}
@@ -64,6 +70,7 @@ const NewsDetailsArea = ({ article }: NewsDetailsAreaProps) => {
                       {/* CONTENT (HTML) */}
                       <div
                         className="article-content mt-4"
+                        itemProp="articleBody"
                         dangerouslySetInnerHTML={{ __html: article.content }}
                       />
                     </div>
@@ -87,17 +94,17 @@ const NewsDetailsArea = ({ article }: NewsDetailsAreaProps) => {
 
                     <div className="col-lg-4 col-12 mt-3 mt-lg-0 text-lg-end">
                       <h4>Social Share</h4>
-                      <div className="social-share">
-                        <a href="#">
+                      <div className="social-share" aria-label="Share on social media">
+                        <a href="#" aria-label="Facebook">
                           <i className="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#">
+                        <a href="#" aria-label="Twitter">
                           <i className="fab fa-twitter"></i>
                         </a>
-                        <a href="#">
+                        <a href="#" aria-label="Instagram">
                           <i className="fab fa-instagram"></i>
                         </a>
-                        <a href="#">
+                        <a href="#" aria-label="LinkedIn">
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </div>
@@ -109,7 +116,7 @@ const NewsDetailsArea = ({ article }: NewsDetailsAreaProps) => {
 
                   {/* COMMENT FORM (STATIC) */}
                   {/* ... tetap sama seperti kode lama ... */}
-                </div>
+                </article>
               </div>
 
               {/* SIDEBAR (STATIC) */}

@@ -38,7 +38,7 @@ const faqData = [
 const FaqHomeThree = () => {
   return (
     <>
-      <section className="faq-section fix section-padding p-5">
+      <section className="faq-section fix section-padding p-5" itemScope itemType="https://schema.org/FAQPage" aria-label="FAQ">
         <div className="container">
           <div className="faq-wrapper style-2">
             <div className="row g-4 align-items-center">
@@ -68,13 +68,16 @@ const FaqHomeThree = () => {
                             key={item.id}
                             value={item.id}
                             className="border border-gray-200 rounded-lg px-4 bg-white shadow-sm"
+                            itemScope itemType="https://schema.org/Question"
                           >
                             <AccordionTrigger className="text-left font-medium text-gray-800 hover:no-underline">
-                              {item.question}
+                              <span itemProp="name">{item.question}</span>
                             </AccordionTrigger>
 
                             <AccordionContent className="text-gray-600 leading-relaxed">
-                              {item.answer}
+                              <div itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
+                                <div itemProp="text">{item.answer}</div>
+                              </div>
                             </AccordionContent>
                           </AccordionItem>
                         ))}

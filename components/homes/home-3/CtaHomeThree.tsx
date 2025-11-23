@@ -5,7 +5,7 @@ import React from "react";
 const CtaHomeThree = () => {
   return (
     <>
-      <section className="quality-coureses-section section-padding fix theme-green-bg">
+      <section className="quality-coureses-section section-padding fix theme-green-bg" role="complementary" aria-label="Ajakan Bergabung">
         <div className="container-fluid">
           <div className="row g-4">
             {/* LEFT IMAGE */}
@@ -36,11 +36,11 @@ const CtaHomeThree = () => {
             <div className="col-xl-6 col-lg-5">
               <div className="quality-coureses-content text-center">
                 <div className="section-title">
-                  <h6 className="text-white wow fadeInUp">
+                  <h6 className="text-white wow fadeInUp" aria-label="Subjudul CTA">
                     Pendidikan Berkarakter Islami
                   </h6>
 
-                  <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+                  <h2 className="text-white wow fadeInUp" data-wow-delay=".3s" id="cta-title">
                     Membangun Generasi Cerdas, Berakhlak, dan Qur’ani
                   </h2>
                 </div>
@@ -48,6 +48,7 @@ const CtaHomeThree = () => {
                 <p
                   className="mt-3 mt-md-0 text-white wow fadeInUp"
                   data-wow-delay=".3s"
+                  aria-describedby="cta-title"
                 >
                   MIT Amanah berkomitmen memberikan pendidikan terbaik melalui
                   kurikulum terpadu, pembiasaan ibadah harian, serta lingkungan
@@ -59,6 +60,7 @@ const CtaHomeThree = () => {
                   target="_blank"
                   className="theme-btn wow fadeInUp"
                   data-wow-delay=".3s"
+                  aria-label="Hubungi Admin PPDB melalui WhatsApp"
                 >
                   Hubungi Admin PPDB
                 </Link>

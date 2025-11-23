@@ -8,6 +8,7 @@ export default function PartnarsHomeThree({ style_2 }: { style_2?: boolean }) {
         className={`global-partners-section fix section-padding ${
           style_2 ? "pt-0" : ""
         }`}
+        aria-label="Mitra Global"
       >
         <div className="container">
           <div className={`global-partner-wrapper ${style_2 ? "style-2" : ""}`}>
@@ -26,71 +27,77 @@ export default function PartnarsHomeThree({ style_2 }: { style_2?: boolean }) {
               </div>
 
               <div className="col-lg-7">
-                <div className="global-partner-items">
+                <div className="global-partner-items" itemScope itemType="https://schema.org/ItemList" aria-label="Daftar Mitra">
                   <div className="row g-0">
 
                     <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".3s">
-                      <div className="global-logo active">
+                      <div className="global-logo active" itemScope itemType="https://schema.org/Organization">
                         <Image
                           src="/assets/img/global/01.png"
-                          alt="img"
+                          alt="Logo mitra global 01"
                           width={120}
                           height={60}
+                          itemProp="logo"
                         />
                       </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".5s">
-                      <div className="global-logo">
+                      <div className="global-logo" itemScope itemType="https://schema.org/Organization">
                         <Image
                           src="/assets/img/global/02.png"
-                          alt="img"
+                          alt="Logo mitra global 02"
                           width={120}
                           height={60}
+                          itemProp="logo"
                         />
                       </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".7s">
-                      <div className="global-logo border-right-none">
+                      <div className="global-logo border-right-none" itemScope itemType="https://schema.org/Organization">
                         <Image
                           src="/assets/img/global/03.png"
-                          alt="img"
+                          alt="Logo mitra global 03"
                           width={120}
                           height={60}
+                          itemProp="logo"
                         />
                       </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".3s">
-                      <div className="global-logo border-bottom-none">
+                      <div className="global-logo border-bottom-none" itemScope itemType="https://schema.org/Organization">
                         <Image
                           src="/assets/img/global/04.png"
-                          alt="img"
+                          alt="Logo mitra global 04"
                           width={120}
                           height={60}
+                          itemProp="logo"
                         />
                       </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".5s">
-                      <div className="global-logo border-bottom-none">
+                      <div className="global-logo border-bottom-none" itemScope itemType="https://schema.org/Organization">
                         <Image
                           src="/assets/img/global/05.png"
-                          alt="img"
+                          alt="Logo mitra global 05"
                           width={120}
                           height={60}
+                          itemProp="logo"
                         />
                       </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".7s">
-                      <div className="global-logo border-bottom-none border-right-none">
+                      <div className="global-logo border-bottom-none border-right-none" itemScope itemType="https://schema.org/Organization">
                         <Image
                           src="/assets/img/global/06.png"
-                          alt="img"
+                          alt="Logo mitra global 06"
                           width={120}
                           height={60}
+                          itemProp="logo"
                         />
                       </div>
                     </div>

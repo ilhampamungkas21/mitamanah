@@ -71,9 +71,29 @@ export default async function ArticlePage({
     notFound()
   }
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: article.seo_title || article.title,
+    description: article.seo_description || article.excerpt,
+    image: article.image_url ? [article.image_url] : undefined,
+    datePublished: article.created_at,
+    dateModified: article.updated_at,
+    author: [{ "@type": "Person", name: article.author || "Admin" }],
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://mitamanah.com/articles/${article.slug}`,
+    },
+  }
+
   return (
     <Wrapper>
       <NewsDetails article={article}/>
+      <script
+        type="application/ld+json"
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
     </Wrapper>
   )
 }
