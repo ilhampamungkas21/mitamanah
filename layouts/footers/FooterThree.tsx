@@ -28,7 +28,6 @@ const FooterThree = () => {
         <div className="container">
           <div className="footer-widget-wrapper style-2">
             <div className="row">
-
               {/* LOGO + DESKRIPSI */}
               <div
                 className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
@@ -49,13 +48,20 @@ const FooterThree = () => {
                   <div className="footer-content">
                     <p>
                       MIT Amanah berkomitmen menghadirkan pendidikan berkualitas
-                      untuk membentuk generasi yang berakhlak, cerdas, dan berprestasi.
+                      untuk membentuk generasi yang berakhlak, cerdas, dan
+                      berprestasi.
                     </p>
 
                     <div className="social-icon">
-                      <a href="#"><i className="fab fa-facebook-f"></i></a>
-                      <a href="#"><i className="fab fa-instagram"></i></a>
-                      <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                      <a href="https://www.facebook.com/mi.amanah.75">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="https://www.instagram.com/mitamanah/">
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                      <a href="https://www.youtube.com/@mitamanah1905">
+                        <i className="fab fa-youtube"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -71,9 +77,15 @@ const FooterThree = () => {
                     <h3>Halaman</h3>
                   </div>
                   <ul className="list-area">
-                    <li><Link href="/articles">Artikel</Link></li>
-                    <li><Link href="/about">About Us</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
+                    <li>
+                      <Link href="/articles">Artikel</Link>
+                    </li>
+                    <li>
+                      <Link href="/about">About Us</Link>
+                    </li>
+                    <li>
+                      <Link href="/contact">Contact</Link>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -108,7 +120,10 @@ const FooterThree = () => {
                   </div>
 
                   <div className="footer-content">
-                    <p>Jika membutuhkan informasi lebih lanjut, hubungi admin kami.</p>
+                    <p>
+                      Jika membutuhkan informasi lebih lanjut, hubungi admin
+                      kami.
+                    </p>
 
                     <a
                       href="https://wa.me/6281234567890?text=Halo%20MIT%20Amanah%2C%20saya%20ingin%20bertanya."
@@ -129,7 +144,6 @@ const FooterThree = () => {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -142,15 +156,17 @@ const FooterThree = () => {
                 © {new Date().getFullYear()} MIT Amanah — All Rights Reserved.
               </p>
 
-              <ul
-                className="footer-menu wow fadeInUp"
-                data-wow-delay=".5s"
-              >
-                <li><Link href="/articles">Artikel</Link></li>
-                <li><Link href="/about">Tentang Kami</Link></li>
-                <li><Link href="/contact">Kontak</Link></li>
+              <ul className="footer-menu wow fadeInUp" data-wow-delay=".5s">
+                <li>
+                  <Link href="/articles">Artikel</Link>
+                </li>
+                <li>
+                  <Link href="/about">Tentang Kami</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Kontak</Link>
+                </li>
               </ul>
-
             </div>
           </div>
         </div>

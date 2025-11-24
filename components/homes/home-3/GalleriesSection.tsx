@@ -34,7 +34,7 @@ export default async function GalleriesSection() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {/* BIG BOX */}
         <div className="group col-span-2 row-span-2 relative overflow-hidden rounded-xl min-h-[400px]">
           <Image
@@ -50,7 +50,7 @@ export default async function GalleriesSection() {
         </div>
 
         {/* SMALL BOX */}
-        <div className="group relative overflow-hidden rounded-xl min-h-[300px]">
+        <div className="group relative overflow-hidden rounded-xl min-h-[250px] md:min-h-[300px]">
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -64,7 +64,7 @@ export default async function GalleriesSection() {
         </div>
 
         {/* SMALL BOX */}
-        <div className="group relative overflow-hidden rounded-xl min-h-[300px]">
+        <div className="group relative overflow-hidden rounded-xl min-h-[10px] md:min-h-[300px]">
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"

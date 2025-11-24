@@ -22,10 +22,10 @@ const OffCanvas = ({ setOpenCanvas, openCanvas }: OffCanvasProps) => {
                 <div className="offcanvas__logo">
                   <Link href="/">
                     <Image
-                      src="/assets/img/logo/black-logo.svg"
+                      src="/assets/img/logo/logo.webp"
                       alt="logo-img"
-                      width={160}
-                      height={50}
+                      width={100}
+                      height={100}
                       priority
                     />
                   </Link>
@@ -39,17 +39,15 @@ const OffCanvas = ({ setOpenCanvas, openCanvas }: OffCanvasProps) => {
 
               </div>
 
-              <h3 className="offcanvas-title">Hello There!</h3>
+              <h3 className="offcanvas-title">MADRASAH IBTIDAIYAH TERPADU (MIT) AMANAH</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur <br />
-                adipiscing elit,
+                Membangun peradaban Islam, Cerdas dan Mandiri
               </p>
 
               <div className="social-icon d-flex align-items-center">
-                <a href="#"><i className="fab fa-facebook-f"></i></a>
-                <a href="#"><i className="fab fa-twitter"></i></a>
-                <a href="#"><i className="fab fa-youtube"></i></a>
-                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/mi.amanah.75"><i className="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/mitamanah/"><i className="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@mitamanah1905"><i className="fab fa-youtube"></i></a>
               </div>
 
               <div className="mobile-menu fix mb-3 mean-container">
@@ -57,28 +55,28 @@ const OffCanvas = ({ setOpenCanvas, openCanvas }: OffCanvasProps) => {
               </div>
 
               <div className="offcanvas__contact">
-                <h3>Information</h3>
+                <h3>Informasi</h3>
 
                 <ul className="contact-list">
                   <li>
-                    <span>Address:</span>
-                    7300-7398 Colonial Rd, Brooklyn, NY 11209
+                    <span>Alamat:</span>
+                    Kebonromo Rt.06, Ngrampal, Sragen 57252
                   </li>
                   <li>
-                    <span>Call Us:</span>
-                    <a href="tel:+00012345688">+000 123 456 88</a>
+                    <span>Phone:</span>
+                    <a href="tel:+6281234835135">081234835135</a>
                   </li>
                   <li>
                     <span>Email:</span>
-                    <a href="mailto:supportedus@gmail.com">supportedus@gmail.com</a>
+                    <a href="mailto:supportedus@gmail.com">mit.amanahngrampal@gmail.com</a>
                   </li>
                 </ul>
 
                 <div className="offcanvas-button">
-                  <Link href="/sign-in" className="theme-btn style-2">
+                  <Link href="/auth/login" className="theme-btn style-2 text-white">
                     <i className="far fa-user"></i> Admin
                   </Link>
-                  <Link href="/register" className="theme-btn yellow-btn">Enroll Now</Link>
+                 
                 </div>
 
               </div>

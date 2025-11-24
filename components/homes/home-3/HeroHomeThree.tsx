@@ -12,7 +12,7 @@ const slides = [
     bg: "/assets/img/hero/hero-1.webp",
     titleTop: "Selamat Datang",
     title:
-      <>MI TERPADU<br /> <span className="text-green-500 font-bold">AMANAH</span></>,
+      <>MI TERPADU <br /> <span className="text-green-500 font-bold">AMANAH</span></>,
     desc: "Membangun generasi berilmu, berakhlak, dan berdaya guna melalui pendidikan yang berlandaskan iman dan takwa.",
     btnText: "Kenali Lebih Dekat",
     btnLink: "/tentang",
@@ -109,13 +109,13 @@ const HeroHomeThree = () => {
                       {slide.titleTop}
                     </h6>
 
-                    <h1
-                      className={slide.titleWhite ? "text-white" : ""}
+                    <h2
+                      className={"flex flex-col text-white font-bold text-[150px] min-h-90 items-center justify-center"}
                       data-animation="fadeInUp"
                       data-delay="1.5s"
                     >
                       {slide.title}
-                    </h1>
+                    </h2>
 
                     <p data-animation="fadeInUp" data-delay="1.7s">
                       {slide.desc}
