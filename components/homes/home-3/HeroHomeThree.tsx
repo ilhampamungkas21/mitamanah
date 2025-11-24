@@ -11,8 +11,12 @@ const slides = [
   {
     bg: "/assets/img/hero/hero-1.webp",
     titleTop: "Selamat Datang",
-    title:
-      <>MI TERPADU <br /> <span className="text-green-500 font-bold">AMANAH</span></>,
+    title: (
+      <>
+        MADRASAH IBTIDAIYAH TERPADU
+        <br /> <span className="text-green-500 font-bold">MIT AMANAH</span>
+      </>
+    ),
     desc: "Membangun generasi berilmu, berakhlak, dan berdaya guna melalui pendidikan yang berlandaskan iman dan takwa.",
     btnText: "Kenali Lebih Dekat",
     btnLink: "/tentang",
@@ -21,7 +25,11 @@ const slides = [
   {
     bg: "/assets/img/hero/hero-2.webp",
     titleTop: "Pendidikan Berkarakter",
-    title: <>Mengasah Akhlak <br /> dan Kecerdasan Anak</>,
+    title: (
+      <>
+        Mengasah Akhlak <br /> dan Kecerdasan Anak
+      </>
+    ),
     desc: "Kurikulum terpadu antara ilmu umum dan nilai-nilai Islam, menjadikan anak cerdas, santun, dan berjiwa pemimpin.",
     btnText: "Lihat Program Kami",
     btnLink: "/program",
@@ -70,8 +78,13 @@ const features = [
 
 const HeroHomeThree = () => {
   return (
-    <section className="hero-section-3 hero-3" role="banner" aria-label="Bagian Hero" itemScope itemType="https://schema.org/WPHeader">
-
+    <section
+      className="hero-section-3 hero-3"
+      role="banner"
+      aria-label="Bagian Hero"
+      itemScope
+      itemType="https://schema.org/WPHeader"
+    >
       {/* ================= SLIDER ================= */}
       <Swiper
         loop
@@ -109,13 +122,27 @@ const HeroHomeThree = () => {
                       {slide.titleTop}
                     </h6>
 
-                    <h2
-                      className={"flex flex-col text-white font-bold text-[150px] min-h-90 items-center justify-center"}
-                      data-animation="fadeInUp"
-                      data-delay="1.5s"
-                    >
-                      {slide.title}
-                    </h2>
+                    {i == 0 ? (
+                      <h1
+                        className={
+                          "flex flex-col text-white font-bold! text-[60px]! md:text-[150px] min-h-90 items-center justify-center"
+                        }
+                        data-animation="fadeInUp"
+                        data-delay="1.5s"
+                      >
+                        {slide.title}
+                      </h1>
+                    ) : (
+                      <h2
+                        className={
+                          "flex flex-col text-white font-bold! text-[60px]! md:text-[150px] min-h-90 items-center justify-center"
+                        }
+                        data-animation="fadeInUp"
+                        data-delay="1.5s"
+                      >
+                        {slide.title}
+                      </h2>
+                    )}
 
                     <p data-animation="fadeInUp" data-delay="1.7s">
                       {slide.desc}
@@ -175,7 +202,6 @@ const HeroHomeThree = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };

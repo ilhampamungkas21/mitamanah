@@ -115,6 +115,32 @@
             }
         }
 
+        h2 {
+            color: $white;
+            margin-bottom: 30px;
+            margin-top: 20px;
+
+            @include breakpoint (max-xxl){
+                font-size: 80px;
+            }
+
+            @include breakpoint (max-xl){
+                font-size: 70px;
+            }
+
+            @include breakpoint (max-lg){
+                font-size: 54px;
+            }
+
+            @include breakpoint (max-md){
+                font-size: 44px;
+            }
+
+            @include breakpoint (max-sm){
+                font-size: 34px;
+            }
+        }
+
         h3 {
             color: $white;
             font-size: 27px;
@@ -504,6 +530,32 @@
 
             @include breakpoint (max-sm){
                 font-size: 42px;
+            }
+        }
+
+        h2 {
+            color: $white;
+            margin-bottom: 30px;
+            margin-top: 20px;
+
+            @include breakpoint (max-xxl){
+                font-size: 80px;
+            }
+
+            @include breakpoint (max-xl){
+                font-size: 70px;
+            }
+
+            @include breakpoint (max-lg){
+                font-size: 54px;
+            }
+
+            @include breakpoint (max-md){
+                font-size: 44px;
+            }
+
+            @include breakpoint (max-sm){
+                font-size: 34px;
             }
         }
 
