@@ -1,0 +1,13 @@
+# robots.txt untuk MIT Amanah
+# Mengizinkan perayapan konten publik dan memblokir area privat/API
+
+User-agent: *
+Allow: /
+
+# Blokir area privat dan API
+Disallow: /auth/
+Disallow: /dashboard/
+Disallow: /api/
+
+# Lokasi sitemap
+Sitemap: https://mitamanah.com/sitemap.txt

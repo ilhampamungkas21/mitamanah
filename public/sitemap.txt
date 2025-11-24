@@ -1,0 +1,12 @@
+https://mitamanah.com/
+https://mitamanah.com/about
+https://mitamanah.com/contact
+https://mitamanah.com/articles
+https://mitamanah.com/galleries
+# Detail artikel (contoh umum; sistem artikel dinamis akan menambah/ubah otomatis via CMS)
+https://mitamanah.com/articles/selamat-datang-mit-amanah
+https://mitamanah.com/articles/mengapa-memilih-mit-amanah-mi-terbaik-sragen
+https://mitamanah.com/articles/ekstrakurikuler-pengembangan-karakter
+# Detail galeri (contoh)
+https://mitamanah.com/galleries/1
+https://mitamanah.com/galleries/2
