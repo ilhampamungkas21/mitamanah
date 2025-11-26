@@ -239,7 +239,7 @@
 
     &::before {
         @include before;
-        background: linear-gradient(180deg, rgba(9, 34, 75, 0.30) 0%, #09224B 100%);
+        background: linear-gradient(180deg, rgba(9, 34, 75, 0.30) 0%, #3a3a3a 100%);
     }
 }
 
@@ -276,7 +276,7 @@
 
     .icon {
         font-size: 55px;
-        color: $theme-red;
+        color: $theme-green;
         margin-top: 20px;
     }
 }

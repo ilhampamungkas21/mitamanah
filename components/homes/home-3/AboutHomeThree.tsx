@@ -6,7 +6,12 @@ import Image from "next/image";
 const AboutHomeThree = () => {
   return (
     <>
-      <div id="about" className="about-section-3 section-padding" itemScope itemType="https://schema.org/EducationalOrganization">
+      <div
+        id="about"
+        className="about-section-3 section-padding"
+        itemScope
+        itemType="https://schema.org/EducationalOrganization"
+      >
         <div className="container">
           <div className="about-wrapper-2">
             <div className="row g-4 justify-content-between">
@@ -25,7 +30,11 @@ const AboutHomeThree = () => {
                     </h2>
                   </div>
 
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s" itemProp="description">
+                  <p
+                    className="mt-3 mt-md-0 wow fadeInUp"
+                    data-wow-delay=".5s"
+                    itemProp="description"
+                  >
                     MIT Amanah hadir untuk menanamkan nilai iman, ilmu, dan
                     akhlak mulia sejak dini. Dengan pendekatan pendidikan
                     terpadu, kami berkomitmen melahirkan generasi yang cerdas,
@@ -70,31 +79,36 @@ const AboutHomeThree = () => {
 
               {/* === Right Image Section === */}
               <div className="col-xl-5 col-lg-6">
-                <div className="about-image">
+                <div className="about-image relative">
                   {/* Main Image */}
                   <Image
-                    src="/assets/img/about/01.png"
+                    src="/assets/img/about/01.webp"
                     alt="Madrasah Islam Terpadu Amanah"
-                    width={454}
-                    height={577}
-                    className="wow img-custom-anim-left"
+                    width={800}
+                    height={800}
+                    className="wow img-custom-anim-left w-auto mx-auto"
                     itemProp="image"
                   />
 
                   {/* Shape Background */}
-                  <div className="bg-shape">
+                  <div className="bg-shape absolute -z-10 top-60 left-0">
                     <Image
                       src="/assets/img/about/bg-shape.png"
                       alt="background shape"
                       width={600}
                       height={600}
+                      priority
+                      className="w-[500px] h-auto"
                     />
                   </div>
 
-                  <div className="counter-box">
+                  <div className="counter-box absolute bottom-0 right-5">
                     <p>Lebih dari</p>
                     <h2>
-                      <span className="odometer" data-count="500">
+                      <span
+                        className="odometer text-green-600!"
+                        data-count="260"
+                      >
                         <Count number={500} text="+" />
                       </span>
                     </h2>

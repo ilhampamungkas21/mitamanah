@@ -45,7 +45,7 @@ const FaqHomeThree = () => {
               {/* LEFT — FAQ CONTENT */}
               <div className="col-lg-6">
                 <div className="faq-content">
-                  <div className="section-title color-red">
+                  <div className="section-title color-green">
                     <h6 className="wow fadeInUp">Sering Ditanyakan</h6>
                     <h2
                       className="wow fadeInUp"

@@ -272,7 +272,7 @@
 
         .bg-shape {
             position: absolute;
-            top: 55%;
+            top: 60%;
             left: 50%;
             transform: translate(-50%,-50%);
             z-index: -1;
@@ -314,7 +314,7 @@
             }
 
             h2 {
-                color: $theme-red;
+                color: $theme-green;
                 font-size: 50px;
 
                 @include breakpoint (max-sm){

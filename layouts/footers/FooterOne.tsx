@@ -88,7 +88,7 @@ const FooterOne = () => {
                 </a>
               </li>
               <li>
-                <a href="tel:+6281234567890" className="hover:text-white">
+                <a href="tel:+62895346380890" className="hover:text-white">
                   +62 812-3456-7890
                 </a>
               </li>

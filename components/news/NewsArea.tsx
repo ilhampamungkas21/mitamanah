@@ -51,7 +51,7 @@ export default async function NewsArea() {
     <div className="post-content mt-4">
       <div className="post-meta">
         <span>
-          <i className="fal fa-calendar-alt"></i>
+          <i className="fal fa-calendar-alt text-green-600!"></i>
           {formatDate(item.created_at)}
         </span>
       </div>

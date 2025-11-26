@@ -126,7 +126,7 @@ const FooterThree = () => {
                     </p>
 
                     <a
-                      href="https://wa.me/6281234567890?text=Halo%20MIT%20Amanah%2C%20saya%20ingin%20bertanya."
+                      href="https://wa.me/62895346380890?text=Halo%20MIT%20Amanah%2C%20saya%20ingin%20bertanya."
                       target="_blank"
                       className="newsletter-btn flex items-center justify-center gap-2"
                       style={{

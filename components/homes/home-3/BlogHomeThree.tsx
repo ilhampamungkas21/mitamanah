@@ -34,7 +34,7 @@ export default async function BlogHomeThree() {
   return (
     <section className="news-section fix section-padding pt-0" itemScope itemType="https://schema.org/ItemList" aria-label="Artikel Terbaru">
       <div className="container">
-        <div className="section-title color-red text-center">
+        <div className="section-title color-green text-center">
           <h6 className="wow fadeInUp">News & Blog</h6>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
             Berita Terbaru
@@ -64,7 +64,7 @@ export default async function BlogHomeThree() {
                     <span itemProp="author">{mainArticle.author || "Admin"}</span>
                   </li>
                   <li>
-                    <i className="fal fa-calendar-alt"></i>
+                    <i className="fal fa-calendar-alt text-green-600!"></i>
                     <time dateTime={new Date(mainArticle.created_at).toISOString()} itemProp="datePublished">
                       {new Date(mainArticle.created_at).toLocaleDateString(
                         "id-ID",
@@ -118,7 +118,7 @@ export default async function BlogHomeThree() {
                         <span itemProp="author">{article.author || "Admin"}</span>
                        </li>
                        <li>
-                         <i className="fal fa-calendar-alt"></i>
+                         <i className="fal fa-calendar-alt text-green-600!"></i>
                         <time dateTime={new Date(article.created_at).toISOString()} itemProp="datePublished">
                           {new Date(article.created_at).toLocaleDateString(
                             "id-ID",

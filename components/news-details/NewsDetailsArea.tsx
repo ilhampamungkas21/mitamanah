@@ -32,7 +32,7 @@ const NewsDetailsArea = ({ article }: NewsDetailsAreaProps) => {
 
                         {article.created_at && (
                           <span>
-                            <i className="fal fa-calendar-alt"></i>
+                            <i className="fal fa-calendar-alt text-green-600!"></i>
                             <time dateTime={article.created_at} itemProp="datePublished">
                               {new Date(article.created_at).toLocaleDateString(
                                 "id-ID",

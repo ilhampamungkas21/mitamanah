@@ -84,7 +84,7 @@
 
 	&.color-red {
 		h6 {
-			color: $theme-red;
+			color: $theme-green;
 			position: relative;
 
 			&::before {
@@ -295,7 +295,7 @@
 }
 
 .theme-red-bg {
-	background-color: $theme-red;
+	background-color: $theme-green;
 }
 .section-padding{
 	padding: 100px 0;

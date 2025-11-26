@@ -77,7 +77,7 @@
                         background-color: $bg-color;
                         font-weight: 500;
                         font-size: 14px;
-                        color: $theme-blue;
+                        color: $theme-green;
                         line-height: 1;
                         border-radius: 7px;
                     }
@@ -145,7 +145,7 @@
                 h3 {
                     a {
                        &:hover {
-                            color: $theme-blue;
+                            color: $theme-green;
                        }
                     }
                 }
@@ -180,9 +180,9 @@
     .courses-card-items-hover {
         margin-top: 30px;
         padding: 30px;
-        background-color: $theme-blue;
+        background-color: $theme-green;
         border-radius: 7px;
-        border: 1px solid $theme-blue;
+        border: 1px solid $theme-green;
         transition: all 200ms linear;
         top: 0;
         right: -100%;
@@ -432,7 +432,7 @@
         h4 {
             a {
                 &:hover {
-                    color: $theme-blue;
+                    color: $theme-green;
                 }
             }
         }
@@ -918,7 +918,7 @@
         margin-top: 30px;
         background-color: $white;
         border-radius: 7px;
-        border: 1px solid $theme-blue-2;
+        border: 1px solid $theme-green-2;
         @include transition;
         width: 100%;
         height: 100%;
@@ -981,7 +981,7 @@
                 }
 
                 h4 {
-                    color: $theme-blue-2;
+                    color: $theme-green-2;
                 }
             }
 
@@ -1026,9 +1026,9 @@
     .courses-card-items-hover {
         margin-top: 30px;
         padding: 25px;
-        background-color: $theme-blue-2;
+        background-color: $theme-green-2;
         border-radius: 7px;
-        border: 1px solid $theme-blue-2;
+        border: 1px solid $theme-green-2;
         transition: all 200ms linear;
         top: 0;
         right: -100%;
@@ -1218,7 +1218,7 @@
                         color: $header-color;
                         font-size: 14px;
                         line-height: 1;
-                        border: 1px solid $theme-blue;
+                        border: 1px solid $theme-green;
                         border-radius: 7px;
                     }
             
@@ -1275,11 +1275,11 @@
                                 font-family: $fa;
                                 top: -5px;
                                 left: 5px;
-                                color: $theme-blue;
+                                color: $theme-green;
                                 font-size: 11px;
                             }
     
-                            background-color: $theme-blue;
+                            background-color: $theme-green;
                         }
                         input:checked ~ .checkmark:after {
                             display: block;
@@ -1341,7 +1341,7 @@
 
     .price {
         font-size: 27px;
-        background-color: $theme-blue;
+        background-color: $theme-green;
         color: $white;
         font-weight: 600;
         padding: 7px 15px;
@@ -1363,8 +1363,8 @@
 		left: 0;
 		width: 0;
 		height: 0;
-		border-top: 1px solid $theme-blue;
-		border-left: 1px solid $theme-blue;
+		border-top: 1px solid $theme-green;
+		border-left: 1px solid $theme-green;
 		transition: 0.5s;
 		opacity: 0;
 		visibility: hidden;
@@ -1380,8 +1380,8 @@
 		right: 0;
 		width: 0;
 		height: 0;
-		border-bottom: 1px solid $theme-blue;
-		border-right: 1px solid $theme-blue;
+		border-bottom: 1px solid $theme-green;
+		border-right: 1px solid $theme-green;
 		transition: 0.5s;
 		opacity: 0;
 		visibility: hidden;
@@ -1458,7 +1458,7 @@
                     background: rgba(0, 91, 255, 0.10);
                     font-weight: 500;
                     font-size: 14px;
-                    color: $theme-blue;
+                    color: $theme-green;
                     line-height: 1;
                 }
             }
@@ -1474,9 +1474,9 @@
                 background-size: 0% 2px;
 
                 &:hover {
-                    color: $theme-blue;
+                    color: $theme-green;
                     background-size: 100% 2px;
-                    background-image: linear-gradient($theme-blue,$theme-blue);
+                    background-image: linear-gradient($theme-green,$theme-green);
                 }
             }
         }
@@ -1565,7 +1565,7 @@
             border-radius: 50%;
             background-color: $white;
             display: inline-block;
-            color: $theme-blue;
+            color: $theme-green;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -1654,7 +1654,7 @@
                 border-radius: 50%;
                 background-color: $white;
                 display: inline-block;
-                color: $theme-blue;
+                color: $theme-green;
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -1713,10 +1713,10 @@
                         }
 
                         &.active {
-                            color: $theme-blue;
+                            color: $theme-green;
 
                             &::before {
-                                background-color: $theme-blue;
+                                background-color: $theme-green;
                             }
 
                             &::after {
@@ -1726,7 +1726,7 @@
                                 height: 2px;
                                 width: 100%;
                                 content: "";
-                                background: $theme-blue;
+                                background: $theme-green;
                                 transition: .3s;
                             }
                         }
@@ -1747,7 +1747,7 @@
                         color: $header-color;
 
                         i {
-                            color: $theme-blue;
+                            color: $theme-green;
                             margin-right: 5px;
                         }
 
@@ -1911,9 +1911,9 @@
                                 border-radius: 50%;
                 
                                 &:hover {
-                                    background-color: $theme-blue;
+                                    background-color: $theme-green;
                                     color: $white;
-                                    border: 1px solid $theme-blue;
+                                    border: 1px solid $theme-green;
                                 }
                             }
                         }
@@ -2164,9 +2164,9 @@
                     }
 
                     .theme-btn {
-                        background-color: $theme-blue;
+                        background-color: $theme-green;
                         color: $white;
-                        border: 1px solid $theme-blue;
+                        border: 1px solid $theme-green;
 
                         @include breakpoint (max-sm){
                             display: block !important;
@@ -2179,7 +2179,7 @@
                             color: $header-color;
 
                             &::before,&::after {
-                                background-color: $theme-blue;
+                                background-color: $theme-green;
                             }
 
                             &:hover {
@@ -2228,7 +2228,7 @@
             .share-btn {
                 font-size: 18px;
                 font-weight: 500;
-                color: $theme-blue;
+                color: $theme-green;
                 margin-top: 20px;
                 display: inline-block;
                 i {
@@ -2251,7 +2251,7 @@
             margin-top: 40px;
 
             .post {
-                background-color: $theme-blue;
+                background-color: $theme-green;
                 color: $white;
                 padding: 4px 15px;
                 border-radius: 8px;
@@ -2299,7 +2299,7 @@
 
                     li {
                         i {
-                            color: $theme-blue;
+                            color: $theme-green;
                         }
                     }
                 }
@@ -2315,7 +2315,7 @@
 
                     i {
                         margin-right: 5px;
-                        color: $theme-blue;
+                        color: $theme-green;
                     }
                 }
             }
@@ -2366,7 +2366,7 @@
                     color: $header-color;
 
                     i {
-                        color: $theme-blue;
+                        color: $theme-green;
                     }
                 }
             }
@@ -2387,13 +2387,13 @@
             }
 
             &.border-style {
-                border: 1px solid $theme-blue;
-                color: $theme-blue;
+                border: 1px solid $theme-green;
+                color: $theme-green;
                 background-color: transparent;
                 padding: 18px 40px;
 
                 &::after,&::before {
-                    background-color: $theme-blue;
+                    background-color: $theme-green;
                 }
 
                 &:hover {
@@ -2414,15 +2414,15 @@
                 text-align: center;
                 font-size: 16px;
                 display: block;
-                color: $theme-blue;
+                color: $theme-green;
                 transition: all .4s ease-in-out;
                 text-align: center;
                 background-color: transparent;
-                border: 1px solid $theme-blue;
+                border: 1px solid $theme-green;
                 border-radius: 8px;
 
                     &:hover {
-                        background-color: $theme-blue;
+                        background-color: $theme-green;
                         color: $white;
                         border: 1px solid transparent
                     }
@@ -2501,7 +2501,7 @@
                     }
 
                     .color-star {
-                        color: $theme-blue;
+                        color: $theme-green;
                     }
                 }
             }
@@ -2528,14 +2528,14 @@
                 text-align: center;
                 font-size: 16px;
                 display: block;
-                color: $theme-blue;
+                color: $theme-green;
                 transition: all .4s ease-in-out;
                 text-align: center;
                 background-color: transparent;
-                border: 1px solid $theme-blue;
+                border: 1px solid $theme-green;
 
                     &:hover {
-                        background-color: $theme-blue;
+                        background-color: $theme-green;
                         color: $white;
                         border: 1px solid transparent
                     }
@@ -2576,8 +2576,8 @@
                 @include transition;
 
                 &:hover {
-                    color: $theme-blue;
-                    border: 1px solid $theme-blue;
+                    color: $theme-green;
+                    border: 1px solid $theme-green;
                 }
             }
         }
@@ -2587,7 +2587,7 @@
             font-weight: 400;
 
             span {
-                color: $theme-blue;
+                color: $theme-green;
             }
         }
     }

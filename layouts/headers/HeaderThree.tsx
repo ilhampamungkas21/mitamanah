@@ -1,26 +1,27 @@
-"use client"
-import React, { useState } from 'react';
-import NavMenu from './NavMenu';
-import Link from 'next/link';
-import UseSticky from '@/hooks/UseSticky';
-import Search from '@/common/Search';
-import OffCanvas from '@/common/OffCanvas';
-import Image from 'next/image';
+"use client";
+import React, { useState } from "react";
+import NavMenu from "./NavMenu";
+import Link from "next/link";
+import UseSticky from "@/hooks/UseSticky";
+import Search from "@/common/Search";
+import OffCanvas from "@/common/OffCanvas";
+import Image from "next/image";
 
 const HeaderThree = () => {
-  const { sticky } = UseSticky()
-  const [open, setOpen] = useState(false)
-  const [openCanvas, setOpenCanvas] = useState(false)
+  const { sticky } = UseSticky();
+  const [open, setOpen] = useState(false);
+  const [openCanvas, setOpenCanvas] = useState(false);
 
   return (
     <>
       <header className="header-section-3">
-        <div id="header-sticky" className={`header-3 ${sticky ? "sticky" : ""}`}>
+        <div
+          id="header-sticky"
+          className={`header-3 ${sticky ? "sticky" : ""}`}
+        >
           <div className="container">
             <div className="mega-menu-wrapper">
               <div className="header-main">
-
-                {/* Logo 1 */}
                 <Link href="/" className="header-logo">
                   <Image
                     src="/assets/img/logo/logo.webp"
@@ -28,6 +29,7 @@ const HeaderThree = () => {
                     width={100}
                     height={100}
                     priority
+                    className="w-20 h-auto sm:w-20 md:w-24"
                   />
                 </Link>
 
@@ -39,6 +41,7 @@ const HeaderThree = () => {
                     width={100}
                     height={100}
                     priority
+                    className="w-20 h-auto sm:w-20 md:w-24"
                   />
                 </Link>
 
@@ -62,7 +65,6 @@ const HeaderThree = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>

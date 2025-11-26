@@ -89,7 +89,6 @@ const TestimonialHomeThree = () => {
                 <div itemProp="itemReviewed" itemScope itemType="https://schema.org/EducationalOrganization">
                   <meta itemProp="name" content="MIT Amanah" />
                 </div>
-                <div className="client-img bg-cover" style={{ background: `url(/assets/img/testimonial/client-1.png)` }}></div>
                 <p itemProp="reviewBody">
                   “Saya bersyukur anak saya belajar di MI Amanah Sragen. Guru-gurunya sabar, lingkungan madrasahnya juga penuh nilai Islami.”
                 </p>
@@ -107,7 +106,6 @@ const TestimonialHomeThree = () => {
                 <div itemProp="itemReviewed" itemScope itemType="https://schema.org/EducationalOrganization">
                   <meta itemProp="name" content="MIT Amanah" />
                 </div>
-                <div className="client-img bg-cover" style={{ background: `url(/assets/img/testimonial/client-2.png)` }}></div>
                 <p itemProp="reviewBody">
                   “Anak saya jadi lebih disiplin, rajin sholat, dan semangat belajar. Terima kasih untuk semua ustadz dan ustadzah.”
                 </p>
@@ -125,7 +123,6 @@ const TestimonialHomeThree = () => {
                 <div itemProp="itemReviewed" itemScope itemType="https://schema.org/EducationalOrganization">
                   <meta itemProp="name" content="MIT Amanah" />
                 </div>
-                <div className="client-img bg-cover" style={{ background: `url(/assets/img/testimonial/client-3.png)` }}></div>
                 <p itemProp="reviewBody">
                   “Kesan pertama sangat positif. Anak-anak diajarkan tidak hanya ilmu umum, tapi juga akhlak dan hafalan Al-Qur’an.”
                 </p>

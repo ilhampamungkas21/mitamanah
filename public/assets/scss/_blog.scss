@@ -71,7 +71,7 @@
             }
 
             blockquote, .wp-block-quote {
-                background-color: $theme-blue;
+                background-color: $theme-green;
                 color: $white;
                 font-size: 26px;
                 line-height: 1.4;
@@ -136,7 +136,7 @@
         &.quote-post, &.format-quote {
             .post-content {
                 position: relative;
-                background-color: $theme-blue;
+                background-color: $theme-green;
                 border: none;
 
                 &::before {
@@ -208,7 +208,7 @@
                 top: 20px;
                 left: 20px;
                 padding: 15px 30px;
-                background-color: $theme-blue;
+                background-color: $theme-green;
                 text-align: center;
     
                 h4 {
@@ -265,7 +265,7 @@
 
                 a {
                     &:hover{
-                        color: $theme-blue;
+                        color: $theme-green;
                     }
                 }
             }
@@ -288,7 +288,7 @@
                 a {
                     color: $white;
                     display: inline-block;
-                    background-color: $theme-blue;
+                    background-color: $theme-green;
                     padding: 14px 18px 12px;
                     line-height: 1;
                     font-size: 16px;
@@ -332,7 +332,7 @@
                         top: 0;
                         font-family: "Font Awesome 5 Pro";
                         content: "\f00c";
-                        color: $theme-blue;
+                        color: $theme-green;
                     }
                 }
             }
@@ -375,7 +375,7 @@
 
                     i {
                         margin-right: 5px;
-                        color: $theme-blue;
+                        color: $theme-green;
                         font-weight: 700;
                     }
                 }
@@ -408,7 +408,7 @@
                     margin-top: 9px;
                     a {
                         &:hover {
-                            color: $theme-blue;
+                            color: $theme-green;
                         }
                     }
                     @media (max-width: 767px) {
@@ -421,7 +421,7 @@
                 a {
                     font-weight: 700;
                     &:hover {
-                        color: $theme-blue;
+                        color: $theme-green;
                     }
 
                     @media (max-width: 767px) {
@@ -480,7 +480,7 @@
                         transition: all 0.4s ease-in-out;
                         
                         &:hover {
-                            color: $theme-blue;
+                            color: $theme-green;
                         }
                     }
                 }
@@ -512,7 +512,7 @@
                     width: 18px;
                     border-radius: 5px;
                     position: absolute;
-                    background-color: $theme-blue;
+                    background-color: $theme-green;
                 }
                 &::after {
                     left: 22px;
@@ -523,7 +523,7 @@
                     width: 4px;
                     border-radius: 50%;
                     position: absolute;
-                    background-color: $theme-blue;
+                    background-color: $theme-green;
                 }
     
                 h4 {
@@ -546,7 +546,7 @@
                     margin-right: 5px;
                     margin-bottom: 5px;
                     &:hover {
-                        background-color: $theme-blue;
+                        background-color: $theme-green;
                         color: $white;
                     }
                 }
@@ -579,7 +579,7 @@
                 @include transition;
 
                 &:hover {
-                    color: $theme-blue;
+                    color: $theme-green;
                 }
 
                 i {
@@ -592,7 +592,7 @@
                     line-height: 55px;
                     height: 100%;                    
                     content: "";
-                    background-color: $theme-blue;
+                    background-color: $theme-green;
                     right: 0;top: 0;
                     text-align: center;
                     color: $white;               
@@ -624,7 +624,7 @@
             width: 70px;
             font-size: 18px;
             height: 100%;
-            background-color: $theme-blue;
+            background-color: $theme-green;
             color: $white;
             text-align: center;
             transition: all .3s ease-in-out;
@@ -669,7 +669,7 @@
                 text-transform: capitalize;
                 a{
                     &:hover {
-                        color:$theme-blue;
+                        color:$theme-green;
                     }
                 }
             }
@@ -703,7 +703,7 @@
         }
         
         &:hover {
-            background-color: $theme-blue;
+            background-color: $theme-green;
             color: $white;
         }
     }
@@ -821,7 +821,7 @@
                     }
     
                     &:hover {
-                       background-color: $theme-blue;
+                       background-color: $theme-green;
                        color: $white;
 
                         a {
@@ -844,7 +844,7 @@
             }
 
             span {
-                color:$theme-blue;
+                color:$theme-green;
                 font-weight: 500;
             }
 
@@ -882,7 +882,7 @@
         margin-left: 10px;
         @include transition;
         &:hover{
-            color: $theme-blue;
+            color: $theme-green;
         }
     }
 }
@@ -938,7 +938,7 @@
         transition: all .3s ease-in-out;
         margin-bottom: 0;
         margin-top: 20px;
-        background-color: $theme-blue;
+        background-color: $theme-green;
         color: $white;
 
         @media (max-width: 767px) {
