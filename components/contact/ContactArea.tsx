@@ -20,7 +20,7 @@ const ContactArea = () => {
             {/* LOKASI */}
             <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
               <div className="contact-box-items">
-                <div className="icon">
+                <div className="icon text-green-600!">
                   <i className="flaticon-map"></i>
                 </div>
                 <h5>Lokasi Sekolah</h5>
@@ -37,7 +37,7 @@ const ContactArea = () => {
             {/* EMAIL */}
             <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
               <div className="contact-box-items">
-                <div className="icon">
+                <div className="icon text-green-600!">
                   <i className="flaticon-send-data"></i>
                 </div>
                 <h5>Email Resmi</h5>
@@ -55,8 +55,8 @@ const ContactArea = () => {
             {/* WHATSAPP */}
             <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
               <div className="contact-box-items">
-                <div className="icon">
-                  <Image width={100} height={100} src="/assets/img/call.png" alt="img" />
+                <div className="icon text-green-600!">
+                  <i className="fab fa-whatsapp xl"></i>
                 </div>
                 <h5>Whatsapp Admin</h5>
                 <div className="image">
@@ -68,7 +68,7 @@ const ContactArea = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    0856-0171-5496
+                    0812-3483-5135
                   </a>
                 </h4>
               </div>
