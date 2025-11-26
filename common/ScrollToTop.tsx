@@ -8,7 +8,7 @@ const ScrollToTop = () => {
         {/* WhatsApp Button */}
 
         <a
-          href="https://wa.me/62895346380890?text=Halo%2C%20saya%20ingin%20bertanya."
+          href="https://wa.me/6281234835135 ?text=Halo%2C%20saya%20ingin%20bertanya."
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white w-15 h-15 rounded-full flex items-center justify-center shadow-lg transition"

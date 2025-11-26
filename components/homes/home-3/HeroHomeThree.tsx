@@ -17,7 +17,7 @@ const slides = [
         <br /> <span className="text-green-500 font-bold">MIT AMANAH</span>
       </>
     ),
-    desc: "Membangun generasi berilmu, berakhlak, dan berdaya guna melalui pendidikan yang berlandaskan iman dan takwa.",
+    desc: "Membangun generasi berilmu, berakhlak, dan berdaya guna melalui pendidikan yang berlandaskan iman dan takwa di Sragen, Jawa Tengah.",
     btnText: "Kenali Lebih Dekat",
     btnLink: "/tentang",
     titleWhite: false,
@@ -36,7 +36,7 @@ const slides = [
     titleWhite: false,
   },
   {
-    bg: "/assets/img/hero/hero-3.webp",
+    bg: "/assets/img/hero/hero-1.webp",
     titleTop: "Bersama MIT Amanah",
     title: <>Islami, Cerdas, dan Mandiri</>,
     desc: "Kami percaya setiap anak memiliki potensi luar biasa. Tugas kami adalah menumbuhkannya dengan kasih, disiplin, dan keteladanan.",
@@ -85,6 +85,11 @@ const HeroHomeThree = () => {
       itemScope
       itemType="https://schema.org/WPHeader"
     >
+      {/* Visually hidden text to ensure page title words appear in content */}
+      <p className="sr-only">
+        MIT Amanah | Home - School in Sragen, Jawa Tengah
+      </p>
+
       {/* ================= SLIDER ================= */}
       <Swiper
         loop
@@ -101,13 +106,16 @@ const HeroHomeThree = () => {
         {slides.map((slide, i) => (
           <SwiperSlide key={i} className="swiper-slide">
             <div
-              className="slider-bg bg-cover"
+              className="slider-bg bg-cover object-cover! bg-no-repeat! relative"
               style={{ background: `url(${slide.bg})` }}
             >
               <div
-                className="overlay-bg bg-cover"
-                style={{ background: `url(/assets/img/hero/ovelay-bg.png)` }}
-              />
+                className="absolute inset-0"
+                style={{
+                  background:
+                    "linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.35))",
+                }}
+              ></div>
             </div>
 
             <div className="container">
