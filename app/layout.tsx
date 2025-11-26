@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "MIT Amanah | Madrasah Ibtidaiyah Terpadu – Islami Cerdas Mandiri",
     description:
       "MIT Amanah Sragen – Madrasah Ibtidaiyah Terpadu dengan visi Islami, Cerdas, Mandiri. Program unggulan: Tahfidz Qur'an, Life Skill, Mentoring Hadits, Pembiasaan Ibadah, dan Ekstrakurikuler.",
-    images: [{ url: "/favicon.svg" }],
+    images: [{ url: "/favicon.ico" }],
   },
 
   twitter: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "MIT Amanah – Madrasah Ibtidaiyah Terpadu",
     description:
       "Sekolah Islam terpadu di Sragen dengan visi Islami, Cerdas, Mandiri. Program pendidikan, fasilitas lengkap, dan kegiatan islami.",
-    images: ["/favicon.svg"],
+    images: ["/favicon.ico"],
   },
 
   icons: {

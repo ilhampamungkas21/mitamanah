@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     title: "MIT Amanah | Home - School in Sragen, Jawa Tengah",
     description: "Welcome to MIT Amanah. Explore our school, read latest articles, and view our photo gallery.",
     url: "https://mitamanah.com/",
-    images: [{ url: "/favicon.svg" }],
+    images: [{ url: "/favicon.ico" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "MIT Amanah | Home - School in Sragen, Jawa Tengah",
     description: "Welcome to MIT Amanah. Explore our school, read latest articles, and view our photo gallery.",
-    images: ["/favicon.svg"],
+    images: ["/favicon.ico"],
   },
 }
 
@@ -52,7 +52,7 @@ export default async function HomePage() {
     "@type": "Organization",
     name: "MIT Amanah",
     url: "https://mitamanah.com/",
-    logo: "https://mitamanah.com/favicon.svg",
+    logo: "https://mitamanah.com/favicon.ico",
   }
 
   return (
