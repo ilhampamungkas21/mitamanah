@@ -56,7 +56,7 @@ const CoursesHomeThree = () => {
                       </div>
                       <div className="thumb">
                         <Image
-                          src="/assets/img/courses/ipa.png"
+                          src="/assets/img/courses/ipa.webp"
                           alt="IPA MIT Amanah"
                           width={600}
                           height={400}

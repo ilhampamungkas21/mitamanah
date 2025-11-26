@@ -9,7 +9,7 @@ interface VideoPopupProps {
 const VideoPopup: React.FC<VideoPopupProps> = ({
   isVideoOpen,
   setIsVideoOpen,
-  videoId = "bgMEvrd2E",
+  videoId = "PDajqE_U1hs",
 }) => {
   return (
     <>
