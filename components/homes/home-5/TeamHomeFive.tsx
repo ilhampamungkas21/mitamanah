@@ -5,27 +5,27 @@ import Image from "next/image";
 const TeamHomeFive = ({ style_2 }: { style_2?: boolean }) => {
   const teachers = [
     {
-      name: "Ustadzah Siti Rahma",
-      role: "Guru Kelas",
-      img: "/assets/img/team/11.jpg",
+      name: "Habib Misbahul Munir",
+      role: "Kepala Madrasah",
+      img: "/assets/img/team/Kepala Madrasah.webp",
       delay: ".2s",
     },
     {
-      name: "Ustadz Ahmad Fajar",
-      role: "Guru Tahfidz",
-      img: "/assets/img/team/12.jpg",
+      name: "Dwi Adhiastuti",
+      role: "Waka Kurikulum",
+      img: "/assets/img/team/Waka Kurikulum.webp",
       delay: ".4s",
     },
     {
-      name: "Ustadzah Nur Aisyah",
-      role: "Guru Bahasa",
-      img: "/assets/img/team/13.jpg",
+      name: "Frenky Prima Sanjaya",
+      role: "Matematika dan Pengampu Lumba Umum",
+      img: "/assets/img/team/Guru MTK Pengampu Lomba Umum.webp",
       delay: ".6s",
     },
     {
-      name: "Ustadz Budi Prasetyo",
-      role: "Pembina Ekstrakurikuler",
-      img: "/assets/img/team/14.jpg",
+      name: "Muhammad Habib Amirudin Al-Haq",
+      role: "Pendidikan Agama Islam",
+      img: "/assets/img/team/Guru PAI 2.webp",
       delay: ".8s",
     },
   ];
