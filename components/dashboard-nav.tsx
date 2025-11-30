@@ -2,12 +2,11 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { FileText, Images, LayoutDashboard, Sparkles } from "lucide-react"
+import { FileText, Images, LayoutDashboard } from "lucide-react"
 import Image from "next/image"
 
 const navItems = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
-  { label: "Hero Section", href: "/dashboard/hero", icon: Sparkles },
   { label: "Articles", href: "/dashboard/articles", icon: FileText },
   { label: "Galleries", href: "/dashboard/galleries", icon: Images },
 ]

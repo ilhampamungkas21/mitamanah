@@ -53,7 +53,7 @@ export default async function BlogHomeThree() {
                   alt={mainArticle.title}
                 />
                 <meta itemProp="image" content={mainArticle.image_url || "/assets/img/news/default.jpg"} />
-                <Link href={`/articles/${mainArticle.slug}`} className="post-box" itemProp="url">
+                <Link href={`/articles/${mainArticle.slug}`} className="post-box capitalize" itemProp="url">
                   {mainArticle.category || "General"}
                 </Link>
               </div>
@@ -95,7 +95,7 @@ export default async function BlogHomeThree() {
               {sideArticles.map((article, index) => (
                 <div
                   key={article.id}
-                  className="news-right-box wow fadeInUp"
+                  className="news-right-box capitalize wow fadeInUp"
                   data-wow-delay={`${0.3 + index * 0.2}s`}
                   itemScope itemType="https://schema.org/Article"
                 >
@@ -107,7 +107,7 @@ export default async function BlogHomeThree() {
                       className="object-scale-down"
                     />
                     <meta itemProp="image" content={article.image_url || "/assets/img/news/default.jpg"} />
-                    <Link href={`/articles/${article.slug}`} className="bg-green-700 text-white" itemProp="url">
+                    <Link href={`/articles/${article.slug}`} className="post-box capitalize" itemProp="url">
                        {article.category || "General"}
                      </Link>
                    </div>
