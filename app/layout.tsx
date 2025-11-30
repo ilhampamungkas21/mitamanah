@@ -62,8 +62,10 @@ export default function RootLayout({
         <meta name="author" content="MIT Amanah" />
         <meta name="theme-color" content="#0ea5e9" />
       </head>
-      <body>{children}</body>
-      <Toaster richColors position="top-right" />
+      <body>
+        {children}
+        <Toaster richColors position="top-right" />
+      </body>
     </html>
   );
 }

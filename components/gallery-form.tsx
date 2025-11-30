@@ -10,7 +10,7 @@ import { toast } from "sonner";
 import ImageForm from "./common/image-form";
 import { useRouter } from "next/navigation";
 
-export function GalleryForm({ gallery }: { gallery: Gallery | null }) {
+export function GalleryForm({ gallery }: { gallery?: Gallery | null }) {
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
   const [error, setError] = useState<string | null>(null);
@@ -20,16 +20,17 @@ export function GalleryForm({ gallery }: { gallery: Gallery | null }) {
     image_url: gallery?.image_url ?? "",
   });
 
-  const method = gallery ? "PUT" : "POST";
-
   // =============== SUBMIT KE BACKEND ===============
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
     setError(null);
 
+    const method = gallery ? "PUT" : "POST";
+    const url = gallery ? `/api/galleries/${gallery.id}` : "/api/galleries";
+
     try {
-      const response = await fetch("/api/galleries", {
+      const response = await fetch(url, {
         method: method,
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

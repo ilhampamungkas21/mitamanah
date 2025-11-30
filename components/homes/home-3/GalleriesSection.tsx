@@ -68,12 +68,12 @@ export default async function GalleriesSection() {
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
-            alt={galleries[2].title}
-            src={galleries[2].image_url}
+            alt={galleries[2]?.title??''}
+            src={galleries[2]?.image_url??''}
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
-            <h3 className="text-white text-lg font-bold">{galleries[2].title}</h3>
+            <h3 className="text-white text-lg font-bold">{galleries[2]?.title??''}</h3>
           </div>
         </div>
 
@@ -82,12 +82,12 @@ export default async function GalleriesSection() {
           <Image
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-105"
-            alt={galleries[3].title}  
-            src={galleries[3].image_url}  
+            alt={galleries[3]?.title??''}  
+            src={galleries[3]?.image_url??''}  
           />
           <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent"></div>
           <div className="absolute bottom-0 left-0 p-4 text-white">
-            <h3 className="text-white text-lg font-bold">{galleries[3].title}</h3>
+            <h3 className="text-white text-lg font-bold">{galleries[3]?.title??''}</h3>
           </div>
         </div>
       </div>

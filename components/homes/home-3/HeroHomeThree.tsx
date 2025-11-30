@@ -133,7 +133,7 @@ const HeroHomeThree = () => {
                     {i == 0 ? (
                       <h1
                         className={
-                          "flex flex-col text-white font-bold! text-[60px]! md:text-[150px] min-h-90 items-center justify-center"
+                          "flex flex-col text-white font-bold! text-[60px]! md:text-[150px] my-10 items-center"
                         }
                         data-animation="fadeInUp"
                         data-delay="1.5s"
@@ -143,7 +143,7 @@ const HeroHomeThree = () => {
                     ) : (
                       <h2
                         className={
-                          "flex flex-col text-white font-bold! text-[60px]! md:text-[150px] min-h-90 items-center justify-center"
+                          "flex flex-col text-white font-bold! text-[60px]! md:text-[150px] my-10 items-center"
                         }
                         data-animation="fadeInUp"
                         data-delay="1.5s"

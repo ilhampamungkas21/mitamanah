@@ -88,7 +88,7 @@ export function ArticlesManager({
                         <Image width={100} height={100} alt={article.title} src={article.image_url??''} className="w-20 h-20 object-cover m-2" />
                       </td>
                     <td className="px-6 py-4 font-medium">{article.title}</td>
-                    <td className="px-6 py-4 text-muted-foreground text-sm">
+                    <td className="px-6 py-4 text-muted-foreground text-sm line-clamp-2">
                       {article.excerpt}
                     </td>
                     <td className="px-6 py-4 text-muted-foreground text-sm">
